@@ -27,9 +27,17 @@ function parseRecycleItems(recyclesToText) {
     return [];
   }
   
-  // Parse items like "2x Scrap Metal, 1x Circuit Board"
+  // Parse items like "2x Scrap Metal, 1x Circuit Board" or "1x ItemA1x ItemB"
   const items = [];
-  const parts = recyclesToText.split(',');
+  
+  // First try splitting by comma
+  let parts = recyclesToText.split(',');
+  
+  // If only one part and it contains multiple "Nx" patterns, split by that pattern
+  if (parts.length === 1 && parts[0].match(/\d+x/g)?.length > 1) {
+    // Split by lookahead before digit+x pattern (but not at start)
+    parts = parts[0].split(/(?=\d+x)/).filter(p => p.trim());
+  }
   
   for (const part of parts) {
     const match = part.trim().match(/(\d+)x?\s*(.+)/);
@@ -151,8 +159,11 @@ async function scrapeLootTable() {
   console.log(`Found ${items.length} items`);
   
   if (items.length === 0) {
-    console.log('Debug: First 2000 chars of page:');
-    console.log($('body').text().substring(0, 2000));
+    console.log('\n=== DEBUG: No items found ===');
+    console.log('HTML length:', html.length);
+    console.log('\nFirst 3000 chars of raw HTML:');
+    console.log(html.substring(0, 3000));
+    console.log('\n=== END DEBUG ===\n');
   }
   
   // Build a price lookup map
