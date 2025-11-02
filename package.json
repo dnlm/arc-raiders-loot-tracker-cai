@@ -1,0 +1,17 @@
+{
+  "name": "arc-raiders-loot-tracker",
+  "version": "1.0.0",
+  "description": "Automated loot data scraper for Arc Raiders",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {},
+  "keywords": ["arc-raiders", "scraper", "loot"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc Raiders Loot Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .workbench-settings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .workbench-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+
+        .workbench-item label {
+            font-weight: 600;
+            color: #495057;
+            flex: 1;
+        }
+
+        .workbench-item select {
+            padding: 6px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        thead {
+            background: #f8f9fa;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 15px 10px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        tbody tr {
+            transition: background-color 0.2s;
+        }
+
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge-recycle {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-sell {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-needed {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-equal {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .price {
+            font-weight: 600;
+            color: #28a745;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 18px;
+            color: #667eea;
+        }
+
+        .item-name {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .recycle-info {
+            font-size: 12px;
+            color: #6c757d;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .controls {
+                padding: 20px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 8px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Arc Raiders Loot Tracker</h1>
+            <div class="last-updated" id="lastUpdated">Loading...</div>
+        </header>
+
+        <div class="controls">
+            <input 
+                type="text" 
+                id="searchBox" 
+                class="search-box" 
+                placeholder="🔍 Search items by name..."
+            >
+
+            <div class="workbench-settings" id="workbenchSettings">
+                <!-- Workbench controls will be dynamically added -->
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div class="loading" id="loading">Loading loot data...</div>
+            <table id="lootTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Sell Price</th>
+                        <th>Recycles To</th>
+                        <th>Recycled Value</th>
+                        <th>Recommendation</th>
+                        <th>Workbench Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let lootData = [];
+        let workbenches = {};
+        const WORKBENCH_TYPES = ['Medical', 'Weapons', 'Armor', 'Utility', 'Engineering'];
+
+        async function loadData() {
+            try {
+                const response = await fetch('data/loot-data.json');
+                const data = await response.json();
+                lootData = data.items;
+                
+                document.getElementById('lastUpdated').textContent = 
+                    `Last Updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+                
+                initWorkbenchSettings();
+                renderTable();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('lootTable').style.display = 'table';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').textContent = 
+                    'Error loading data. Please try again later.';
+            }
+        }
+
+        function initWorkbenchSettings() {
+            const container = document.getElementById('workbenchSettings');
+            
+            WORKBENCH_TYPES.forEach(type => {
+                const div = document.createElement('div');
+                div.className = 'workbench-item';
+                
+                const label = document.createElement('label');
+                label.textContent = `${type} Bench:`;
+                
+                const select = document.createElement('select');
+                select.id = `workbench-${type.toLowerCase()}`;
+                
+                const option0 = document.createElement('option');
+                option0.value = '0';
+                option0.textContent = 'Level 0 (None)';
+                select.appendChild(option0);
+                
+                for (let i = 1; i <= 5; i++) {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `Level ${i}`;
+                    select.appendChild(option);
+                }
+                
+                select.addEventListener('change', (e) => {
+                    workbenches[type.toLowerCase()] = parseInt(e.target.value);
+                    renderTable();
+                });
+                
+                workbenches[type.toLowerCase()] = 0;
+                
+                div.appendChild(label);
+                div.appendChild(select);
+                container.appendChild(div);
+            });
+        }
+
+        function isItemNeededForWorkbench(itemName) {
+            // This would need to be enhanced with actual workbench recipe data
+            // For now, return false as we don't have workbench recipe information
+            return false;
+        }
+
+        function getRecommendation(item) {
+            if (!item.sellPrice) return { action: 'Unknown', class: 'badge-equal' };
+            
+            if (!item.recycledSellPrice || item.recycledSellPrice === 0) {
+                return { action: 'Sell', class: 'badge-sell' };
+            }
+            
+            if (item.recycledSellPrice > item.sellPrice) {
+                return { action: 'Recycle', class: 'badge-recycle' };
+            } else if (item.recycledSellPrice < item.sellPrice) {
+                return { action: 'Sell', class: 'badge-sell' };
+            } else {
+                return { action: 'Equal', class: 'badge-equal' };
+            }
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            
+            tbody.innerHTML = '';
+            
+            const filteredData = lootData.filter(item => 
+                item.name.toLowerCase().includes(searchTerm)
+            );
+            
+            if (filteredData.length === 0) {
+                const row = tbody.insertRow();
+                const cell = row.insertCell();
+                cell.colSpan = 6;
+                cell.innerHTML = '<div class="no-data">No items found</div>';
+                return;
+            }
+            
+            filteredData.forEach(item => {
+                const row = tbody.insertRow();
+                
+                // Item name
+                const nameCell = row.insertCell();
+                nameCell.innerHTML = `<span class="item-name">${item.name}</span>`;
+                
+                // Sell price
+                const priceCell = row.insertCell();
+                priceCell.innerHTML = item.sellPrice 
+                    ? `<span class="price">${item.sellPrice}</span>` 
+                    : '-';
+                
+                // Recycles to
+                const recycleCell = row.insertCell();
+                if (item.recyclesToText && item.recyclesToText !== '-') {
+                    recycleCell.innerHTML = `<div class="recycle-info">${item.recyclesToText}</div>`;
+                } else {
+                    recycleCell.textContent = '-';
+                }
+                
+                // Recycled value
+                const recycledValueCell = row.insertCell();
+                recycledValueCell.innerHTML = item.recycledSellPrice 
+                    ? `<span class="price">${item.recycledSellPrice}</span>` 
+                    : '-';
+                
+                // Recommendation
+                const recommendationCell = row.insertCell();
+                const rec = getRecommendation(item);
+                recommendationCell.innerHTML = `<span class="badge ${rec.class}">${rec.action}</span>`;
+                
+                // Workbench status
+                const workbenchCell = row.insertCell();
+                const isNeeded = isItemNeededForWorkbench(item.name);
+                if (isNeeded) {
+                    workbenchCell.innerHTML = '<span class="badge badge-needed">Needed</span>';
+                } else {
+                    workbenchCell.textContent = '-';
+                }
+            });
+        }
+
+        // Event listeners
+        document.getElementById('searchBox').addEventListener('input', renderTable);
+
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>
