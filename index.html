@@ -164,6 +164,36 @@
             color: #0c5460;
         }
 
+        .badge-rarity {
+            font-size: 11px;
+            padding: 3px 8px;
+        }
+
+        .rarity-common {
+            background: #e9ecef;
+            color: #495057;
+        }
+
+        .rarity-uncommon {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .rarity-rare {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .rarity-epic {
+            background: #e7d4f5;
+            color: #6f42c1;
+        }
+
+        .rarity-legendary {
+            background: #fff3cd;
+            color: #856404;
+        }
+
         .price {
             font-weight: 600;
             color: #28a745;
@@ -185,6 +215,11 @@
         .item-name {
             font-weight: 600;
             color: #667eea;
+            text-decoration: none;
+        }
+
+        .item-name:hover {
+            text-decoration: underline;
         }
 
         .recycle-info {
@@ -351,7 +386,7 @@
             if (filteredData.length === 0) {
                 const row = tbody.insertRow();
                 const cell = row.insertCell();
-                cell.colSpan = 6;
+                cell.colSpan = 8;
                 cell.innerHTML = '<div class="no-data">No items found</div>';
                 return;
             }
@@ -361,7 +396,17 @@
                 
                 // Item name
                 const nameCell = row.insertCell();
-                nameCell.innerHTML = `<span class="item-name">${item.name}</span>`;
+                const itemLink = item.link ? `${item.link}` : '#';
+                nameCell.innerHTML = `<a href="https://arcraiders.wiki${item.link}" target="_blank" class="item-name">${item.name}</a>`;
+                
+                // Rarity
+                const rarityCell = row.insertCell();
+                const rarityClass = `rarity-${(item.rarity || 'common').toLowerCase()}`;
+                rarityCell.innerHTML = `<span class="badge badge-rarity ${rarityClass}">${item.rarity || 'Unknown'}</span>`;
+                
+                // Category
+                const categoryCell = row.insertCell();
+                categoryCell.textContent = item.category || '-';
                 
                 // Sell price
                 const priceCell = row.insertCell();

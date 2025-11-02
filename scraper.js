@@ -121,28 +121,28 @@ async function scrapeLootTable() {
       // Check if this looks like an item line (has markdown link format)
       if (!line.match(/\[.+?\]\(.+?\)/)) continue;
       
-      // Split by pipe and filter empty
-      const parts = line.split('|').map(p => p.trim()).filter(p => p);
+      // Split by pipe - DON'T filter empty, we need to preserve position
+      const parts = line.split('|').map(p => p.trim());
       
-      // Need at least 4 parts
-      if (parts.length < 4) continue;
+      // Need at least 6 pipe-separated parts (some may be empty)
+      if (parts.length < 6) continue;
       
-      // Extract name and link
+      // Extract name and link from first non-empty part
       const nameMatch = parts[0].match(/\[(.+?)\]\((.+?)\)/);
       if (!nameMatch) continue;
       
       const item = {
         name: nameMatch[1],
         link: nameMatch[2],
-        rarity: parts[1],
-        recyclesToText: parts[2],
+        rarity: parts[1] || 'Unknown',
+        recyclesToText: parts[2] || 'Cannot be recycled',
         recyclesToItems: parseRecycleItems(parts[2]),
         sellPrice: null,
         recycledSellPrice: 0,
-        category: parts.length >= 5 ? parts[4] : 'Unknown'
+        category: parts[4] || 'Unknown'
       };
       
-      // Parse sell price
+      // Parse sell price from parts[3]
       const priceText = parts[3];
       if (priceText && priceText !== '?') {
         const cleanPrice = priceText.replace(/,/g, '');
