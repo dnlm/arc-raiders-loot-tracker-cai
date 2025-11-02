@@ -1,0 +1,2924 @@
+{
+  "lastUpdated": "2025-11-02T23:36:48.770Z",
+  "items": [
+    {
+      "name": "Advanced ARC Powercell",
+      "link": "/wiki/Advanced_ARC_Powercell",
+      "rarity": "Rare",
+      "recyclesToText": "2x ARC Powercell",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Powercell"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 1280,
+      "category": "Misc"
+    },
+    {
+      "name": "Advanced Electrical Components",
+      "link": "/wiki/Advanced_Electrical_Components",
+      "rarity": "Rare",
+      "recyclesToText": "1x Electrical Components1x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1750,
+      "recycledSellPrice": 840,
+      "category": "Advanced Material"
+    },
+    {
+      "name": "Advanced Mechanical Components",
+      "link": "/wiki/Advanced_Mechanical_Components",
+      "rarity": "Rare",
+      "recyclesToText": "1x Mechanical Components1x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1750,
+      "recycledSellPrice": 2200,
+      "category": "Advanced Material"
+    },
+    {
+      "name": "Agave",
+      "link": "/wiki/Agave",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 300,
+      "category": "Nature"
+    },
+    {
+      "name": "Air Freshener",
+      "link": "/wiki/Air_Freshener",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Alarm Clock",
+      "link": "/wiki/Alarm_Clock",
+      "rarity": "Rare",
+      "recyclesToText": "1x Processor6x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Processor"
+        },
+        {
+          "quantity": 6,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 860,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Antiseptic",
+      "link": "/wiki/Antiseptic",
+      "rarity": "Rare",
+      "recyclesToText": "10x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 10,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 500,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Apricot",
+      "link": "/wiki/Apricot",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 300,
+      "category": "Nature"
+    },
+    {
+      "name": "ARC Alloy",
+      "link": "/wiki/ARC_Alloy",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 200,
+      "recycledSellPrice": 150,
+      "category": "Topside Material"
+    },
+    {
+      "name": "ARC Circuitry",
+      "link": "/wiki/ARC_Circuitry",
+      "rarity": "Rare",
+      "recyclesToText": "2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 400,
+      "category": "Topside Material"
+    },
+    {
+      "name": "ARC Coolant",
+      "link": "/wiki/ARC_Coolant",
+      "rarity": "Rare",
+      "recyclesToText": "16x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 16,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 800,
+      "category": "Recyclable"
+    },
+    {
+      "name": "ARC Flex Rubber",
+      "link": "/wiki/ARC_Flex_Rubber",
+      "rarity": "Rare",
+      "recyclesToText": "16x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 16,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 800,
+      "category": "Recyclable"
+    },
+    {
+      "name": "ARC Motion Core",
+      "link": "/wiki/ARC_Motion_Core",
+      "rarity": "Rare",
+      "recyclesToText": "2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 400,
+      "category": "Topside Material"
+    },
+    {
+      "name": "ARC Performance Steel",
+      "link": "/wiki/ARC_Performance_Steel",
+      "rarity": "Rare",
+      "recyclesToText": "12x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 12,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "ARC Powercell",
+      "link": "/wiki/ARC_Powercell",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "category": "Topside Material"
+    },
+    {
+      "name": "ARC Synthetic Resin",
+      "link": "/wiki/ARC_Synthetic_Resin",
+      "rarity": "Rare",
+      "recyclesToText": "14x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 14,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
+      "category": "Recyclable"
+    },
+    {
+      "name": "ARC Thermo Lining",
+      "link": "/wiki/ARC_Thermo_Lining",
+      "rarity": "Rare",
+      "recyclesToText": "16x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 16,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 800,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Assorted Seeds",
+      "link": "/wiki/Assorted_Seeds",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Nature"
+    },
+    {
+      "name": "Bastion Cell",
+      "link": "/wiki/Bastion_Cell",
+      "rarity": "Epic",
+      "recyclesToText": "2x ARC Motion Core2x Advanced Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Motion Core"
+        },
+        {
+          "quantity": 2,
+          "name": "Advanced Mechanical Components"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 5500,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Battery",
+      "link": "/wiki/Battery",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 250,
+      "recycledSellPrice": 150,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Bicycle Pump",
+      "link": "/wiki/Bicycle_Pump",
+      "rarity": "Rare",
+      "recyclesToText": "4x Canister10x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Canister"
+        },
+        {
+          "quantity": 0,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1200,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Bloated Tuna Can",
+      "link": "/wiki/Bloated_Tuna_Can",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Blown Fuses",
+      "link": "/wiki/Blown_Fuses",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Blue Gate Communication Tower Key",
+      "link": "/wiki/Blue_Gate_Communication_Tower_Key",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Blue Gate Confiscation Room Key",
+      "link": "/wiki/Blue_Gate_Confiscation_Room_Key",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Blue Gate Cellar Key",
+      "link": "/wiki/Blue_Gate_Cellar_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Blue Gate Village Key",
+      "link": "/wiki/Blue_Gate_Village_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Bombardier Cell",
+      "link": "/wiki/Bombardier_Cell",
+      "rarity": "Epic",
+      "recyclesToText": "2x Advanced Mechanical Components2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 3900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Breathtaking Snow Globe",
+      "link": "/wiki/Breathtaking_Snow_Globe",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Broken Flashlight",
+      "link": "/wiki/Broken_Flashlight",
+      "rarity": "Rare",
+      "recyclesToText": "3x Battery7x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Battery"
+        },
+        {
+          "quantity": 7,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1275,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Broken Guidance System",
+      "link": "/wiki/Broken_Guidance_System",
+      "rarity": "Rare",
+      "recyclesToText": "4x Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Processor"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 2000,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Broken Handheld Radio",
+      "link": "/wiki/Broken_Handheld_Radio",
+      "rarity": "Rare",
+      "recyclesToText": "3x Sensors3x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Sensors"
+        },
+        {
+          "quantity": 3,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 2100,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Broken Taser",
+      "link": "/wiki/Broken_Taser",
+      "rarity": "Rare",
+      "recyclesToText": "2x Battery2x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Battery"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Buried City Hospital Key",
+      "link": "/wiki/Buried_City_Hospital_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Buried City JKV Employee Access Card",
+      "link": "/wiki/Buried_City_JKV_Employee_Access_Card",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Buried City Residential Mastery Key",
+      "link": "/wiki/Buried_City_Residential_Mastery_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Buried City Town Hall Key",
+      "link": "/wiki/Buried_City_Town_Hall_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Burned ARC Circuitry",
+      "link": "/wiki/Burned_ARC_Circuitry",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Camera Lens",
+      "link": "/wiki/Camera_Lens",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 480,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Candle Holder",
+      "link": "/wiki/Candle_Holder",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Canister",
+      "link": "/wiki/Canister",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 180,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Cat Bed",
+      "link": "/wiki/Cat_Bed",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Chemicals",
+      "link": "/wiki/Chemicals",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 50,
+      "recycledSellPrice": 0,
+      "category": "Basic Material"
+    },
+    {
+      "name": "Coffee Pot",
+      "link": "/wiki/Coffee_Pot",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Complex Gun Parts",
+      "link": "/wiki/Complex_Gun_Parts",
+      "rarity": "Epic",
+      "recyclesToText": "3x Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 990,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Coolant",
+      "link": "/wiki/Coolant",
+      "rarity": "Rare",
+      "recyclesToText": "5x Chemicals2x Oil",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "name": "Oil"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 850,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Cooling Coil",
+      "link": "/wiki/Cooling_Coil",
+      "rarity": "Rare",
+      "recyclesToText": "6x Chemicals2x Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Cooling Fan",
+      "link": "/wiki/Cooling_Fan",
+      "rarity": "Rare",
+      "recyclesToText": "14x Plastic Parts4x Battery",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 4,
+          "name": "Battery"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1240,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Cracked Bioscanner",
+      "link": "/wiki/Cracked_Bioscanner",
+      "rarity": "Rare",
+      "recyclesToText": "3x Rubber Parts5x Battery",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 5,
+          "name": "Battery"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Crude Explosives",
+      "link": "/wiki/Crude_Explosives",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 150,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Crumpled Plastic Bottle",
+      "link": "/wiki/Crumpled_Plastic_Bottle",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 80,
+      "recycledSellPrice": 180,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Dam Control Tower Key",
+      "link": "/wiki/Dam_Control_Tower_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Dam Staff Room Key",
+      "link": "/wiki/Dam_Staff_Room_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Dam Surveillance Key",
+      "link": "/wiki/Dam_Surveillance_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Dam Testing Annex Key",
+      "link": "/wiki/Dam_Testing_Annex_Key",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Dam Utility Key",
+      "link": "/wiki/Dam_Utility_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Damaged ARC Motion Core",
+      "link": "/wiki/Damaged_ARC_Motion_Core",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged ARC Powercell",
+      "link": "/wiki/Damaged_ARC_Powercell",
+      "rarity": "Uncommon",
+      "recyclesToText": "1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 293,
+      "recycledSellPrice": 200,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged Fireball Burner",
+      "link": "/wiki/Damaged_Fireball_Burner",
+      "rarity": "Common",
+      "recyclesToText": "1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 200,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged Heat Sink",
+      "link": "/wiki/Damaged_Heat_Sink",
+      "rarity": "Rare",
+      "recyclesToText": "6x Metal Parts2x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 850,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged Hornet Driver",
+      "link": "/wiki/Damaged_Hornet_Driver",
+      "rarity": "Common",
+      "recyclesToText": "2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged Rocketeer Driver",
+      "link": "/wiki/Damaged_Rocketeer_Driver",
+      "rarity": "Common",
+      "recyclesToText": "3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Damaged Wasp Driver",
+      "link": "/wiki/Damaged_Wasp_Driver",
+      "rarity": "Common",
+      "recyclesToText": "1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 200,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Dart Board",
+      "link": "/wiki/Dart_Board",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Deflated Football",
+      "link": "/wiki/Deflated_Football",
+      "rarity": "Uncommon",
+      "recyclesToText": "15x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 15,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 750,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Degraded ARC Rubber",
+      "link": "/wiki/Degraded_ARC_Rubber",
+      "rarity": "Uncommon",
+      "recyclesToText": "11x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 11,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 550,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Diving Goggles",
+      "link": "/wiki/Diving_Goggles",
+      "rarity": "Rare",
+      "recyclesToText": "12x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 12,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Dog Collar",
+      "link": "/wiki/Dog_Collar",
+      "rarity": "Rare",
+      "recyclesToText": "8x Fabric1x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Fabric"
+        },
+        {
+          "quantity": 1,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 475,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Dried-Out ARC Resin",
+      "link": "/wiki/Dried-Out_ARC_Resin",
+      "rarity": "Uncommon",
+      "recyclesToText": "9x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 9,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 540,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Duct Tape",
+      "link": "/wiki/Duct_Tape",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 150,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Durable Cloth",
+      "link": "/wiki/Durable_Cloth",
+      "rarity": "Uncommon",
+      "recyclesToText": "6x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 300,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Electrical Components",
+      "link": "/wiki/Electrical_Components",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Plastic Parts3x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 3,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 330,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Empty Wine Bottle",
+      "link": "/wiki/Empty_Wine_Bottle",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Exodus Modules",
+      "link": "/wiki/Exodus_Modules",
+      "rarity": "Epic",
+      "recyclesToText": "2x Magnet1x Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Magnet"
+        },
+        {
+          "quantity": 1,
+          "name": "Mechanical Components"
+        }
+      ],
+      "sellPrice": 2750,
+      "recycledSellPrice": 2600,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Expired Pasta",
+      "link": "/wiki/Expired_Pasta",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Expired Respirator",
+      "link": "/wiki/Expired_Respirator",
+      "rarity": "Rare",
+      "recyclesToText": "8x Rubber Parts4x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 4,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Explosive Compound",
+      "link": "/wiki/Explosive_Compound",
+      "rarity": "Rare",
+      "recyclesToText": "2x Crude Explosives",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Crude Explosives"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 540,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Fabric",
+      "link": "/wiki/Fabric",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 50,
+      "recycledSellPrice": 0,
+      "category": "Basic Material"
+    },
+    {
+      "name": "Faded Photograph",
+      "link": "/wiki/Faded_Photograph",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Fertilizer",
+      "link": "/wiki/Fertilizer",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 200,
+      "category": "Nature"
+    },
+    {
+      "name": "Film Reel",
+      "link": "/wiki/Film_Reel",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Fine Wristwatch",
+      "link": "/wiki/Fine_Wristwatch",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Fireball Burner",
+      "link": "/wiki/Fireball_Burner",
+      "rarity": "Uncommon",
+      "recyclesToText": "1x ARC Alloy1x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 250,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Fried Motherboard",
+      "link": "/wiki/Fried_Motherboard",
+      "rarity": "Rare",
+      "recyclesToText": "5x Plastic Parts1x Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 940,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Frying Pan",
+      "link": "/wiki/Frying_Pan",
+      "rarity": "Rare",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Garlic Press",
+      "link": "/wiki/Garlic_Press",
+      "rarity": "Uncommon",
+      "recyclesToText": "14x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 14,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1050,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Great Mullein",
+      "link": "/wiki/Great_Mullein",
+      "rarity": "Uncommon",
+      "recyclesToText": "4x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 400,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Headphones",
+      "link": "/wiki/Headphones",
+      "rarity": "Rare",
+      "recyclesToText": "6x Rubber Parts2x Speaker Component",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Speaker Component"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1300,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Heavy Gun Parts",
+      "link": "/wiki/Heavy_Gun_Parts",
+      "rarity": "Rare",
+      "recyclesToText": "2x Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 700,
+      "recycledSellPrice": 660,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Hornet Driver",
+      "link": "/wiki/Hornet_Driver",
+      "rarity": "Rare",
+      "recyclesToText": "2x ARC Alloy2x Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1680,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Household Cleaner",
+      "link": "/wiki/Household_Cleaner",
+      "rarity": "Uncommon",
+      "recyclesToText": "13x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 13,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 650,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Humidifier",
+      "link": "/wiki/Humidifier",
+      "rarity": "Rare",
+      "recyclesToText": "2x Canister2x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Canister"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1000,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ice Cream Scooper",
+      "link": "/wiki/Ice_Cream_Scooper",
+      "rarity": "Uncommon",
+      "recyclesToText": "7x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 525,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Impure ARC Coolant",
+      "link": "/wiki/Impure_ARC_Coolant",
+      "rarity": "Uncommon",
+      "recyclesToText": "13x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 13,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 650,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Industrial Battery",
+      "link": "/wiki/Industrial_Battery",
+      "rarity": "Rare",
+      "recyclesToText": "7x Chemicals2x Battery",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "name": "Battery"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 850,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Industrial Charger",
+      "link": "/wiki/Industrial_Charger",
+      "rarity": "Rare",
+      "recyclesToText": "5x Metal Parts1x Voltage Converter",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 1,
+          "name": "Voltage Converter"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 875,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Industrial Magnet",
+      "link": "/wiki/Industrial_Magnet",
+      "rarity": "Rare",
+      "recyclesToText": "2x Magnet4x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Magnet"
+        },
+        {
+          "quantity": 4,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Laboratory Reagents",
+      "link": "/wiki/Laboratory_Reagents",
+      "rarity": "Rare",
+      "recyclesToText": "2x Chemicals2x Crude Explosives",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Chemicals"
+        },
+        {
+          "quantity": 2,
+          "name": "Crude Explosives"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 640,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Lance's Mixtape (5th Edition)",
+      "link": "/wiki/Lance%27s_Mixtape_(5th_Edition)",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Lemon",
+      "link": "/wiki/Lemon",
+      "rarity": "Common",
+      "recyclesToText": "3x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 300,
+      "category": "Nature"
+    },
+    {
+      "name": "Leaper Pulse Unit",
+      "link": "/wiki/Leaper_Pulse_Unit",
+      "rarity": "Epic",
+      "recyclesToText": "2x Advanced Mechanical Components3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 4100,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Light Bulb",
+      "link": "/wiki/Light_Bulb",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Light Gun Parts",
+      "link": "/wiki/Light_Gun_Parts",
+      "rarity": "Rare",
+      "recyclesToText": "2x Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 700,
+      "recycledSellPrice": 660,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Magnet",
+      "link": "/wiki/Magnet",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 225,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Magnetic Accelerator",
+      "link": "/wiki/Magnetic_Accelerator",
+      "rarity": "Epic",
+      "recyclesToText": "1x Advanced Mechanical Components1x ARC Motion Core",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "ARC Motion Core"
+        }
+      ],
+      "sellPrice": 5500,
+      "recycledSellPrice": 2750,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Mechanical Components",
+      "link": "/wiki/Mechanical_Components",
+      "rarity": "Rare",
+      "recyclesToText": "8x Metal Parts2x Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1200,
+      "category": "Refined Material"
+    },
+    {
+      "name": "Medium Gun Parts",
+      "link": "/wiki/Medium_Gun_Parts",
+      "rarity": "Rare",
+      "recyclesToText": "2x Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 700,
+      "recycledSellPrice": 660,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Metal Brackets",
+      "link": "/wiki/Metal_Brackets",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Metal Parts",
+      "link": "/wiki/Metal_Parts",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 75,
+      "recycledSellPrice": 0,
+      "category": "Basic Material"
+    },
+    {
+      "name": "Mod Components",
+      "link": "/wiki/Mod_Components",
+      "rarity": "Epic",
+      "recyclesToText": "4x Steel Spring3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Steel Spring"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 1800,
+      "category": "Advanced Material"
+    },
+    {
+      "name": "Moss",
+      "link": "/wiki/Moss",
+      "rarity": "Rare",
+      "recyclesToText": "5x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 250,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Motor",
+      "link": "/wiki/Motor",
+      "rarity": "Rare",
+      "recyclesToText": "2x Oil2x Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Oil"
+        },
+        {
+          "quantity": 2,
+          "name": "Mechanical Components"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 4600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Mushroom",
+      "link": "/wiki/Mushroom",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Nature"
+    },
+    {
+      "name": "Music Album",
+      "link": "/wiki/Music_Album",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Music Box",
+      "link": "/wiki/Music_Box",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Number Plate",
+      "link": "/wiki/Number_Plate",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 80,
+      "recycledSellPrice": 225,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Oil",
+      "link": "/wiki/Oil",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 150,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Olives",
+      "link": "/wiki/Olives",
+      "rarity": "Common",
+      "recyclesToText": "2x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 200,
+      "category": "Nature"
+    },
+    {
+      "name": "Outskirts Bunker Key",
+      "link": "/wiki/Outskirts_Bunker_Key",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Painted Box",
+      "link": "/wiki/Painted_Box",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Patrol Car Key",
+      "link": "/wiki/Patrol_Car_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Plastic Parts",
+      "link": "/wiki/Plastic_Parts",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 60,
+      "recycledSellPrice": 0,
+      "category": "Basic Material"
+    },
+    {
+      "name": "Playing Cards",
+      "link": "/wiki/Playing_Cards",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Polluted Air Filter",
+      "link": "/wiki/Polluted_Air_Filter",
+      "rarity": "Rare",
+      "recyclesToText": "6x Fabric2x Oil",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Fabric"
+        },
+        {
+          "quantity": 2,
+          "name": "Oil"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Pop Trigger",
+      "link": "/wiki/Pop_Trigger",
+      "rarity": "Common",
+      "recyclesToText": "1x Crude Explosives1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Crude Explosives"
+        },
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 470,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Portable TV",
+      "link": "/wiki/Portable_TV",
+      "rarity": "Rare",
+      "recyclesToText": "2x Battery\n6x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Battery"
+        },
+        {
+          "quantity": 6,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1700,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Poster of Natural Wonders",
+      "link": "/wiki/Poster_Of_Natural_Wonders",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Pottery",
+      "link": "/wiki/Pottery",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Power Bank",
+      "link": "/wiki/Power_Bank",
+      "rarity": "Rare",
+      "recyclesToText": "4x Battery2x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Battery"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Power Cable",
+      "link": "/wiki/Power_Cable",
+      "rarity": "Rare",
+      "recyclesToText": "4x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 800,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Power Rod",
+      "link": "/wiki/Power_Rod",
+      "rarity": "Epic",
+      "recyclesToText": "1x Advanced Electrical Components1x ARC Circuitry",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "ARC Circuitry"
+        }
+      ],
+      "sellPrice": 5500,
+      "recycledSellPrice": 2750,
+      "category": "Advanced Material"
+    },
+    {
+      "name": "Prickly Pear",
+      "link": "/wiki/Prickly_Pear",
+      "rarity": "Common",
+      "recyclesToText": "3x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 300,
+      "category": "Nature"
+    },
+    {
+      "name": "Processor",
+      "link": "/wiki/Processor",
+      "rarity": "Rare",
+      "recyclesToText": "1x Wires\n1x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Wires"
+        },
+        {
+          "quantity": 1,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 260,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Projector",
+      "link": "/wiki/Projector",
+      "rarity": "Rare",
+      "recyclesToText": "1x Processor\n2x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Processor"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Queen Reactor",
+      "link": "/wiki/Queen_Reactor",
+      "rarity": "Legendary",
+      "recyclesToText": "1x Power Rod1x Magnetic Accelerator",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Power Rod"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnetic Accelerator"
+        }
+      ],
+      "sellPrice": 13000,
+      "recycledSellPrice": 11000,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Radio",
+      "link": "/wiki/Radio",
+      "rarity": "Rare",
+      "recyclesToText": "1x Speaker Component2x Sensors",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Speaker Component"
+        },
+        {
+          "quantity": 2,
+          "name": "Sensors"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1500,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Raider Hatch Key",
+      "link": "/wiki/Raider_Hatch_Key",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Red Coral Jewelry",
+      "link": "/wiki/Red_Coral_Jewelry",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Remote Control",
+      "link": "/wiki/Remote_Control",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Plastic Parts1x Sensors",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 1,
+          "name": "Sensors"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 620,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Resin",
+      "link": "/wiki/Resin",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Nature"
+    },
+    {
+      "name": "Rocketeer Driver",
+      "link": "/wiki/Rocketeer_Driver",
+      "rarity": "Epic",
+      "recyclesToText": "2x Advanced Electrical Components3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 4100,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ripped Safety Vest",
+      "link": "/wiki/Ripped_Safety_Vest",
+      "rarity": "Uncommon",
+      "recyclesToText": "1x Magnet1x Durable Cloth",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        },
+        {
+          "quantity": 1,
+          "name": "Durable Cloth"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 940,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rocket Thruster",
+      "link": "/wiki/Rocket_Thruster",
+      "rarity": "Rare",
+      "recyclesToText": "2x Synthesized Fuel6x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Synthesized Fuel"
+        },
+        {
+          "quantity": 6,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1850,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Roots",
+      "link": "/wiki/Roots",
+      "rarity": "Uncommon",
+      "recyclesToText": "1x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 100,
+      "category": "Nature"
+    },
+    {
+      "name": "Rope",
+      "link": "/wiki/Rope",
+      "rarity": "Rare",
+      "recyclesToText": "5x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 250,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Rosary",
+      "link": "/wiki/Rosary",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Rubber Duck",
+      "link": "/wiki/Rubber_Duck",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Rubber Pad",
+      "link": "/wiki/Rubber_Pad",
+      "rarity": "Rare",
+      "recyclesToText": "22x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 22,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1100,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rubber Parts",
+      "link": "/wiki/Rubber_Parts",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 50,
+      "recycledSellPrice": 0,
+      "category": "Basic Material"
+    },
+    {
+      "name": "Ruined Accordion",
+      "link": "/wiki/Ruined_Accordion",
+      "rarity": "Rare",
+      "recyclesToText": "18x Rubber Parts3x Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 3,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1300,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Augment",
+      "link": "/wiki/Ruined_Augment",
+      "rarity": "-",
+      "recyclesToText": "2x Plastic Parts2x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 220,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Baton",
+      "link": "/wiki/Ruined_Baton",
+      "rarity": "Uncommon",
+      "recyclesToText": "6x Metal Parts3x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 3,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Handcuffs",
+      "link": "/wiki/Ruined_Handcuffs",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Parachute",
+      "link": "/wiki/Ruined_Parachute",
+      "rarity": "Uncommon",
+      "recyclesToText": "10x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 10,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 500,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Tactical Vest",
+      "link": "/wiki/Ruined_Tactical_Vest",
+      "rarity": "Uncommon",
+      "recyclesToText": "5x Fabric1x Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Fabric"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 550,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Ruined Riot Shield",
+      "link": "/wiki/Ruined_Riot_Shield",
+      "rarity": "Rare",
+      "recyclesToText": "10x Plastic Parts6x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 0,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 6,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 300,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rusted Bolts",
+      "link": "/wiki/Rusted_Bolts",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rusted Gear",
+      "link": "/wiki/Rusted_Gear",
+      "rarity": "Rare",
+      "recyclesToText": "4x Metal Parts2x Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Mechanical Components"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 4300,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rusted Shut Medical Kit",
+      "link": "/wiki/Rusted_Shut_Medical_Kit",
+      "rarity": "Rare",
+      "recyclesToText": "2x Syringe1x Antiseptic",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Syringe"
+        },
+        {
+          "quantity": 1,
+          "name": "Antiseptic"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 2000,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rusted Tools",
+      "link": "/wiki/Rusted_Tools",
+      "rarity": "Rare",
+      "recyclesToText": "8x Metal Parts1x Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 1,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Rusty ARC Steel",
+      "link": "/wiki/Rusty_ARC_Steel",
+      "rarity": "Uncommon",
+      "recyclesToText": "8x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Sensors",
+      "link": "/wiki/Sensors",
+      "rarity": "Rare",
+      "recyclesToText": "2x Wires2x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Wires"
+        },
+        {
+          "quantity": 2,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 550,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Sentinel Firing Core",
+      "link": "/wiki/Sentinel_Firing_Core",
+      "rarity": "Rare",
+      "recyclesToText": "2x ARC Alloy3x Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 3,
+          "name": "Mechanical Components"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 6400,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Silver Teaspoon Set",
+      "link": "/wiki/Silver_Teaspoon_Set",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Simple Gun Parts",
+      "link": "/wiki/Simple_Gun_Parts",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 330,
+      "recycledSellPrice": 150,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Snitch Scanner",
+      "link": "/wiki/Snitch_Scanner",
+      "rarity": "Uncommon",
+      "recyclesToText": "4x ARC Alloy\n2x Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 2080,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Spaceport Container Storage Key",
+      "link": "/wiki/Spaceport_Container_Storage_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Spaceport Ground Control Key",
+      "link": "/wiki/Spaceport_Ground_Control_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Spaceport Trench Tower Key",
+      "link": "/wiki/Spaceport_Trench_Tower_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Spaceport Warehouse Key",
+      "link": "/wiki/Spaceport_Warehouse_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key"
+    },
+    {
+      "name": "Speaker Component",
+      "link": "/wiki/Speaker_Component",
+      "rarity": "Rare",
+      "recyclesToText": "2x Plastic Parts2x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 220,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Spring Cushion",
+      "link": "/wiki/Spring_Cushion",
+      "rarity": "Rare",
+      "recyclesToText": "2x Durable Cloth2x Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Durable Cloth"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1880,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Spotter Relay",
+      "link": "/wiki/Spotter_Relay",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Electrical Components1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 1480,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Statuette",
+      "link": "/wiki/Statuette",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Steel Spring",
+      "link": "/wiki/Steel_Spring",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 300,
+      "recycledSellPrice": 225,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Surveyor Vault",
+      "link": "/wiki/Surveyor_Vault",
+      "rarity": "Rare",
+      "recyclesToText": "2x Mechanical Components2x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 4400,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Synthesized Fuel",
+      "link": "/wiki/Synthesized_Fuel",
+      "rarity": "Rare",
+      "recyclesToText": "1x Oil1x Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Oil"
+        },
+        {
+          "quantity": 1,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 700,
+      "recycledSellPrice": 360,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Syringe",
+      "link": "/wiki/Syringe",
+      "rarity": "Rare",
+      "recyclesToText": "3x Plastic Parts2x Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 280,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Tattered ARC Lining",
+      "link": "/wiki/Tattered_ARC_Lining",
+      "rarity": "Uncommon",
+      "recyclesToText": "12x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 12,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Tattered Clothes",
+      "link": "/wiki/Tattered_Clothes",
+      "rarity": "Uncommon",
+      "recyclesToText": "11x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 11,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 550,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Thermostat",
+      "link": "/wiki/Thermostat",
+      "rarity": "Rare",
+      "recyclesToText": "6x Rubber Parts2x Sensors",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Sensors"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1300,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Tick Pod",
+      "link": "/wiki/Tick_Pod",
+      "rarity": "Uncommon",
+      "recyclesToText": "1x ARC Alloy1x Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 275,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Toaster",
+      "link": "/wiki/Toaster",
+      "rarity": "Rare",
+      "recyclesToText": "5x Plastic Parts3x Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 3,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Torn Book",
+      "link": "/wiki/Torn_Book",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Torn Blanket",
+      "link": "/wiki/Torn_Blanket",
+      "rarity": "Rare",
+      "recyclesToText": "12x Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 12,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 600,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Turbo Pump",
+      "link": "/wiki/Turbo_Pump",
+      "rarity": "Rare",
+      "recyclesToText": "1x Mechanical Components3x Oil",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "Oil"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 2900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Unusable Weapon",
+      "link": "/wiki/Unusable_Weapon",
+      "rarity": "Rare",
+      "recyclesToText": "4x Metal Parts5x Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 5,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1950,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Vase",
+      "link": "/wiki/Vase",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Very Comfortable Pillow",
+      "link": "/wiki/Very_Comfortable_Pillow",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "category": "Trinket"
+    },
+    {
+      "name": "Volcanic Rock",
+      "link": "/wiki/Volcanic_Rock",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 270,
+      "recycledSellPrice": 0,
+      "category": "Misc"
+    },
+    {
+      "name": "Voltage Converter",
+      "link": "/wiki/Voltage_Converter",
+      "rarity": "Rare",
+      "recyclesToText": "1x Wires1x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Wires"
+        },
+        {
+          "quantity": 1,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 500,
+      "recycledSellPrice": 250,
+      "category": "Topside Material"
+    },
+    {
+      "name": "Wasp Driver",
+      "link": "/wiki/Wasp_Driver",
+      "rarity": "Rare",
+      "recyclesToText": "1x ARC Alloy1x Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Water Filter",
+      "link": "/wiki/Water_Filter",
+      "rarity": "Rare",
+      "recyclesToText": "2x Rubber Parts3x Canister",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Rubber Parts"
+        },
+        {
+          "quantity": 3,
+          "name": "Canister"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 1000,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Water Pump",
+      "link": "/wiki/Water_Pump",
+      "rarity": "Rare",
+      "recyclesToText": "4x Metal Parts2x Oil",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Metal Parts"
+        },
+        {
+          "quantity": 2,
+          "name": "Oil"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
+      "category": "Recyclable"
+    },
+    {
+      "name": "Wires",
+      "link": "/wiki/Wires",
+      "rarity": "Uncommon",
+      "recyclesToText": "2x Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Rubber Parts"
+        }
+      ],
+      "sellPrice": 200,
+      "recycledSellPrice": 100,
+      "category": "Topside Material"
+    }
+  ]
+}
