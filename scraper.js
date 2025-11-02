@@ -9,7 +9,11 @@ const LOOT_PAGE = '/wiki/Loot';
 
 async function fetchPage(url) {
   try {
-    const response = await axios.get(url);
+    const response = await axios.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
     return response.data;
   } catch (error) {
     console.error(`Error fetching ${url}:`, error.message);
@@ -17,34 +21,9 @@ async function fetchPage(url) {
   }
 }
 
-async function getItemSellPrice(itemPath) {
-  const fullUrl = `${BASE_URL}${itemPath}`;
-  const html = await fetchPage(fullUrl);
-  
-  if (!html) return null;
-  
-  const $ = cheerio.load(html);
-  
-  // Look for sell price in the item page
-  // This may need adjustment based on actual wiki structure
-  let sellPrice = null;
-  
-  $('th').each((i, elem) => {
-    const text = $(elem).text().trim().toLowerCase();
-    if (text.includes('sell') || text === 'price') {
-      const value = $(elem).next('td').text().trim();
-      const match = value.match(/(\d+)/);
-      if (match) {
-        sellPrice = parseInt(match[1]);
-      }
-    }
-  });
-  
-  return sellPrice;
-}
-
 function parseRecycleItems(recyclesToText) {
-  if (!recyclesToText || recyclesToText === '-' || recyclesToText === 'N/A') {
+  if (!recyclesToText || recyclesToText === '-' || recyclesToText === 'N/A' || 
+      recyclesToText.toLowerCase().includes('cannot be recycled') || recyclesToText === '?') {
     return [];
   }
   
@@ -76,51 +55,50 @@ async function scrapeLootTable() {
   const $ = cheerio.load(html);
   const items = [];
   
-  // Find the main loot table
-  const table = $('table').first();
-  const headers = [];
+  // The wiki uses a special format with pipe-delimited text
+  // Find all text content and parse the pipe-delimited format
+  const content = $('body').text();
   
-  table.find('thead tr th').each((i, elem) => {
-    headers.push($(elem).text().trim());
-  });
+  // Split by lines and parse each item
+  const lines = content.split('\n');
   
-  console.log('Table headers:', headers);
-  
-  // Process each row
-  for (const row of table.find('tbody tr').toArray()) {
-    const cells = $(row).find('td');
+  for (const line of lines) {
+    // Skip empty lines
+    if (!line.trim() || !line.includes('|')) continue;
     
-    if (cells.length === 0) continue;
+    // Split by pipe character
+    const parts = line.split('|').map(p => p.trim()).filter(p => p);
+    
+    // We need at least 4 parts: name/link, rarity, recycles to, sell price
+    if (parts.length < 4) continue;
+    
+    // Extract item name from markdown link format [Name](/wiki/Name)
+    const nameMatch = parts[0].match(/\[(.+?)\]\((.+?)\)/);
+    if (!nameMatch) continue;
     
     const item = {
-      name: '',
+      name: nameMatch[1],
+      link: nameMatch[2],
+      rarity: parts[1],
+      recyclesToText: parts[2],
+      recyclesToItems: parseRecycleItems(parts[2]),
       sellPrice: null,
-      recyclesToText: '',
-      recyclesToItems: [],
       recycledSellPrice: 0,
-      link: ''
+      category: parts[4] || 'Unknown'
     };
     
-    cells.each((i, cell) => {
-      const text = $(cell).text().trim();
-      const header = headers[i]?.toLowerCase() || '';
-      
-      if (header.includes('item') || header.includes('name')) {
-        const link = $(cell).find('a').attr('href');
-        item.name = text;
-        item.link = link || '';
-      } else if (header.includes('sell') || header.includes('price')) {
-        const match = text.match(/(\d+)/);
-        item.sellPrice = match ? parseInt(match[1]) : null;
-      } else if (header.includes('recycle')) {
-        item.recyclesToText = text;
-        item.recyclesToItems = parseRecycleItems(text);
+    // Parse sell price
+    const priceText = parts[3];
+    if (priceText && priceText !== '?') {
+      // Remove commas from numbers like "1,000"
+      const cleanPrice = priceText.replace(/,/g, '');
+      const match = cleanPrice.match(/(\d+)/);
+      if (match) {
+        item.sellPrice = parseInt(match[1]);
       }
-    });
-    
-    if (item.name) {
-      items.push(item);
     }
+    
+    items.push(item);
   }
   
   console.log(`Found ${items.length} items`);
@@ -147,25 +125,15 @@ async function scrapeLootTable() {
     for (const recycleItem of item.recyclesToItems) {
       let price = priceMap.get(recycleItem.name);
       
-      // If not in table, try to fetch from individual page
-      if (!price && item.link) {
-        console.log(`Fetching price for ${recycleItem.name}...`);
-        price = await getItemSellPrice(item.link);
-        if (price) {
-          priceMap.set(recycleItem.name, price);
-        }
-        // Small delay to avoid rate limiting
-        await new Promise(resolve => setTimeout(resolve, 500));
-      }
-      
       if (price) {
         totalValue += price * recycleItem.quantity;
       } else {
+        console.log(`Warning: No price found for ${recycleItem.name}`);
         allPricesFound = false;
       }
     }
     
-    item.recycledSellPrice = allPricesFound ? totalValue : null;
+    item.recycledSellPrice = allPricesFound && totalValue > 0 ? totalValue : null;
   }
   
   return items;
@@ -189,6 +157,13 @@ async function main() {
     );
     
     console.log(`Successfully saved ${items.length} items to ${outputPath}`);
+    
+    // Print some sample data for verification
+    console.log('\nSample items:');
+    items.slice(0, 3).forEach(item => {
+      console.log(`- ${item.name}: Sell=${item.sellPrice}, Recycles to: ${item.recyclesToText}, Recycled Value=${item.recycledSellPrice}`);
+    });
+    
   } catch (error) {
     console.error('Error:', error);
     process.exit(1);
