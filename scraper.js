@@ -55,53 +55,105 @@ async function scrapeLootTable() {
   const $ = cheerio.load(html);
   const items = [];
   
-  // The wiki uses a special format with pipe-delimited text
-  // Find all text content and parse the pipe-delimited format
-  const content = $('body').text();
+  console.log('Parsing page content...');
   
-  // Split by lines and parse each item
-  const lines = content.split('\n');
+  // Method 1: Try to find the table structure
+  let foundItems = false;
   
-  for (const line of lines) {
-    // Skip empty lines
-    if (!line.trim() || !line.includes('|')) continue;
-    
-    // Split by pipe character
-    const parts = line.split('|').map(p => p.trim()).filter(p => p);
-    
-    // We need at least 4 parts: name/link, rarity, recycles to, sell price
-    if (parts.length < 4) continue;
-    
-    // Extract item name from markdown link format [Name](/wiki/Name)
-    const nameMatch = parts[0].match(/\[(.+?)\]\((.+?)\)/);
-    if (!nameMatch) continue;
-    
-    const item = {
-      name: nameMatch[1],
-      link: nameMatch[2],
-      rarity: parts[1],
-      recyclesToText: parts[2],
-      recyclesToItems: parseRecycleItems(parts[2]),
-      sellPrice: null,
-      recycledSellPrice: 0,
-      category: parts[4] || 'Unknown'
-    };
-    
-    // Parse sell price
-    const priceText = parts[3];
-    if (priceText && priceText !== '?') {
-      // Remove commas from numbers like "1,000"
-      const cleanPrice = priceText.replace(/,/g, '');
-      const match = cleanPrice.match(/(\d+)/);
-      if (match) {
-        item.sellPrice = parseInt(match[1]);
+  // Look for table rows
+  $('table tr').each((i, row) => {
+    const cells = $(row).find('td');
+    if (cells.length >= 5) {
+      foundItems = true;
+      
+      const nameCell = $(cells[0]);
+      const nameLink = nameCell.find('a');
+      
+      const item = {
+        name: nameLink.text().trim() || nameCell.text().trim(),
+        link: nameLink.attr('href') || '',
+        rarity: $(cells[1]).text().trim(),
+        recyclesToText: $(cells[2]).text().trim(),
+        recyclesToItems: parseRecycleItems($(cells[2]).text().trim()),
+        sellPrice: null,
+        recycledSellPrice: 0,
+        category: $(cells[4]).text().trim() || 'Unknown'
+      };
+      
+      // Parse sell price
+      const priceText = $(cells[3]).text().trim();
+      if (priceText && priceText !== '?') {
+        const cleanPrice = priceText.replace(/,/g, '');
+        const match = cleanPrice.match(/(\d+)/);
+        if (match) {
+          item.sellPrice = parseInt(match[1]);
+        }
+      }
+      
+      if (item.name) {
+        items.push(item);
       }
     }
+  });
+  
+  // Method 2: If no table found, parse the raw text content
+  if (!foundItems) {
+    console.log('No table found, parsing text content...');
     
-    items.push(item);
+    // Get all paragraphs and divs that might contain the data
+    const textContent = $('body').text();
+    const lines = textContent.split('\n');
+    
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+      
+      // Skip empty lines and lines without pipes
+      if (!line || !line.includes('|')) continue;
+      
+      // Check if this looks like an item line (has markdown link format)
+      if (!line.match(/\[.+?\]\(.+?\)/)) continue;
+      
+      // Split by pipe and filter empty
+      const parts = line.split('|').map(p => p.trim()).filter(p => p);
+      
+      // Need at least 4 parts
+      if (parts.length < 4) continue;
+      
+      // Extract name and link
+      const nameMatch = parts[0].match(/\[(.+?)\]\((.+?)\)/);
+      if (!nameMatch) continue;
+      
+      const item = {
+        name: nameMatch[1],
+        link: nameMatch[2],
+        rarity: parts[1],
+        recyclesToText: parts[2],
+        recyclesToItems: parseRecycleItems(parts[2]),
+        sellPrice: null,
+        recycledSellPrice: 0,
+        category: parts.length >= 5 ? parts[4] : 'Unknown'
+      };
+      
+      // Parse sell price
+      const priceText = parts[3];
+      if (priceText && priceText !== '?') {
+        const cleanPrice = priceText.replace(/,/g, '');
+        const match = cleanPrice.match(/(\d+)/);
+        if (match) {
+          item.sellPrice = parseInt(match[1]);
+        }
+      }
+      
+      items.push(item);
+    }
   }
   
   console.log(`Found ${items.length} items`);
+  
+  if (items.length === 0) {
+    console.log('Debug: First 2000 chars of page:');
+    console.log($('body').text().substring(0, 2000));
+  }
   
   // Build a price lookup map
   const priceMap = new Map();
@@ -128,7 +180,6 @@ async function scrapeLootTable() {
       if (price) {
         totalValue += price * recycleItem.quantity;
       } else {
-        console.log(`Warning: No price found for ${recycleItem.name}`);
         allPricesFound = false;
       }
     }
@@ -159,10 +210,12 @@ async function main() {
     console.log(`Successfully saved ${items.length} items to ${outputPath}`);
     
     // Print some sample data for verification
-    console.log('\nSample items:');
-    items.slice(0, 3).forEach(item => {
-      console.log(`- ${item.name}: Sell=${item.sellPrice}, Recycles to: ${item.recyclesToText}, Recycled Value=${item.recycledSellPrice}`);
-    });
+    if (items.length > 0) {
+      console.log('\nSample items:');
+      items.slice(0, 3).forEach(item => {
+        console.log(`- ${item.name}: Sell=${item.sellPrice}, Recycles to: ${item.recyclesToText}, Recycled Value=${item.recycledSellPrice}`);
+      });
+    }
     
   } catch (error) {
     console.error('Error:', error);
