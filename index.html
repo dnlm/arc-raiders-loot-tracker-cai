@@ -444,7 +444,6 @@
             return Math.max(...Object.keys(levels).map(n => parseInt(n, 10)));
         }
 
-
         function initWorkbenchSettings() {
             const container = document.getElementById('workbenchSettings');
             
@@ -496,23 +495,25 @@
             document.getElementById('resetButton').addEventListener('click', resetWorkbenchLevels);
         }
 
+        function normalizeName(s) {
+            // lower-case, strip all non-alphanumerics (spaces, hyphens, punctuation)
+            // "Rocketeer Driver" -> "rocketeerdriver"
+            // "ARC Power-Cell"   -> "arcpowercell"
+            return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        }
+
         function isItemNeededForWorkbench(itemName) {
             for (const [type, levels] of Object.entries(WORKBENCH_RECIPES)) {
                 const currentLevel = Number.isInteger(workbenches[type]) ? workbenches[type] : 0;
                 const maxL = getMaxLevel(type);
 
-                // Check all future levels (current+1 ... maxL)
+                const itemNorm = normalizeName(itemName);
+
+                // scan all future levels (current+1 ... maxL)
                 for (let lvl = currentLevel + 1; lvl <= maxL; lvl++) {
                     const reqs = levels[lvl] || [];
                     for (const reqItem of reqs) {
-                        const a = itemName.toLowerCase();
-                        const b = reqItem.toLowerCase();
-                        if (
-                            a.includes(b) ||
-                            b.includes(a) ||
-                            a.replace(/\s+/g, '') === b.replace(/\s+/g, '')
-                        ) {
-                            // Pretty bench name for the badge
+                        if (itemNorm === normalizeName(reqItem)) {
                             const benchName = type.replace(/_/g, ' ')
                                 .split(' ')
                                 .map(w => w.charAt(0).toUpperCase() + w.slice(1))
@@ -524,6 +525,7 @@
             }
             return { needed: false };
         }
+
 
 
         function getRecommendation(item) {
