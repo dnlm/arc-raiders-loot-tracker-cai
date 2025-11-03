@@ -356,6 +356,64 @@
             }
         };
 
+        function loadWorkbenchLevels() {
+            // Read persisted levels from localStorage and sanitize them.
+            const raw = localStorage.getItem('workbenchLevels');
+            const defaults = {};
+
+            // Build default map based on WORKBENCH_TYPES -> 0
+            WORKBENCH_TYPES.forEach(t => {
+                const key = t.toLowerCase().replace(/ /g, '_');
+                defaults[key] = 0;
+            });
+
+            if (!raw) return defaults;
+
+            try {
+                const parsed = JSON.parse(raw) || {};
+                const levels = {};
+
+                // Only keep known benches and coerce to allowed range [0..3]
+                Object.keys(defaults).forEach(key => {
+                    const n = Number(parsed[key]);
+                    levels[key] = Number.isInteger(n) && n >= 0 && n <= 3 ? n : 0;
+                });
+
+                return levels;
+            } catch {
+                // If storage is corrupted, start fresh
+                return defaults;
+            }
+        }
+
+        function saveWorkbenchLevels() {
+            // Persist the current `workbenches` map
+            try {
+                localStorage.setItem('workbenchLevels', JSON.stringify(workbenches));
+            } catch {
+                // ignore quota or serialization errors
+            }
+        }
+
+        function resetWorkbenchLevels() {
+            // Reset internal state
+            WORKBENCH_TYPES.forEach(t => {
+                const key = t.toLowerCase().replace(/ /g, '_');
+                workbenches[key] = 0;
+            });
+
+            // Update all selects in the UI
+            WORKBENCH_TYPES.forEach(t => {
+                const key = t.toLowerCase().replace(/ /g, '_');
+                const sel = document.getElementById(`workbench-${key}`);
+                if (sel) sel.value = '0';
+            });
+
+            // Persist & re-render
+            saveWorkbenchLevels();
+            renderTable();
+        }
+
 
         async function loadData() {
             try {
