@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-03T08:31:29.317Z",
+  "lastUpdated": "2025-11-03T08:51:32.052Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -2702,11 +2702,11 @@
       "name": "Tick Pod",
       "link": "/wiki/Tick_Pod",
       "rarity": "Uncommon",
-      "recyclesToText": "1x ARC Alloy1x Metal Parts",
+      "recyclesToText": "1x Chemicals1x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
-          "name": "ARC Alloy"
+          "name": "Chemicals"
         },
         {
           "quantity": 1,
@@ -2714,7 +2714,7 @@
         }
       ],
       "sellPrice": 640,
-      "recycledSellPrice": 275,
+      "recycledSellPrice": 125,
       "category": "Recyclable"
     },
     {
