@@ -315,44 +315,44 @@
                 0: [],
                 1: ['Metal Parts', 'Rubber Parts'], // Build: 20 Metal Parts, 30 Rubber Parts
                 2: ['Rusted Tools', 'Mechanical Components', 'Wasp Driver'], // L1->L2: 3 Rusted Tools, 5 Mechanical Components, 8 Wasp Drivers
-                3: ['Sentinel Firing Core'] // L2->L3
+                3: ['Rusted Gear', 'Advanced Mechanical Components', 'Sentinel Firing Core'] // L2->L3
             },
             gear_bench: {
                 0: [],
-                1: ['Fabric', 'ARC Alloy'], // Build: 50 Fabric, 6 ARC Alloy
-                2: ['Electrical Components'], // L1->L2: Electrical Components mentioned
-                3: [] // L2->L3
+                1: ['Fabric', 'Plastic Parts'], // Build: 50 Fabric, 6 ARC Alloy
+                2: ['Electrical Components', 'Power Cable', 'Hornet Driver'], // L1->L2: Electrical Components mentioned
+                3: ['Industrial Battery', 'Advanced Electrical Components', 'Bastion Cell'] // L2->L3
             },
             medical_lab: {
                 0: [],
                 1: ['Fabric', 'ARC Alloy'], // Build: 50 Fabric, 6 ARC Alloy (same as Gear)
-                2: ['Syringe', 'Antiseptic', 'Snitch Scanner'], // L1->L2: 8 Syringes, 5 Antiseptic, 3 Snitch Scanners
-                3: [] // L2->L3
+                2: ['Cracked Bioscanner', 'Durable Cloth', 'Tick Pod'], // L1->L2: 8 Syringes, 5 Antiseptic, 3 Snitch Scanners
+                3: ['Rusted Shut Medical Kit', 'Antiseptic', 'Surveyor Vault'] // L2->L3
             },
             explosives: {
                 0: [],
-                1: ['Plastic Parts', 'Fabric'], // Build: 25 Plastic Parts, 30 Fabric
-                2: ['Power Cable', 'Electrical Components', 'Hornet Driver'], // L1->L2: 3 Power Cables, 5 Electrical Components, 5 Hornet Drivers
-                3: [] // L2->L3
+                1: ['Chemicals', 'ARC Alloy'], // Build: 25 Plastic Parts, 30 Fabric
+                2: ['Synthesized Fuel', 'Crude Explosives', 'Pop Trigger'], // L1->L2: 3 Power Cables, 5 Electrical Components, 5 Hornet Drivers
+                3: ['Laboratory Reagents', 'Explosive Compound', 'Rocketeer Driver'] // L2->L3
             },
             utility: {
                 0: [],
                 1: ['Plastic Parts', 'ARC Alloy'], // Build: 50 Plastic Parts, 6 ARC Alloy
                 2: ['Damaged Heat Sink', 'Electrical Components', 'Snitch Scanner'], // L1->L2: 2 Damaged Heat Sink, 5 Electrical Components, 6 Snitch Scanners
-                3: [] // L2->L3
+                3: ['Fried Motherboard', 'Advanced Electrical Components', 'Leaper Pulse Unit'] // L2->L3
             },
             refiner: {
                 0: [],
-                1: ['Metal Parts', 'ARC Motion Core'], // Build: 75 Metal Parts, 3 ARC Motion Cores
-                2: ['Toaster'], // L1->L2: Toasters mentioned
-                3: [] // L2->L3
+                1: ['Metal Parts', 'ARC Powercell'], // Build: 75 Metal Parts, 3 ARC Motion Cores
+                2: ['Toaster', 'ARC Motion Core', 'Fireball Burner'], // L1->L2: Toasters mentioned
+                3: ['Motor', 'ARC Circuitry', 'Bombardier Cell'] // L2->L3
             },
             scrappy: {
                 0: [],
                 1: ['Dog Collar'], // L0->L1 (Level 2): 1 Dog Collar
                 2: ['Lemon', 'Apricot'], // L1->L2 (Level 3): 3 Lemons, 3 Apricots
                 3: ['Prickly Pear', 'Olives', 'Cat Bed'], // L2->L3 (Level 4): 8 Prickly Pears, 8 Olives, 1 Cat Bed
-                // Note: Level 5 exists but would need: 12 Apricots, 12 Mushrooms, 3 Very Comfortable Pillows
+                4: ['Mushroom', 'Apricot', 'Very Comfortable Pillow'], // L3->L4 (Level 5)
             }
         };
 
@@ -375,9 +375,11 @@
 
                 // Only keep known benches and coerce to allowed range [0..3]
                 Object.keys(defaults).forEach(key => {
+                    const maxL = getMaxLevel(key);
                     const n = Number(parsed[key]);
-                    levels[key] = Number.isInteger(n) && n >= 0 && n <= 3 ? n : 0;
+                    levels[key] = Number.isInteger(n) && n >= 0 && n <= maxL ? n : 0;
                 });
+
 
                 return levels;
             } catch {
@@ -436,6 +438,13 @@
             }
         }
 
+        function getMaxLevel(typeKey) {
+            const levels = WORKBENCH_RECIPES[typeKey];
+            if (!levels) return 3; // sane fallback
+            return Math.max(...Object.keys(levels).map(n => parseInt(n, 10)));
+        }
+
+
         function initWorkbenchSettings() {
             const container = document.getElementById('workbenchSettings');
             
@@ -457,13 +466,15 @@
                 option0.value = '0';
                 option0.textContent = 'Not Built';
                 select.appendChild(option0);
-                
-                for (let i = 1; i <= 3; i++) {
+
+                const maxL = getMaxLevel(typeKey);
+                for (let i = 1; i <= maxL; i++) {
                     const option = document.createElement('option');
                     option.value = i;
                     option.textContent = `Level ${i}`;
                     select.appendChild(option);
                 }
+
                 
                 // Set saved value or default to 0
                 const savedValue = savedLevels[typeKey] || 0;
@@ -489,10 +500,12 @@
             // Check each workbench type
             for (const [type, levels] of Object.entries(WORKBENCH_RECIPES)) {
                 const currentLevel = workbenches[type];
+
                 const nextLevel = currentLevel + 1;
+                const maxL = getMaxLevel(type);
                 
                 // Check if this item is needed for the next level upgrade
-                if (nextLevel <= 3 && levels[nextLevel]) {
+                if (nextLevel <= maxL && levels[nextLevel]) {
                     // Check if item name matches any required items (fuzzy match)
                     for (const reqItem of levels[nextLevel]) {
                         // Try various matching strategies
