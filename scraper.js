@@ -30,17 +30,15 @@ function parseRecycleItems(recyclesToText) {
   // Parse items like "2x Scrap Metal, 1x Circuit Board" or "1x ItemA1x ItemB"
   const items = [];
   
-  // First try splitting by comma
-  let parts = recyclesToText.split(',');
+  // First, normalize the text by adding commas where missing between items
+  // Match pattern: number+x+text followed by number+x (without comma between)
+  let normalized = recyclesToText.replace(/([a-zA-Z])\s*(\d+x)/g, '$1, $2');
   
-  // If only one part and it contains multiple "Nx" patterns, split by that pattern
-  if (parts.length === 1 && parts[0].match(/\d+x/g)?.length > 1) {
-    // Split by lookahead before digit+x pattern (but not at start)
-    parts = parts[0].split(/(?=\d+x)/).filter(p => p.trim());
-  }
+  // Now split by comma
+  const parts = normalized.split(',').map(p => p.trim()).filter(p => p);
   
   for (const part of parts) {
-    const match = part.trim().match(/(\d+)x?\s*(.+)/);
+    const match = part.match(/(\d+)\s*x\s*(.+)/i);
     if (match) {
       items.push({
         quantity: parseInt(match[1]),

@@ -70,6 +70,23 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .reset-button {
+            grid-column: 1 / -1;
+            padding: 10px 20px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .reset-button:hover {
+            background: #c82333;
         }
 
         .workbench-item {
@@ -264,6 +281,7 @@
             <div class="workbench-settings" id="workbenchSettings">
                 <!-- Workbench controls will be dynamically added -->
             </div>
+            <button class="reset-button" id="resetButton">Reset All Workbench Levels</button>
         </div>
 
         <div class="table-container">
@@ -290,7 +308,54 @@
     <script>
         let lootData = [];
         let workbenches = {};
-        const WORKBENCH_TYPES = ['Medical', 'Weapons', 'Armor', 'Utility', 'Engineering'];
+        const WORKBENCH_TYPES = ['Gunsmith', 'Gear Bench', 'Medical Lab', 'Explosives', 'Utility', 'Refiner', 'Scrappy'];
+
+        const WORKBENCH_RECIPES = {
+            gunsmith: {
+                0: [],
+                1: ['Metal Parts', 'Rubber Parts'], // Build: 20 Metal Parts, 30 Rubber Parts
+                2: ['Rusted Tools', 'Mechanical Components', 'Wasp Driver'], // L1->L2: 3 Rusted Tools, 5 Mechanical Components, 8 Wasp Drivers
+                3: ['Sentinel Firing Core'] // L2->L3
+            },
+            gear_bench: {
+                0: [],
+                1: ['Fabric', 'ARC Alloy'], // Build: 50 Fabric, 6 ARC Alloy
+                2: ['Electrical Components'], // L1->L2: Electrical Components mentioned
+                3: [] // L2->L3
+            },
+            medical_lab: {
+                0: [],
+                1: ['Fabric', 'ARC Alloy'], // Build: 50 Fabric, 6 ARC Alloy (same as Gear)
+                2: ['Syringe', 'Antiseptic', 'Snitch Scanner'], // L1->L2: 8 Syringes, 5 Antiseptic, 3 Snitch Scanners
+                3: [] // L2->L3
+            },
+            explosives: {
+                0: [],
+                1: ['Plastic Parts', 'Fabric'], // Build: 25 Plastic Parts, 30 Fabric
+                2: ['Power Cable', 'Electrical Components', 'Hornet Driver'], // L1->L2: 3 Power Cables, 5 Electrical Components, 5 Hornet Drivers
+                3: [] // L2->L3
+            },
+            utility: {
+                0: [],
+                1: ['Plastic Parts', 'ARC Alloy'], // Build: 50 Plastic Parts, 6 ARC Alloy
+                2: ['Damaged Heat Sink', 'Electrical Components', 'Snitch Scanner'], // L1->L2: 2 Damaged Heat Sink, 5 Electrical Components, 6 Snitch Scanners
+                3: [] // L2->L3
+            },
+            refiner: {
+                0: [],
+                1: ['Metal Parts', 'ARC Motion Core'], // Build: 75 Metal Parts, 3 ARC Motion Cores
+                2: ['Toaster'], // L1->L2: Toasters mentioned
+                3: [] // L2->L3
+            },
+            scrappy: {
+                0: [],
+                1: ['Dog Collar'], // L0->L1 (Level 2): 1 Dog Collar
+                2: ['Lemon', 'Apricot'], // L1->L2 (Level 3): 3 Lemons, 3 Apricots
+                3: ['Prickly Pear', 'Olives', 'Cat Bed'], // L2->L3 (Level 4): 8 Prickly Pears, 8 Olives, 1 Cat Bed
+                // Note: Level 5 exists but would need: 12 Apricots, 12 Mushrooms, 3 Very Comfortable Pillows
+            }
+        };
+
 
         async function loadData() {
             try {
@@ -316,19 +381,23 @@
         function initWorkbenchSettings() {
             const container = document.getElementById('workbenchSettings');
             
+            // Load saved levels
+            const savedLevels = loadWorkbenchLevels();
+            
             WORKBENCH_TYPES.forEach(type => {
                 const div = document.createElement('div');
                 div.className = 'workbench-item';
                 
                 const label = document.createElement('label');
-                label.textContent = `${type} Bench:`;
+                label.textContent = `${type}:`;
                 
                 const select = document.createElement('select');
-                select.id = `workbench-${type.toLowerCase()}`;
+                const typeKey = type.toLowerCase().replace(/ /g, '_');
+                select.id = `workbench-${typeKey}`;
                 
                 const option0 = document.createElement('option');
                 option0.value = '0';
-                option0.textContent = 'Level 0 (None)';
+                option0.textContent = 'Not Built';
                 select.appendChild(option0);
                 
                 for (let i = 1; i <= 3; i++) {
@@ -338,23 +407,54 @@
                     select.appendChild(option);
                 }
                 
+                // Set saved value or default to 0
+                const savedValue = savedLevels[typeKey] || 0;
+                select.value = savedValue;
+                workbenches[typeKey] = savedValue;
+                
                 select.addEventListener('change', (e) => {
-                    workbenches[type.toLowerCase()] = parseInt(e.target.value);
+                    workbenches[typeKey] = parseInt(e.target.value);
+                    saveWorkbenchLevels();
                     renderTable();
                 });
-                
-                workbenches[type.toLowerCase()] = 0;
                 
                 div.appendChild(label);
                 div.appendChild(select);
                 container.appendChild(div);
             });
+            
+            // Setup reset button
+            document.getElementById('resetButton').addEventListener('click', resetWorkbenchLevels);
         }
 
         function isItemNeededForWorkbench(itemName) {
-            // This would need to be enhanced with actual workbench recipe data
-            // For now, return false as we don't have workbench recipe information
-            return false;
+            // Check each workbench type
+            for (const [type, levels] of Object.entries(WORKBENCH_RECIPES)) {
+                const currentLevel = workbenches[type];
+                const nextLevel = currentLevel + 1;
+                
+                // Check if this item is needed for the next level upgrade
+                if (nextLevel <= 3 && levels[nextLevel]) {
+                    // Check if item name matches any required items (fuzzy match)
+                    for (const reqItem of levels[nextLevel]) {
+                        // Try various matching strategies
+                        if (itemName.toLowerCase().includes(reqItem.toLowerCase()) || 
+                            reqItem.toLowerCase().includes(itemName.toLowerCase()) ||
+                            itemName.toLowerCase().replace(/\s+/g, '') === reqItem.toLowerCase().replace(/\s+/g, '')) {
+                            // Format bench name nicely
+                            let benchName = type.replace(/_/g, ' ').split(' ')
+                                .map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                            return {
+                                needed: true,
+                                bench: benchName,
+                                level: nextLevel
+                            };
+                        }
+                    }
+                }
+            }
+            
+            return { needed: false };
         }
 
         function getRecommendation(item) {
@@ -435,9 +535,9 @@
                 
                 // Workbench status
                 const workbenchCell = row.insertCell();
-                const isNeeded = isItemNeededForWorkbench(item.name);
-                if (isNeeded) {
-                    workbenchCell.innerHTML = '<span class="badge badge-needed">Needed</span>';
+                const neededInfo = isItemNeededForWorkbench(item.name);
+                if (neededInfo.needed) {
+                    workbenchCell.innerHTML = `<span class="badge badge-needed">${neededInfo.bench} L${neededInfo.level}</span>`;
                 } else {
                     workbenchCell.textContent = '-';
                 }
