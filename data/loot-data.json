@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-02T23:36:48.770Z",
+  "lastUpdated": "2025-11-03T08:10:58.114Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -313,12 +313,12 @@
           "name": "Canister"
         },
         {
-          "quantity": 0,
+          "quantity": 10,
           "name": "Metal Parts"
         }
       ],
       "sellPrice": 2000,
-      "recycledSellPrice": 1200,
+      "recycledSellPrice": 1950,
       "category": "Recyclable"
     },
     {
@@ -672,7 +672,7 @@
       "recyclesToText": "14x Plastic Parts4x Battery",
       "recyclesToItems": [
         {
-          "quantity": 4,
+          "quantity": 14,
           "name": "Plastic Parts"
         },
         {
@@ -681,7 +681,7 @@
         }
       ],
       "sellPrice": 2000,
-      "recycledSellPrice": 1240,
+      "recycledSellPrice": 1840,
       "category": "Recyclable"
     },
     {
@@ -2183,7 +2183,7 @@
       "recyclesToText": "18x Rubber Parts3x Steel Spring",
       "recyclesToItems": [
         {
-          "quantity": 8,
+          "quantity": 18,
           "name": "Rubber Parts"
         },
         {
@@ -2192,7 +2192,7 @@
         }
       ],
       "sellPrice": 2000,
-      "recycledSellPrice": 1300,
+      "recycledSellPrice": 1800,
       "category": "Recyclable"
     },
     {
@@ -2289,7 +2289,7 @@
       "recyclesToText": "10x Plastic Parts6x Rubber Parts",
       "recyclesToItems": [
         {
-          "quantity": 0,
+          "quantity": 10,
           "name": "Plastic Parts"
         },
         {
@@ -2298,7 +2298,7 @@
         }
       ],
       "sellPrice": 2000,
-      "recycledSellPrice": 300,
+      "recycledSellPrice": 900,
       "category": "Recyclable"
     },
     {
