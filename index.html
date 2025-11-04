@@ -29,10 +29,44 @@
         }
 
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(60deg,
+        /* ===== Red band → black (stripe 1 around 25%) ===== */
+        rgb(241, 10, 9) 0%,
+        rgb(241, 10, 9) 21.7%,
+        color-mix(in srgb, rgb(241, 10, 9) 70%, black 30%) 22.2%,
+        color-mix(in srgb, rgb(241, 10, 9) 30%, black 70%) 22.5%,
+        black 22.5%,
+        black 27.5%,
+        color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 27.8%,
+        color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 28.3%,
+
+        /* ===== Yellow band ===== */
+        rgb(247, 211, 13) 28.8%,
+        rgb(247, 211, 13) 46.7%,
+        color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 47.2%,
+        color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 47.5%,
+        black 47.5%,
+        black 52.5%,
+        color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 52.8%,
+        color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 53.3%,
+
+        /* ===== Green band ===== */
+        rgb(46, 238, 126) 53.8%,
+        rgb(46, 238, 126) 71.7%,
+        color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 72.2%,
+        color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 72.5%,
+        black 72.5%,
+        black 77.5%,
+        color-mix(in srgb, rgb(129, 240, 228) 30%, black 70%) 77.8%,
+        color-mix(in srgb, rgb(129, 240, 228) 70%, black 30%) 78.3%,
+
+        /* ===== Cyan band ===== */
+        rgb(129, 240, 228) 78.8%,
+        rgb(129, 240, 228) 100%
             color: white;
             padding: 30px;
             text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         header h1 {
@@ -71,21 +105,61 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
             margin-bottom: 15px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
         }
 
-        .expedition-section {
-            margin-top: 25px;
-            padding-top: 20px;
-            border-top: 2px solid #dee2e6;
+        .workbench-settings.collapsed {
+            max-height: 0;
+            opacity: 0;
+            margin-bottom: 0;
         }
 
-        .expedition-section h3 {
+        .section-header {
             color: #495057;
             font-size: 1.1em;
             margin-bottom: 15px;
             display: flex;
             align-items: center;
             gap: 8px;
+            cursor: pointer;
+            user-select: none;
+            padding: 8px;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .section-header:hover {
+            background-color: rgba(0, 0, 0, 0.03);
+        }
+
+        .section-header .chevron {
+            transition: transform 0.3s ease;
+            font-size: 0.8em;
+        }
+
+        .section-header.collapsed .chevron {
+            transform: rotate(-90deg);
+        }
+
+        .workbench-section {
+            margin-bottom: 20px;
+        }
+
+        .expedition-section {
+            margin-top: 5px;
+            padding-top: 20px;
+            border-top: 2px solid #dee2e6;
+        }
+
+        .expedition-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+        }
+
+        .expedition-content.collapsed {
+            max-height: 0;
+            opacity: 0;
         }
 
         .expedition-phase-selector {
@@ -346,22 +420,33 @@
                 placeholder="🔍 Search items by name..."
             >
 
-            <div class="workbench-settings" id="workbenchSettings">
-                <!-- Workbench controls will be dynamically added -->
+            <div class="workbench-section">
+                <h3 class="section-header" id="workbenchHeader">
+                    <span class="chevron">▼</span>
+                    🔧 Workbench Upgrades
+                </h3>
+                <div class="workbench-settings" id="workbenchSettings">
+                    <!-- Workbench controls will be dynamically added -->
+                </div>
             </div>
 
             <div class="expedition-section">
-                <h3>🚀 Expedition Progress</h3>
-                <div class="expedition-phase-selector">
-                    <label for="expeditionPhase">Current Phase Completed:</label>
-                    <select id="expeditionPhase">
-                        <option value="0">Not Started</option>
-                        <option value="1">Phase 1: Foundation</option>
-                        <option value="2">Phase 2: Core Systems</option>
-                        <option value="3">Phase 3: Framework</option>
-                        <option value="4">Phase 4: Outfitting</option>
-                        <option value="5">Phase 5: Load Stage (Complete)</option>
-                    </select>
+                <h3 class="section-header" id="expeditionHeader">
+                    <span class="chevron">▼</span>
+                    🚀 Expedition Progress
+                </h3>
+                <div class="expedition-content" id="expeditionContent">
+                    <div class="expedition-phase-selector">
+                        <label for="expeditionPhase">Current Phase Completed:</label>
+                        <select id="expeditionPhase">
+                            <option value="0">Not Started</option>
+                            <option value="1">Phase 1: Foundation</option>
+                            <option value="2">Phase 2: Core Systems</option>
+                            <option value="3">Phase 3: Framework</option>
+                            <option value="4">Phase 4: Outfitting</option>
+                            <option value="5">Phase 5: Load Stage (Complete)</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
@@ -514,6 +599,32 @@
             }
         }
 
+        function loadSectionStates() {
+            const raw = localStorage.getItem('sectionStates');
+            if (!raw) return { workbench: false, expedition: false };
+            
+            try {
+                const states = JSON.parse(raw);
+                return {
+                    workbench: states.workbench === true,
+                    expedition: states.expedition === true
+                };
+            } catch {
+                return { workbench: false, expedition: false };
+            }
+        }
+
+        function saveSectionStates(workbenchCollapsed, expeditionCollapsed) {
+            try {
+                localStorage.setItem('sectionStates', JSON.stringify({
+                    workbench: workbenchCollapsed,
+                    expedition: expeditionCollapsed
+                }));
+            } catch {
+                // ignore quota or serialization errors
+            }
+        }
+
         function resetWorkbenchLevels() {
             // Reset internal state
             WORKBENCH_TYPES.forEach(t => {
@@ -634,6 +745,43 @@
                 saveExpeditionPhase();
                 renderTable();
             });
+
+            // Setup collapsible sections
+            setupCollapsibleSections();
+        }
+
+        function setupCollapsibleSections() {
+            // Load saved states
+            const states = loadSectionStates();
+            
+            const workbenchHeader = document.getElementById('workbenchHeader');
+            const workbenchSettings = document.getElementById('workbenchSettings');
+            const expeditionHeader = document.getElementById('expeditionHeader');
+            const expeditionContent = document.getElementById('expeditionContent');
+            
+            // Apply saved states
+            if (states.workbench) {
+                workbenchSettings.classList.add('collapsed');
+                workbenchHeader.classList.add('collapsed');
+            }
+            if (states.expedition) {
+                expeditionContent.classList.add('collapsed');
+                expeditionHeader.classList.add('collapsed');
+            }
+            
+            // Workbench section toggle
+            workbenchHeader.addEventListener('click', () => {
+                const isCollapsed = workbenchSettings.classList.toggle('collapsed');
+                workbenchHeader.classList.toggle('collapsed');
+                saveSectionStates(isCollapsed, expeditionContent.classList.contains('collapsed'));
+            });
+
+            // Expedition section toggle
+            expeditionHeader.addEventListener('click', () => {
+                const isCollapsed = expeditionContent.classList.toggle('collapsed');
+                expeditionHeader.classList.toggle('collapsed');
+                saveSectionStates(workbenchSettings.classList.contains('collapsed'), isCollapsed);
+            });
         }
 
         function normalizeName(s) {
@@ -664,6 +812,22 @@
                     }
                 }
             }
+            return { needed: false };
+        }
+
+        function isItemNeededForExpedition(itemName) {
+            const itemNorm = normalizeName(itemName);
+            
+            // Check all future phases (current+1 ... 5)
+            for (let phase = expeditionPhase + 1; phase <= 5; phase++) {
+                const reqs = EXPEDITION_PHASES[phase] || [];
+                for (const reqItem of reqs) {
+                    if (itemNorm === normalizeName(reqItem)) {
+                        return { needed: true, phase: phase };
+                    }
+                }
+            }
+            
             return { needed: false };
         }
 
@@ -748,14 +912,15 @@
                 // Keep For (Workbench + Expedition + Quest)
                 const keepForCell = row.insertCell();
                 const neededInfo = isItemNeededForWorkbench(item.name);
+                const expeditionInfo = isItemNeededForExpedition(item.name);
                 const badges = [];
                 
                 if (neededInfo.needed) {
                     badges.push(`<span class="badge badge-needed">${neededInfo.bench} L${neededInfo.level}</span>`);
                 }
                 
-                if (item.expedition) {
-                    badges.push(`<span class="badge badge-expedition">Expedition</span>`);
+                if (expeditionInfo.needed) {
+                    badges.push(`<span class="badge badge-expedition">Expedition P${expeditionInfo.phase}</span>`);
                 }
                 
                 if (item.quest) {
