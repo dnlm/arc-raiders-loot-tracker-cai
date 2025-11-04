@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-04T00:19:18.003Z",
+  "lastUpdated": "2025-11-04T15:58:00.791Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -485,7 +485,7 @@
     {
       "name": "Buried City Hospital Key",
       "link": "/wiki/Buried_City_Hospital_Key",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -515,7 +515,7 @@
     {
       "name": "Buried City Town Hall Key",
       "link": "/wiki/Buried_City_Town_Hall_Key",
-      "rarity": "Uncommon",
+      "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -736,7 +736,7 @@
     {
       "name": "Dam Control Tower Key",
       "link": "/wiki/Dam_Control_Tower_Key",
-      "rarity": "Uncommon",
+      "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -1215,15 +1215,15 @@
       "name": "Garlic Press",
       "link": "/wiki/Garlic_Press",
       "rarity": "Uncommon",
-      "recyclesToText": "14x Metal Parts",
+      "recyclesToText": "12x Metal Parts",
       "recyclesToItems": [
         {
-          "quantity": 14,
+          "quantity": 12,
           "name": "Metal Parts"
         }
       ],
       "sellPrice": 1000,
-      "recycledSellPrice": 1050,
+      "recycledSellPrice": 900,
       "category": "Recyclable"
     },
     {
@@ -1723,16 +1723,6 @@
       "sellPrice": 640,
       "recycledSellPrice": 200,
       "category": "Nature"
-    },
-    {
-      "name": "Outskirts Bunker Key",
-      "link": "/wiki/Outskirts_Bunker_Key",
-      "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 100,
-      "recycledSellPrice": 0,
-      "category": "Key"
     },
     {
       "name": "Painted Box",
@@ -2455,7 +2445,7 @@
       "name": "Snitch Scanner",
       "link": "/wiki/Snitch_Scanner",
       "rarity": "Uncommon",
-      "recyclesToText": "4x ARC Alloy\n2x Electrical Components",
+      "recyclesToText": "4x ARC Alloy2x Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -2473,7 +2463,7 @@
     {
       "name": "Spaceport Container Storage Key",
       "link": "/wiki/Spaceport_Container_Storage_Key",
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -2481,9 +2471,9 @@
       "category": "Key"
     },
     {
-      "name": "Spaceport Ground Control Key",
-      "link": "/wiki/Spaceport_Ground_Control_Key",
-      "rarity": "Uncommon",
+      "name": "Spaceport Control Tower Key",
+      "link": "/wiki/Spaceport_Control_Tower_Key",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -2544,7 +2534,7 @@
           "name": "Steel Spring"
         }
       ],
-      "sellPrice": 1000,
+      "sellPrice": 2000,
       "recycledSellPrice": 1880,
       "category": "Recyclable"
     },
