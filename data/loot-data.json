@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-04T15:58:00.791Z",
+  "lastUpdated": "2025-11-04T21:43:19.776Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -14,7 +14,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 1280,
-      "category": "Misc"
+      "category": "Misc",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Advanced Electrical Components",
@@ -33,7 +35,9 @@
       ],
       "sellPrice": 1750,
       "recycledSellPrice": 840,
-      "category": "Advanced Material"
+      "category": "Advanced Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Advanced Mechanical Components",
@@ -52,7 +56,9 @@
       ],
       "sellPrice": 1750,
       "recycledSellPrice": 2200,
-      "category": "Advanced Material"
+      "category": "Advanced Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Agave",
@@ -67,7 +73,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 300,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Air Freshener",
@@ -77,7 +85,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Alarm Clock",
@@ -96,7 +106,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 860,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Antiseptic",
@@ -111,7 +123,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 500,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Apricot",
@@ -126,7 +140,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 300,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Alloy",
@@ -141,7 +157,9 @@
       ],
       "sellPrice": 200,
       "recycledSellPrice": 150,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "ARC Circuitry",
@@ -156,7 +174,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 400,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Coolant",
@@ -171,7 +191,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 800,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Flex Rubber",
@@ -186,7 +208,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 800,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Motion Core",
@@ -201,7 +225,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 400,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Performance Steel",
@@ -216,7 +242,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Powercell",
@@ -226,7 +254,9 @@
       "recyclesToItems": [],
       "sellPrice": 640,
       "recycledSellPrice": 0,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Synthetic Resin",
@@ -241,7 +271,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 840,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "ARC Thermo Lining",
@@ -256,7 +288,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 800,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Assorted Seeds",
@@ -266,7 +300,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Bastion Cell",
@@ -285,7 +321,9 @@
       ],
       "sellPrice": 5000,
       "recycledSellPrice": 5500,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Battery",
@@ -300,7 +338,9 @@
       ],
       "sellPrice": 250,
       "recycledSellPrice": 150,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Bicycle Pump",
@@ -319,7 +359,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1950,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Bloated Tuna Can",
@@ -329,7 +371,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Blown Fuses",
@@ -339,7 +383,9 @@
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Blue Gate Communication Tower Key",
@@ -349,7 +395,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Blue Gate Confiscation Room Key",
@@ -359,7 +407,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Blue Gate Cellar Key",
@@ -369,7 +419,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Blue Gate Village Key",
@@ -379,7 +431,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Bombardier Cell",
@@ -398,7 +452,9 @@
       ],
       "sellPrice": 5000,
       "recycledSellPrice": 3900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Breathtaking Snow Globe",
@@ -408,7 +464,9 @@
       "recyclesToItems": [],
       "sellPrice": 7000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Broken Flashlight",
@@ -427,7 +485,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1275,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Broken Guidance System",
@@ -442,7 +502,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 2000,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Broken Handheld Radio",
@@ -461,7 +523,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 2100,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Broken Taser",
@@ -480,7 +544,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Buried City Hospital Key",
@@ -490,7 +556,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Buried City JKV Employee Access Card",
@@ -500,7 +568,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Buried City Residential Mastery Key",
@@ -510,7 +580,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Buried City Town Hall Key",
@@ -520,7 +592,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Burned ARC Circuitry",
@@ -535,7 +609,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Camera Lens",
@@ -550,7 +626,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 480,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Candle Holder",
@@ -565,7 +643,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Canister",
@@ -580,7 +660,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 180,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Cat Bed",
@@ -590,7 +672,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Chemicals",
@@ -600,7 +684,9 @@
       "recyclesToItems": [],
       "sellPrice": 50,
       "recycledSellPrice": 0,
-      "category": "Basic Material"
+      "category": "Basic Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Coffee Pot",
@@ -610,7 +696,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Complex Gun Parts",
@@ -625,7 +713,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 990,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Coolant",
@@ -644,7 +734,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 850,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Cooling Coil",
@@ -663,7 +755,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Cooling Fan",
@@ -682,7 +776,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1840,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Cracked Bioscanner",
@@ -701,7 +797,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Crude Explosives",
@@ -716,7 +814,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 150,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Crumpled Plastic Bottle",
@@ -731,7 +831,9 @@
       ],
       "sellPrice": 80,
       "recycledSellPrice": 180,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dam Control Tower Key",
@@ -741,7 +843,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dam Staff Room Key",
@@ -751,7 +855,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dam Surveillance Key",
@@ -761,7 +867,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dam Testing Annex Key",
@@ -771,7 +879,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dam Utility Key",
@@ -781,7 +891,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged ARC Motion Core",
@@ -796,7 +908,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged ARC Powercell",
@@ -811,7 +925,9 @@
       ],
       "sellPrice": 293,
       "recycledSellPrice": 200,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged Fireball Burner",
@@ -826,7 +942,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 200,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged Heat Sink",
@@ -845,7 +963,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 850,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged Hornet Driver",
@@ -860,7 +980,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged Rocketeer Driver",
@@ -875,7 +997,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Damaged Wasp Driver",
@@ -890,7 +1014,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 200,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dart Board",
@@ -900,7 +1026,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Deflated Football",
@@ -915,7 +1043,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 750,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Degraded ARC Rubber",
@@ -930,7 +1060,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 550,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Diving Goggles",
@@ -945,7 +1077,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dog Collar",
@@ -964,7 +1098,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 475,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Dried-Out ARC Resin",
@@ -979,7 +1115,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 540,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Duct Tape",
@@ -994,7 +1132,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 150,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Durable Cloth",
@@ -1009,7 +1149,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 300,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Electrical Components",
@@ -1028,7 +1170,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 330,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Empty Wine Bottle",
@@ -1038,7 +1182,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Exodus Modules",
@@ -1057,7 +1203,9 @@
       ],
       "sellPrice": 2750,
       "recycledSellPrice": 2600,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Expired Pasta",
@@ -1067,7 +1215,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Expired Respirator",
@@ -1086,7 +1236,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Explosive Compound",
@@ -1101,7 +1253,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 540,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Fabric",
@@ -1111,7 +1265,9 @@
       "recyclesToItems": [],
       "sellPrice": 50,
       "recycledSellPrice": 0,
-      "category": "Basic Material"
+      "category": "Basic Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Faded Photograph",
@@ -1121,7 +1277,9 @@
       "recyclesToItems": [],
       "sellPrice": 640,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": true
     },
     {
       "name": "Fertilizer",
@@ -1136,7 +1294,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 200,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Film Reel",
@@ -1146,7 +1306,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": true
     },
     {
       "name": "Fine Wristwatch",
@@ -1156,7 +1318,9 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Fireball Burner",
@@ -1175,7 +1339,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 250,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Fried Motherboard",
@@ -1194,7 +1360,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 940,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Frying Pan",
@@ -1209,7 +1377,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Garlic Press",
@@ -1224,7 +1394,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Great Mullein",
@@ -1239,7 +1411,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 400,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Headphones",
@@ -1258,7 +1432,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1300,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Heavy Gun Parts",
@@ -1273,7 +1449,9 @@
       ],
       "sellPrice": 700,
       "recycledSellPrice": 660,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Hornet Driver",
@@ -1292,7 +1470,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1680,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Household Cleaner",
@@ -1307,7 +1487,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 650,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Humidifier",
@@ -1326,7 +1508,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1000,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Ice Cream Scooper",
@@ -1341,7 +1525,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 525,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Impure ARC Coolant",
@@ -1356,7 +1542,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 650,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Industrial Battery",
@@ -1375,7 +1563,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 850,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Industrial Charger",
@@ -1394,7 +1584,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 875,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Industrial Magnet",
@@ -1413,7 +1605,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Laboratory Reagents",
@@ -1432,7 +1626,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 640,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Lance's Mixtape (5th Edition)",
@@ -1442,7 +1638,9 @@
       "recyclesToItems": [],
       "sellPrice": 10000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Lemon",
@@ -1457,7 +1655,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 300,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Leaper Pulse Unit",
@@ -1476,7 +1676,9 @@
       ],
       "sellPrice": 5000,
       "recycledSellPrice": 4100,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Light Bulb",
@@ -1486,7 +1688,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Light Gun Parts",
@@ -1501,7 +1705,9 @@
       ],
       "sellPrice": 700,
       "recycledSellPrice": 660,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Magnet",
@@ -1516,7 +1722,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 225,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Magnetic Accelerator",
@@ -1535,7 +1743,9 @@
       ],
       "sellPrice": 5500,
       "recycledSellPrice": 2750,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Mechanical Components",
@@ -1554,7 +1764,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1200,
-      "category": "Refined Material"
+      "category": "Refined Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Medium Gun Parts",
@@ -1569,7 +1781,9 @@
       ],
       "sellPrice": 700,
       "recycledSellPrice": 660,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Metal Brackets",
@@ -1584,7 +1798,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Metal Parts",
@@ -1594,7 +1810,9 @@
       "recyclesToItems": [],
       "sellPrice": 75,
       "recycledSellPrice": 0,
-      "category": "Basic Material"
+      "category": "Basic Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Mod Components",
@@ -1613,7 +1831,9 @@
       ],
       "sellPrice": 3000,
       "recycledSellPrice": 1800,
-      "category": "Advanced Material"
+      "category": "Advanced Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Moss",
@@ -1628,7 +1848,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 250,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Motor",
@@ -1647,7 +1869,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 4600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Mushroom",
@@ -1657,7 +1881,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Music Album",
@@ -1667,7 +1893,9 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Music Box",
@@ -1677,7 +1905,9 @@
       "recyclesToItems": [],
       "sellPrice": 5000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Number Plate",
@@ -1692,7 +1922,9 @@
       ],
       "sellPrice": 80,
       "recycledSellPrice": 225,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Oil",
@@ -1707,7 +1939,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 150,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Olives",
@@ -1722,7 +1956,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 200,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Painted Box",
@@ -1732,7 +1968,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Patrol Car Key",
@@ -1742,7 +1980,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Plastic Parts",
@@ -1752,7 +1992,9 @@
       "recyclesToItems": [],
       "sellPrice": 60,
       "recycledSellPrice": 0,
-      "category": "Basic Material"
+      "category": "Basic Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Playing Cards",
@@ -1762,7 +2004,9 @@
       "recyclesToItems": [],
       "sellPrice": 5000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Polluted Air Filter",
@@ -1781,7 +2025,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Pop Trigger",
@@ -1800,7 +2046,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 470,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Portable TV",
@@ -1819,7 +2067,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1700,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Poster of Natural Wonders",
@@ -1829,7 +2079,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Pottery",
@@ -1839,7 +2091,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Power Bank",
@@ -1858,7 +2112,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Power Cable",
@@ -1873,7 +2129,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 800,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Power Rod",
@@ -1892,7 +2150,9 @@
       ],
       "sellPrice": 5500,
       "recycledSellPrice": 2750,
-      "category": "Advanced Material"
+      "category": "Advanced Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Prickly Pear",
@@ -1907,7 +2167,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 300,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Processor",
@@ -1926,7 +2188,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 260,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Projector",
@@ -1945,7 +2209,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Queen Reactor",
@@ -1964,7 +2230,9 @@
       ],
       "sellPrice": 13000,
       "recycledSellPrice": 11000,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Radio",
@@ -1983,7 +2251,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1500,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Raider Hatch Key",
@@ -1993,7 +2263,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Red Coral Jewelry",
@@ -2003,7 +2275,9 @@
       "recyclesToItems": [],
       "sellPrice": 5000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Remote Control",
@@ -2022,7 +2296,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 620,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Resin",
@@ -2032,7 +2308,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rocketeer Driver",
@@ -2051,7 +2329,9 @@
       ],
       "sellPrice": 5000,
       "recycledSellPrice": 4100,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ripped Safety Vest",
@@ -2070,7 +2350,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 940,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rocket Thruster",
@@ -2089,7 +2371,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1850,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Roots",
@@ -2104,7 +2388,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 100,
-      "category": "Nature"
+      "category": "Nature",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rope",
@@ -2119,7 +2405,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 250,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rosary",
@@ -2129,7 +2417,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rubber Duck",
@@ -2139,7 +2429,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": true
     },
     {
       "name": "Rubber Pad",
@@ -2154,7 +2446,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1100,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rubber Parts",
@@ -2164,7 +2458,9 @@
       "recyclesToItems": [],
       "sellPrice": 50,
       "recycledSellPrice": 0,
-      "category": "Basic Material"
+      "category": "Basic Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Ruined Accordion",
@@ -2183,7 +2479,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1800,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Augment",
@@ -2202,7 +2500,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 220,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Baton",
@@ -2221,7 +2521,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Handcuffs",
@@ -2236,7 +2538,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Parachute",
@@ -2251,7 +2555,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 500,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Tactical Vest",
@@ -2270,7 +2576,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 550,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Ruined Riot Shield",
@@ -2289,7 +2597,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rusted Bolts",
@@ -2304,7 +2614,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rusted Gear",
@@ -2323,7 +2635,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 4300,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rusted Shut Medical Kit",
@@ -2342,7 +2656,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 2000,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rusted Tools",
@@ -2361,7 +2677,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Rusty ARC Steel",
@@ -2376,7 +2694,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Sensors",
@@ -2395,7 +2715,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 550,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Sentinel Firing Core",
@@ -2414,7 +2736,9 @@
       ],
       "sellPrice": 3000,
       "recycledSellPrice": 6400,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Silver Teaspoon Set",
@@ -2424,7 +2748,9 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Simple Gun Parts",
@@ -2439,7 +2765,9 @@
       ],
       "sellPrice": 330,
       "recycledSellPrice": 150,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Snitch Scanner",
@@ -2458,7 +2786,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 2080,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spaceport Container Storage Key",
@@ -2468,7 +2798,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spaceport Control Tower Key",
@@ -2478,7 +2810,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spaceport Trench Tower Key",
@@ -2488,7 +2822,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spaceport Warehouse Key",
@@ -2498,7 +2834,9 @@
       "recyclesToItems": [],
       "sellPrice": 100,
       "recycledSellPrice": 0,
-      "category": "Key"
+      "category": "Key",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Speaker Component",
@@ -2517,7 +2855,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 220,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spring Cushion",
@@ -2536,7 +2876,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1880,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Spotter Relay",
@@ -2555,7 +2897,9 @@
       ],
       "sellPrice": 5000,
       "recycledSellPrice": 1480,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Statuette",
@@ -2565,7 +2909,9 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Steel Spring",
@@ -2580,7 +2926,9 @@
       ],
       "sellPrice": 300,
       "recycledSellPrice": 225,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": true,
+      "quest": false
     },
     {
       "name": "Surveyor Vault",
@@ -2599,7 +2947,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 4400,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Synthesized Fuel",
@@ -2618,7 +2968,9 @@
       ],
       "sellPrice": 700,
       "recycledSellPrice": 360,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Syringe",
@@ -2637,7 +2989,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 280,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Tattered ARC Lining",
@@ -2652,7 +3006,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Tattered Clothes",
@@ -2667,7 +3023,9 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 550,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Thermostat",
@@ -2686,7 +3044,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1300,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Tick Pod",
@@ -2705,7 +3065,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 125,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Toaster",
@@ -2724,7 +3086,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Torn Book",
@@ -2734,7 +3098,9 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Torn Blanket",
@@ -2749,7 +3115,9 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 600,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Turbo Pump",
@@ -2768,7 +3136,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 2900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Unusable Weapon",
@@ -2787,7 +3157,9 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1950,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Vase",
@@ -2797,7 +3169,9 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Very Comfortable Pillow",
@@ -2807,7 +3181,9 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "category": "Trinket"
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Volcanic Rock",
@@ -2817,7 +3193,9 @@
       "recyclesToItems": [],
       "sellPrice": 270,
       "recycledSellPrice": 0,
-      "category": "Misc"
+      "category": "Misc",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Voltage Converter",
@@ -2836,7 +3214,9 @@
       ],
       "sellPrice": 500,
       "recycledSellPrice": 250,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Wasp Driver",
@@ -2855,7 +3235,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 840,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Water Filter",
@@ -2874,7 +3256,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 1000,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Water Pump",
@@ -2893,7 +3277,9 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
-      "category": "Recyclable"
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": true
     },
     {
       "name": "Wires",
@@ -2908,7 +3294,9 @@
       ],
       "sellPrice": 200,
       "recycledSellPrice": 100,
-      "category": "Topside Material"
+      "category": "Topside Material",
+      "expedition": true,
+      "quest": false
     }
   ]
 }
