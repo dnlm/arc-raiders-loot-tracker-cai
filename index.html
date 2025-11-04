@@ -182,6 +182,11 @@
             color: #084298;
         }
 
+        .badge-quest {
+            background: #d1e7dd;
+            color: #0f5132;
+        }
+
         .badge-equal {
             background: #d1ecf1;
             color: #0c5460;
@@ -267,6 +272,25 @@
                 padding: 8px 6px;
             }
         }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+            border-top: 2px solid #e9ecef;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -309,6 +333,11 @@
                 </tbody>
             </table>
         </div>
+
+        <footer>
+            Data sourced from <a href="https://arcraiders.wiki/wiki/Loot" target="_blank" rel="noopener">Arc Raiders Wiki</a> • 
+            <span id="footerLastUpdated">Updated automatically every 24 hours</span>
+        </footer>
     </div>
 
     <script>
@@ -429,8 +458,11 @@
                 const data = await response.json();
                 lootData = data.items;
                 
+                const lastUpdated = new Date(data.lastUpdated).toLocaleString();
                 document.getElementById('lastUpdated').textContent = 
-                    `Last Updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+                    `Last Updated: ${lastUpdated}`;
+                document.getElementById('footerLastUpdated').textContent = 
+                    `Last Updated: ${lastUpdated}`;
                 
                 initWorkbenchSettings();
                 renderTable();
@@ -610,7 +642,7 @@
                 const rec = getRecommendation(item);
                 recommendationCell.innerHTML = `<span class="badge ${rec.class}">${rec.action}</span>`;
                 
-                // Keep For (Workbench + Expedition)
+                // Keep For (Workbench + Expedition + Quest)
                 const keepForCell = row.insertCell();
                 const neededInfo = isItemNeededForWorkbench(item.name);
                 const badges = [];
@@ -621,6 +653,10 @@
                 
                 if (item.expedition) {
                     badges.push(`<span class="badge badge-expedition">Expedition</span>`);
+                }
+                
+                if (item.quest) {
+                    badges.push(`<span class="badge badge-quest">Quest</span>`);
                 }
                 
                 if (badges.length > 0) {

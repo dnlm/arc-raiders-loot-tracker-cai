@@ -84,7 +84,8 @@ async function scrapeLootTable() {
         sellPrice: null,
         recycledSellPrice: 0,
         category: $(cells[4]).text().trim() || 'Unknown',
-        expedition: $(cells[5]).text().trim().toLowerCase().includes('expedition')
+        expedition: $(cells[5]).text().trim().toLowerCase().includes('expedition'),
+        quest: $(cells[5]).text().trim().toLowerCase().includes('quest')
       };
       
       // Parse sell price
