@@ -159,6 +159,7 @@
             font-size: 12px;
             font-weight: 600;
             text-transform: uppercase;
+            margin-right: 5px;
         }
 
         .badge-recycle {
@@ -174,6 +175,11 @@
         .badge-needed {
             background: #f8d7da;
             color: #721c24;
+        }
+
+        .badge-expedition {
+            background: #cfe2ff;
+            color: #084298;
         }
 
         .badge-equal {
@@ -296,7 +302,7 @@
                         <th>Recycles To</th>
                         <th>Recycled Value</th>
                         <th>Recommendation</th>
-                        <th>Workbench Status</th>
+                        <th>Keep For</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody">
@@ -604,13 +610,23 @@
                 const rec = getRecommendation(item);
                 recommendationCell.innerHTML = `<span class="badge ${rec.class}">${rec.action}</span>`;
                 
-                // Workbench status
-                const workbenchCell = row.insertCell();
+                // Keep For (Workbench + Expedition)
+                const keepForCell = row.insertCell();
                 const neededInfo = isItemNeededForWorkbench(item.name);
+                const badges = [];
+                
                 if (neededInfo.needed) {
-                    workbenchCell.innerHTML = `<span class="badge badge-needed">${neededInfo.bench} L${neededInfo.level}</span>`;
+                    badges.push(`<span class="badge badge-needed">${neededInfo.bench} L${neededInfo.level}</span>`);
+                }
+                
+                if (item.expedition) {
+                    badges.push(`<span class="badge badge-expedition">Expedition</span>`);
+                }
+                
+                if (badges.length > 0) {
+                    keepForCell.innerHTML = badges.join(' ');
                 } else {
-                    workbenchCell.textContent = '-';
+                    keepForCell.textContent = '-';
                 }
             });
         }

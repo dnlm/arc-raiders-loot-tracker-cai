@@ -83,7 +83,8 @@ async function scrapeLootTable() {
         recyclesToItems: parseRecycleItems($(cells[2]).text().trim()),
         sellPrice: null,
         recycledSellPrice: 0,
-        category: $(cells[4]).text().trim() || 'Unknown'
+        category: $(cells[4]).text().trim() || 'Unknown',
+        expedition: $(cells[5]).text().trim().toLowerCase().includes('expedition')
       };
       
       // Parse sell price
