@@ -73,6 +73,44 @@
             margin-bottom: 15px;
         }
 
+        .expedition-section {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 2px solid #dee2e6;
+        }
+
+        .expedition-section h3 {
+            color: #495057;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .expedition-phase-selector {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+
+        .expedition-phase-selector label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .expedition-phase-selector select {
+            flex: 1;
+            padding: 6px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
         .reset-button {
             grid-column: 1 / -1;
             padding: 10px 20px;
@@ -311,7 +349,23 @@
             <div class="workbench-settings" id="workbenchSettings">
                 <!-- Workbench controls will be dynamically added -->
             </div>
-            <button class="reset-button" id="resetButton">Reset All Workbench Levels</button>
+
+            <div class="expedition-section">
+                <h3>🚀 Expedition Progress</h3>
+                <div class="expedition-phase-selector">
+                    <label for="expeditionPhase">Current Phase Completed:</label>
+                    <select id="expeditionPhase">
+                        <option value="0">Not Started</option>
+                        <option value="1">Phase 1: Foundation</option>
+                        <option value="2">Phase 2: Core Systems</option>
+                        <option value="3">Phase 3: Framework</option>
+                        <option value="4">Phase 4: Outfitting</option>
+                        <option value="5">Phase 5: Load Stage (Complete)</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="reset-button" id="resetButton">Reset All Workbench Levels & Expedition</button>
         </div>
 
         <div class="table-container">
@@ -343,6 +397,7 @@
     <script>
         let lootData = [];
         let workbenches = {};
+        let expeditionPhase = 0;
         const WORKBENCH_TYPES = ['Gunsmith', 'Gear Bench', 'Medical Lab', 'Explosives', 'Utility', 'Refiner', 'Scrappy'];
 
         const WORKBENCH_RECIPES = {
@@ -391,6 +446,14 @@
             }
         };
 
+        const EXPEDITION_PHASES = {
+            1: ['Metal Parts', 'Rubber Parts', 'ARC Alloy', 'Steel Spring'],
+            2: ['Durable Cloth', 'Wires', 'Electrical Components', 'Cooling Fan'],
+            3: ['Light Bulb', 'Battery', 'Sensors', 'Exodus Modules'],
+            4: ['Humidifier', 'Advanced Electrical Components', 'Magnetic Accelerator', 'Leaper Pulse Unit'],
+            5: [] // Phase 5 is coin value based, no specific items
+        };
+
         function loadWorkbenchLevels() {
             // Read persisted levels from localStorage and sanitize them.
             const raw = localStorage.getItem('workbenchLevels');
@@ -415,7 +478,6 @@
                     levels[key] = Number.isInteger(n) && n >= 0 && n <= maxL ? n : 0;
                 });
 
-
                 return levels;
             } catch {
                 // If storage is corrupted, start fresh
@@ -423,10 +485,30 @@
             }
         }
 
+        function loadExpeditionPhase() {
+            const raw = localStorage.getItem('expeditionPhase');
+            if (!raw) return 0;
+            
+            try {
+                const phase = parseInt(raw, 10);
+                return (phase >= 0 && phase <= 5) ? phase : 0;
+            } catch {
+                return 0;
+            }
+        }
+
         function saveWorkbenchLevels() {
             // Persist the current `workbenches` map
             try {
                 localStorage.setItem('workbenchLevels', JSON.stringify(workbenches));
+            } catch {
+                // ignore quota or serialization errors
+            }
+        }
+
+        function saveExpeditionPhase() {
+            try {
+                localStorage.setItem('expeditionPhase', expeditionPhase.toString());
             } catch {
                 // ignore quota or serialization errors
             }
@@ -446,8 +528,14 @@
                 if (sel) sel.value = '0';
             });
 
+            // Reset expedition
+            expeditionPhase = 0;
+            const expSel = document.getElementById('expeditionPhase');
+            if (expSel) expSel.value = '0';
+
             // Persist & re-render
             saveWorkbenchLevels();
+            saveExpeditionPhase();
             renderTable();
         }
 
@@ -465,6 +553,7 @@
                     `Last Updated: ${lastUpdated}`;
                 
                 initWorkbenchSettings();
+                initExpeditionSettings();
                 renderTable();
                 
                 document.getElementById('loading').style.display = 'none';
@@ -531,6 +620,20 @@
             
             // Setup reset button
             document.getElementById('resetButton').addEventListener('click', resetWorkbenchLevels);
+        }
+
+        function initExpeditionSettings() {
+            // Load saved expedition phase
+            expeditionPhase = loadExpeditionPhase();
+            
+            const select = document.getElementById('expeditionPhase');
+            select.value = expeditionPhase.toString();
+            
+            select.addEventListener('change', (e) => {
+                expeditionPhase = parseInt(e.target.value);
+                saveExpeditionPhase();
+                renderTable();
+            });
         }
 
         function normalizeName(s) {
