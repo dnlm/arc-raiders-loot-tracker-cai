@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T00:20:02.175Z",
+  "lastUpdated": "2025-11-05T13:54:47.231Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -22,7 +22,7 @@
       "name": "Advanced Electrical Components",
       "link": "/wiki/Advanced_Electrical_Components",
       "rarity": "Rare",
-      "recyclesToText": "1x Electrical Components1x Wires",
+      "recyclesToText": "1x Electrical Components, 1x Wires",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -43,7 +43,7 @@
       "name": "Advanced Mechanical Components",
       "link": "/wiki/Advanced_Mechanical_Components",
       "rarity": "Rare",
-      "recyclesToText": "1x Mechanical Components1x Wires",
+      "recyclesToText": "1x Mechanical Components, 1x Wires",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -93,7 +93,7 @@
       "name": "Alarm Clock",
       "link": "/wiki/Alarm_Clock",
       "rarity": "Rare",
-      "recyclesToText": "1x Processor6x Plastic Parts",
+      "recyclesToText": "1x Processor, 6x Plastic Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -125,7 +125,7 @@
       "recycledSellPrice": 500,
       "category": "Refined Material",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Apricot",
@@ -308,7 +308,7 @@
       "name": "Bastion Cell",
       "link": "/wiki/Bastion_Cell",
       "rarity": "Epic",
-      "recyclesToText": "2x ARC Motion Core2x Advanced Mechanical Components",
+      "recyclesToText": "2x ARC Motion Core, 2x Advanced Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -346,7 +346,7 @@
       "name": "Bicycle Pump",
       "link": "/wiki/Bicycle_Pump",
       "rarity": "Rare",
-      "recyclesToText": "4x Canister10x Metal Parts",
+      "recyclesToText": "4x Canister, 10x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -439,7 +439,7 @@
       "name": "Bombardier Cell",
       "link": "/wiki/Bombardier_Cell",
       "rarity": "Epic",
-      "recyclesToText": "2x Advanced Mechanical Components2x ARC Alloy",
+      "recyclesToText": "2x Advanced Mechanical Components, 2x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -472,7 +472,7 @@
       "name": "Broken Flashlight",
       "link": "/wiki/Broken_Flashlight",
       "rarity": "Rare",
-      "recyclesToText": "3x Battery7x Metal Parts",
+      "recyclesToText": "3x Battery, 7x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 3,
@@ -510,7 +510,7 @@
       "name": "Broken Handheld Radio",
       "link": "/wiki/Broken_Handheld_Radio",
       "rarity": "Rare",
-      "recyclesToText": "3x Sensors3x Wires",
+      "recyclesToText": "3x Sensors, 3x Wires",
       "recyclesToItems": [
         {
           "quantity": 3,
@@ -528,10 +528,22 @@
       "quest": false
     },
     {
+      "name": "Broken Snitch Scanner",
+      "link": "",
+      "rarity": "Common",
+      "recyclesToText": "?",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Broken Taser",
       "link": "/wiki/Broken_Taser",
       "rarity": "Rare",
-      "recyclesToText": "2x Battery2x Wires",
+      "recyclesToText": "2x Battery, 2x Wires",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -609,6 +621,18 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 400,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Burned Tick Pod",
+      "link": "",
+      "rarity": "Common",
+      "recyclesToText": "?",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -694,7 +718,7 @@
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": 2000,
+      "sellPrice": 1000,
       "recycledSellPrice": 0,
       "category": "Trinket",
       "expedition": false,
@@ -721,7 +745,7 @@
       "name": "Coolant",
       "link": "/wiki/Coolant",
       "rarity": "Rare",
-      "recyclesToText": "5x Chemicals2x Oil",
+      "recyclesToText": "5x Chemicals, 2x Oil",
       "recyclesToItems": [
         {
           "quantity": 5,
@@ -742,7 +766,7 @@
       "name": "Cooling Coil",
       "link": "/wiki/Cooling_Coil",
       "rarity": "Rare",
-      "recyclesToText": "6x Chemicals2x Steel Spring",
+      "recyclesToText": "6x Chemicals, 2x Steel Spring",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -763,7 +787,7 @@
       "name": "Cooling Fan",
       "link": "/wiki/Cooling_Fan",
       "rarity": "Rare",
-      "recyclesToText": "14x Plastic Parts4x Battery",
+      "recyclesToText": "14x Plastic Parts, 4x Battery",
       "recyclesToItems": [
         {
           "quantity": 14,
@@ -784,7 +808,7 @@
       "name": "Cracked Bioscanner",
       "link": "/wiki/Cracked_Bioscanner",
       "rarity": "Rare",
-      "recyclesToText": "3x Rubber Parts5x Battery",
+      "recyclesToText": "3x Rubber Parts, 5x Battery",
       "recyclesToItems": [
         {
           "quantity": 3,
@@ -950,7 +974,7 @@
       "name": "Damaged Heat Sink",
       "link": "/wiki/Damaged_Heat_Sink",
       "rarity": "Rare",
-      "recyclesToText": "6x Metal Parts2x Wires",
+      "recyclesToText": "6x Metal Parts, 2x Wires",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -1085,7 +1109,7 @@
       "name": "Dog Collar",
       "link": "/wiki/Dog_Collar",
       "rarity": "Rare",
-      "recyclesToText": "8x Fabric1x Metal Parts",
+      "recyclesToText": "8x Fabric, 1x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 8,
@@ -1151,13 +1175,13 @@
       "recycledSellPrice": 300,
       "category": "Refined Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Electrical Components",
       "link": "/wiki/Electrical_Components",
       "rarity": "Uncommon",
-      "recyclesToText": "3x Plastic Parts3x Rubber Parts",
+      "recyclesToText": "3x Plastic Parts, 3x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 3,
@@ -1190,7 +1214,7 @@
       "name": "Exodus Modules",
       "link": "/wiki/Exodus_Modules",
       "rarity": "Epic",
-      "recyclesToText": "2x Magnet1x Mechanical Components",
+      "recyclesToText": "2x Magnet, 1x Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1223,7 +1247,7 @@
       "name": "Expired Respirator",
       "link": "/wiki/Expired_Respirator",
       "rarity": "Rare",
-      "recyclesToText": "8x Rubber Parts4x Fabric",
+      "recyclesToText": "8x Rubber Parts, 4x Fabric",
       "recyclesToItems": [
         {
           "quantity": 8,
@@ -1326,7 +1350,7 @@
       "name": "Fireball Burner",
       "link": "/wiki/Fireball_Burner",
       "rarity": "Uncommon",
-      "recyclesToText": "1x ARC Alloy1x Chemicals",
+      "recyclesToText": "1x ARC Alloy, 1x Chemicals",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -1347,7 +1371,7 @@
       "name": "Fried Motherboard",
       "link": "/wiki/Fried_Motherboard",
       "rarity": "Rare",
-      "recyclesToText": "5x Plastic Parts1x Electrical Components",
+      "recyclesToText": "5x Plastic Parts, 1x Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 5,
@@ -1413,13 +1437,13 @@
       "recycledSellPrice": 400,
       "category": "Topside Material",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Headphones",
       "link": "/wiki/Headphones",
       "rarity": "Rare",
-      "recyclesToText": "6x Rubber Parts2x Speaker Component",
+      "recyclesToText": "6x Rubber Parts, 2x Speaker Component",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -1457,7 +1481,7 @@
       "name": "Hornet Driver",
       "link": "/wiki/Hornet_Driver",
       "rarity": "Rare",
-      "recyclesToText": "2x ARC Alloy2x Electrical Components",
+      "recyclesToText": "2x ARC Alloy, 2x Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1495,7 +1519,7 @@
       "name": "Humidifier",
       "link": "/wiki/Humidifier",
       "rarity": "Rare",
-      "recyclesToText": "2x Canister2x Wires",
+      "recyclesToText": "2x Canister, 2x Wires",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1550,7 +1574,7 @@
       "name": "Industrial Battery",
       "link": "/wiki/Industrial_Battery",
       "rarity": "Rare",
-      "recyclesToText": "7x Chemicals2x Battery",
+      "recyclesToText": "7x Chemicals, 2x Battery",
       "recyclesToItems": [
         {
           "quantity": 7,
@@ -1571,7 +1595,7 @@
       "name": "Industrial Charger",
       "link": "/wiki/Industrial_Charger",
       "rarity": "Rare",
-      "recyclesToText": "5x Metal Parts1x Voltage Converter",
+      "recyclesToText": "5x Metal Parts, 1x Voltage Converter",
       "recyclesToItems": [
         {
           "quantity": 5,
@@ -1592,7 +1616,7 @@
       "name": "Industrial Magnet",
       "link": "/wiki/Industrial_Magnet",
       "rarity": "Rare",
-      "recyclesToText": "2x Magnet4x Metal Parts",
+      "recyclesToText": "2x Magnet, 4x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1613,7 +1637,7 @@
       "name": "Laboratory Reagents",
       "link": "/wiki/Laboratory_Reagents",
       "rarity": "Rare",
-      "recyclesToText": "2x Chemicals2x Crude Explosives",
+      "recyclesToText": "2x Chemicals, 2x Crude Explosives",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1663,7 +1687,7 @@
       "name": "Leaper Pulse Unit",
       "link": "/wiki/Leaper_Pulse_Unit",
       "rarity": "Epic",
-      "recyclesToText": "2x Advanced Mechanical Components3x ARC Alloy",
+      "recyclesToText": "2x Advanced Mechanical Components, 3x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -1730,7 +1754,7 @@
       "name": "Magnetic Accelerator",
       "link": "/wiki/Magnetic_Accelerator",
       "rarity": "Epic",
-      "recyclesToText": "1x Advanced Mechanical Components1x ARC Motion Core",
+      "recyclesToText": "1x Advanced Mechanical Components, 1x ARC Motion Core",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -1751,19 +1775,19 @@
       "name": "Mechanical Components",
       "link": "/wiki/Mechanical_Components",
       "rarity": "Rare",
-      "recyclesToText": "8x Metal Parts2x Steel Spring",
+      "recyclesToText": "3x Metal Parts, 2x Rubber Parts",
       "recyclesToItems": [
         {
-          "quantity": 8,
+          "quantity": 3,
           "name": "Metal Parts"
         },
         {
           "quantity": 2,
-          "name": "Steel Spring"
+          "name": "Rubber Parts"
         }
       ],
       "sellPrice": 2000,
-      "recycledSellPrice": 1200,
+      "recycledSellPrice": 325,
       "category": "Refined Material",
       "expedition": false,
       "quest": false
@@ -1818,19 +1842,19 @@
       "name": "Mod Components",
       "link": "/wiki/Mod_Components",
       "rarity": "Epic",
-      "recyclesToText": "4x Steel Spring3x ARC Alloy",
+      "recyclesToText": "1x Mechanical Components, 1x Steel Spring",
       "recyclesToItems": [
         {
-          "quantity": 4,
-          "name": "Steel Spring"
+          "quantity": 1,
+          "name": "Mechanical Components"
         },
         {
-          "quantity": 3,
-          "name": "ARC Alloy"
+          "quantity": 1,
+          "name": "Steel Spring"
         }
       ],
       "sellPrice": 3000,
-      "recycledSellPrice": 1800,
+      "recycledSellPrice": 2300,
       "category": "Advanced Material",
       "expedition": false,
       "quest": false
@@ -1856,7 +1880,7 @@
       "name": "Motor",
       "link": "/wiki/Motor",
       "rarity": "Rare",
-      "recyclesToText": "2x Oil2x Mechanical Components",
+      "recyclesToText": "2x Oil, 2x Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2012,7 +2036,7 @@
       "name": "Polluted Air Filter",
       "link": "/wiki/Polluted_Air_Filter",
       "rarity": "Rare",
-      "recyclesToText": "6x Fabric2x Oil",
+      "recyclesToText": "6x Fabric, 2x Oil",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -2033,7 +2057,7 @@
       "name": "Pop Trigger",
       "link": "/wiki/Pop_Trigger",
       "rarity": "Common",
-      "recyclesToText": "1x Crude Explosives1x ARC Alloy",
+      "recyclesToText": "1x Crude Explosives, 1x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2054,7 +2078,7 @@
       "name": "Portable TV",
       "link": "/wiki/Portable_TV",
       "rarity": "Rare",
-      "recyclesToText": "2x Battery\n6x Wires",
+      "recyclesToText": "2x Battery, 6x Wires",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2099,7 +2123,7 @@
       "name": "Power Bank",
       "link": "/wiki/Power_Bank",
       "rarity": "Rare",
-      "recyclesToText": "4x Battery2x Wires",
+      "recyclesToText": "4x Battery, 2x Wires",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -2137,7 +2161,7 @@
       "name": "Power Rod",
       "link": "/wiki/Power_Rod",
       "rarity": "Epic",
-      "recyclesToText": "1x Advanced Electrical Components1x ARC Circuitry",
+      "recyclesToText": "1x Advanced Electrical Components, 1x ARC Circuitry",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2175,7 +2199,7 @@
       "name": "Processor",
       "link": "/wiki/Processor",
       "rarity": "Rare",
-      "recyclesToText": "1x Wires\n1x Plastic Parts",
+      "recyclesToText": "1x Wires, 1x Plastic Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2196,7 +2220,7 @@
       "name": "Projector",
       "link": "/wiki/Projector",
       "rarity": "Rare",
-      "recyclesToText": "1x Processor\n2x Wires",
+      "recyclesToText": "1x Processor, 2x Wires",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2217,7 +2241,7 @@
       "name": "Queen Reactor",
       "link": "/wiki/Queen_Reactor",
       "rarity": "Legendary",
-      "recyclesToText": "1x Power Rod1x Magnetic Accelerator",
+      "recyclesToText": "1x Power Rod, 1x Magnetic Accelerator",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2238,7 +2262,7 @@
       "name": "Radio",
       "link": "/wiki/Radio",
       "rarity": "Rare",
-      "recyclesToText": "1x Speaker Component2x Sensors",
+      "recyclesToText": "1x Speaker Component, 2x Sensors",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2283,7 +2307,7 @@
       "name": "Remote Control",
       "link": "/wiki/Remote_Control",
       "rarity": "Uncommon",
-      "recyclesToText": "2x Plastic Parts1x Sensors",
+      "recyclesToText": "2x Plastic Parts, 1x Sensors",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2316,7 +2340,7 @@
       "name": "Rocketeer Driver",
       "link": "/wiki/Rocketeer_Driver",
       "rarity": "Epic",
-      "recyclesToText": "2x Advanced Electrical Components3x ARC Alloy",
+      "recyclesToText": "2x Advanced Electrical Components, 3x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2337,7 +2361,7 @@
       "name": "Ripped Safety Vest",
       "link": "/wiki/Ripped_Safety_Vest",
       "rarity": "Uncommon",
-      "recyclesToText": "1x Magnet1x Durable Cloth",
+      "recyclesToText": "1x Magnet, 1x Durable Cloth",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2358,7 +2382,7 @@
       "name": "Rocket Thruster",
       "link": "/wiki/Rocket_Thruster",
       "rarity": "Rare",
-      "recyclesToText": "2x Synthesized Fuel6x Metal Parts",
+      "recyclesToText": "2x Synthesized Fuel, 6x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2466,7 +2490,7 @@
       "name": "Ruined Accordion",
       "link": "/wiki/Ruined_Accordion",
       "rarity": "Rare",
-      "recyclesToText": "18x Rubber Parts3x Steel Spring",
+      "recyclesToText": "18x Rubber Parts, 3x Steel Spring",
       "recyclesToItems": [
         {
           "quantity": 18,
@@ -2487,7 +2511,7 @@
       "name": "Ruined Augment",
       "link": "/wiki/Ruined_Augment",
       "rarity": "-",
-      "recyclesToText": "2x Plastic Parts2x Rubber Parts",
+      "recyclesToText": "2x Plastic Parts, 2x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2508,7 +2532,7 @@
       "name": "Ruined Baton",
       "link": "/wiki/Ruined_Baton",
       "rarity": "Uncommon",
-      "recyclesToText": "6x Metal Parts3x Rubber Parts",
+      "recyclesToText": "6x Metal Parts, 3x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -2563,7 +2587,7 @@
       "name": "Ruined Tactical Vest",
       "link": "/wiki/Ruined_Tactical_Vest",
       "rarity": "Uncommon",
-      "recyclesToText": "5x Fabric1x Magnet",
+      "recyclesToText": "5x Fabric, 1x Magnet",
       "recyclesToItems": [
         {
           "quantity": 5,
@@ -2584,7 +2608,7 @@
       "name": "Ruined Riot Shield",
       "link": "/wiki/Ruined_Riot_Shield",
       "rarity": "Rare",
-      "recyclesToText": "10x Plastic Parts6x Rubber Parts",
+      "recyclesToText": "10x Plastic Parts, 6x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 10,
@@ -2622,7 +2646,7 @@
       "name": "Rusted Gear",
       "link": "/wiki/Rusted_Gear",
       "rarity": "Rare",
-      "recyclesToText": "4x Metal Parts2x Mechanical Components",
+      "recyclesToText": "4x Metal Parts, 2x Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -2643,7 +2667,7 @@
       "name": "Rusted Shut Medical Kit",
       "link": "/wiki/Rusted_Shut_Medical_Kit",
       "rarity": "Rare",
-      "recyclesToText": "2x Syringe1x Antiseptic",
+      "recyclesToText": "2x Syringe, 1x Antiseptic",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2664,7 +2688,7 @@
       "name": "Rusted Tools",
       "link": "/wiki/Rusted_Tools",
       "rarity": "Rare",
-      "recyclesToText": "8x Metal Parts1x Steel Spring",
+      "recyclesToText": "8x Metal Parts, 1x Steel Spring",
       "recyclesToItems": [
         {
           "quantity": 8,
@@ -2702,7 +2726,7 @@
       "name": "Sensors",
       "link": "/wiki/Sensors",
       "rarity": "Rare",
-      "recyclesToText": "2x Wires2x Metal Parts",
+      "recyclesToText": "2x Wires, 2x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2723,7 +2747,7 @@
       "name": "Sentinel Firing Core",
       "link": "/wiki/Sentinel_Firing_Core",
       "rarity": "Rare",
-      "recyclesToText": "2x ARC Alloy3x Mechanical Components",
+      "recyclesToText": "2x ARC Alloy, 3x Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2773,7 +2797,7 @@
       "name": "Snitch Scanner",
       "link": "/wiki/Snitch_Scanner",
       "rarity": "Uncommon",
-      "recyclesToText": "4x ARC Alloy2x Electrical Components",
+      "recyclesToText": "4x ARC Alloy, 2x Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -2842,7 +2866,7 @@
       "name": "Speaker Component",
       "link": "/wiki/Speaker_Component",
       "rarity": "Rare",
-      "recyclesToText": "2x Plastic Parts2x Rubber Parts",
+      "recyclesToText": "2x Plastic Parts, 2x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2863,7 +2887,7 @@
       "name": "Spring Cushion",
       "link": "/wiki/Spring_Cushion",
       "rarity": "Rare",
-      "recyclesToText": "2x Durable Cloth2x Steel Spring",
+      "recyclesToText": "2x Durable Cloth, 2x Steel Spring",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2884,7 +2908,7 @@
       "name": "Spotter Relay",
       "link": "/wiki/Spotter_Relay",
       "rarity": "Uncommon",
-      "recyclesToText": "2x Electrical Components1x ARC Alloy",
+      "recyclesToText": "2x Electrical Components, 1x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2934,7 +2958,7 @@
       "name": "Surveyor Vault",
       "link": "/wiki/Surveyor_Vault",
       "rarity": "Rare",
-      "recyclesToText": "2x Mechanical Components2x ARC Alloy",
+      "recyclesToText": "2x Mechanical Components, 2x ARC Alloy",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -2949,13 +2973,13 @@
       "recycledSellPrice": 4400,
       "category": "Topside Material",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Synthesized Fuel",
       "link": "/wiki/Synthesized_Fuel",
       "rarity": "Rare",
-      "recyclesToText": "1x Oil1x Plastic Parts",
+      "recyclesToText": "1x Oil, 1x Plastic Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2976,7 +3000,7 @@
       "name": "Syringe",
       "link": "/wiki/Syringe",
       "rarity": "Rare",
-      "recyclesToText": "3x Plastic Parts2x Chemicals",
+      "recyclesToText": "3x Plastic Parts, 2x Chemicals",
       "recyclesToItems": [
         {
           "quantity": 3,
@@ -2991,7 +3015,7 @@
       "recycledSellPrice": 280,
       "category": "Topside Material",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Tattered ARC Lining",
@@ -3031,7 +3055,7 @@
       "name": "Thermostat",
       "link": "/wiki/Thermostat",
       "rarity": "Rare",
-      "recyclesToText": "6x Rubber Parts2x Sensors",
+      "recyclesToText": "6x Rubber Parts, 2x Sensors",
       "recyclesToItems": [
         {
           "quantity": 6,
@@ -3052,7 +3076,7 @@
       "name": "Tick Pod",
       "link": "/wiki/Tick_Pod",
       "rarity": "Uncommon",
-      "recyclesToText": "1x Chemicals1x Metal Parts",
+      "recyclesToText": "1x Chemicals, 1x Metal Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -3073,7 +3097,7 @@
       "name": "Toaster",
       "link": "/wiki/Toaster",
       "rarity": "Rare",
-      "recyclesToText": "5x Plastic Parts3x Wires",
+      "recyclesToText": "5x Plastic Parts, 3x Wires",
       "recyclesToItems": [
         {
           "quantity": 5,
@@ -3123,7 +3147,7 @@
       "name": "Turbo Pump",
       "link": "/wiki/Turbo_Pump",
       "rarity": "Rare",
-      "recyclesToText": "1x Mechanical Components3x Oil",
+      "recyclesToText": "1x Mechanical Components, 3x Oil",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -3144,7 +3168,7 @@
       "name": "Unusable Weapon",
       "link": "/wiki/Unusable_Weapon",
       "rarity": "Rare",
-      "recyclesToText": "4x Metal Parts5x Simple Gun Parts",
+      "recyclesToText": "4x Metal Parts, 5x Simple Gun Parts",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -3201,7 +3225,7 @@
       "name": "Voltage Converter",
       "link": "/wiki/Voltage_Converter",
       "rarity": "Rare",
-      "recyclesToText": "1x Wires1x Rubber Parts",
+      "recyclesToText": "1x Wires, 1x Rubber Parts",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -3222,7 +3246,7 @@
       "name": "Wasp Driver",
       "link": "/wiki/Wasp_Driver",
       "rarity": "Rare",
-      "recyclesToText": "1x ARC Alloy1x Electrical Components",
+      "recyclesToText": "1x ARC Alloy, 1x Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -3243,7 +3267,7 @@
       "name": "Water Filter",
       "link": "/wiki/Water_Filter",
       "rarity": "Rare",
-      "recyclesToText": "2x Rubber Parts3x Canister",
+      "recyclesToText": "2x Rubber Parts, 3x Canister",
       "recyclesToItems": [
         {
           "quantity": 2,
@@ -3264,7 +3288,7 @@
       "name": "Water Pump",
       "link": "/wiki/Water_Pump",
       "rarity": "Rare",
-      "recyclesToText": "4x Metal Parts2x Oil",
+      "recyclesToText": "4x Metal Parts, 2x Oil",
       "recyclesToItems": [
         {
           "quantity": 4,
@@ -3296,7 +3320,7 @@
       "recycledSellPrice": 100,
       "category": "Topside Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     }
   ]
 }
