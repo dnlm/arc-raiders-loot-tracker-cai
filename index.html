@@ -30,40 +30,40 @@
 
         header {
             background: linear-gradient(60deg,
-/* ===== Red band → black (stripe 1 around 25%) ===== */
-rgb(241, 10, 9) 0%,
-rgb(241, 10, 9) 21.7%,
-color-mix(in srgb, rgb(241, 10, 9) 70%, black 30%) 22.2%,
-color-mix(in srgb, rgb(241, 10, 9) 30%, black 70%) 22.5%,
-black 22.5%,
-black 27.5%,
-color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 27.8%,
-color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 28.3%,
+                /* ===== Red band → black (stripe 1 around 25%) ===== */
+                rgb(241, 10, 9) 0%,
+                rgb(241, 10, 9) 21.7%,
+                color-mix(in srgb, rgb(241, 10, 9) 70%, black 30%) 22.2%,
+                color-mix(in srgb, rgb(241, 10, 9) 30%, black 70%) 22.5%,
+                black 22.5%,
+                black 27.5%,
+                color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 27.8%,
+                color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 28.3%,
 
-/* ===== Yellow band ===== */
-rgb(247, 211, 13) 28.8%,
-rgb(247, 211, 13) 46.7%,
-color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 47.2%,
-color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 47.5%,
-black 47.5%,
-black 52.5%,
-color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 52.8%,
-color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 53.3%,
+                /* ===== Yellow band ===== */
+                rgb(247, 211, 13) 28.8%,
+                rgb(247, 211, 13) 46.7%,
+                color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 47.2%,
+                color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 47.5%,
+                black 47.5%,
+                black 52.5%,
+                color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 52.8%,
+                color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 53.3%,
 
-/* ===== Green band ===== */
-rgb(46, 238, 126) 53.8%,
-rgb(46, 238, 126) 71.7%,
-color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 72.2%,
-color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 72.5%,
-black 72.5%,
-black 77.5%,
-color-mix(in srgb, rgb(129, 240, 228) 30%, black 70%) 77.8%,
-color-mix(in srgb, rgb(129, 240, 228) 70%, black 30%) 78.3%,
+                /* ===== Green band ===== */
+                rgb(46, 238, 126) 53.8%,
+                rgb(46, 238, 126) 71.7%,
+                color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 72.2%,
+                color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 72.5%,
+                black 72.5%,
+                black 77.5%,
+                color-mix(in srgb, rgb(129, 240, 228) 30%, black 70%) 77.8%,
+                color-mix(in srgb, rgb(129, 240, 228) 70%, black 30%) 78.3%,
 
-/* ===== Cyan band ===== */
-rgb(129, 240, 228) 78.8%,
-rgb(129, 240, 228) 100%
-);
+                /* ===== Cyan band ===== */
+                rgb(129, 240, 228) 78.8%,
+                rgb(129, 240, 228) 100%
+            );
             color: white;
             padding: 30px;
             text-align: center;
@@ -99,6 +99,80 @@ rgb(129, 240, 228) 100%
         .search-box:focus {
             outline: none;
             border-color: #667eea;
+        }
+
+        .search-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .search-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            position: relative;
+        }
+
+        .search-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #6c757d;
+            padding-left: 5px;
+        }
+
+        .search-input-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 10px 40px 10px 16px;
+            font-size: 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+            width: 100%;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .clear-search {
+            position: absolute;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #6c757d;
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            line-height: 1;
+            padding: 0;
+            transition: background 0.2s;
+        }
+
+        .clear-search:hover {
+            background: #495057;
+        }
+
+        .clear-search.visible {
+            display: flex;
+        }
+
+        @media (max-width: 768px) {
+            .search-container {
+                grid-template-columns: 1fr;
+            }
         }
 
         .workbench-settings {
@@ -433,12 +507,32 @@ rgb(129, 240, 228) 100%
         </header>
 
         <div class="controls">
-            <input 
-                type="text" 
-                id="searchBox" 
-                class="search-box" 
-                placeholder="🔍 Search items by name..."
-            >
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <label class="search-label" for="itemSearchBox">🔍 Search by Item Name</label>
+                    <div class="search-input-container">
+                        <input 
+                            type="text" 
+                            id="itemSearchBox" 
+                            class="search-input" 
+                            placeholder="e.g., Battery, Metal Parts..."
+                        >
+                        <button class="clear-search" id="clearItemSearch" title="Clear search">✕</button>
+                    </div>
+                </div>
+                <div class="search-wrapper">
+                    <label class="search-label" for="recycleSearchBox">♻️ Search by Recycles To</label>
+                    <div class="search-input-container">
+                        <input 
+                            type="text" 
+                            id="recycleSearchBox" 
+                            class="search-input" 
+                            placeholder="e.g., Steel Spring, Wires..."
+                        >
+                        <button class="clear-search" id="clearRecycleSearch" title="Clear search">✕</button>
+                    </div>
+                </div>
+            </div>
 
             <h3 class="section-header" id="settingsHeader">
                 <span class="chevron">▼</span>
@@ -870,13 +964,21 @@ rgb(129, 240, 228) 100%
 
         function renderTable() {
             const tbody = document.getElementById('tableBody');
-            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            const itemSearchTerm = document.getElementById('itemSearchBox').value.toLowerCase();
+            const recycleSearchTerm = document.getElementById('recycleSearchBox').value.toLowerCase();
             
             tbody.innerHTML = '';
             
-            const filteredData = lootData.filter(item => 
-                item.name.toLowerCase().includes(searchTerm)
-            );
+            const filteredData = lootData.filter(item => {
+                // Filter by item name
+                const matchesItemName = !itemSearchTerm || item.name.toLowerCase().includes(itemSearchTerm);
+                
+                // Filter by recycles to
+                const matchesRecyclesTo = !recycleSearchTerm || 
+                    item.recyclesToText.toLowerCase().includes(recycleSearchTerm);
+                
+                return matchesItemName && matchesRecyclesTo;
+            });
             
             if (filteredData.length === 0) {
                 const row = tbody.insertRow();
@@ -955,7 +1057,47 @@ rgb(129, 240, 228) 100%
         }
 
         // Event listeners
-        document.getElementById('searchBox').addEventListener('input', renderTable);
+        const itemSearchBox = document.getElementById('itemSearchBox');
+        const recycleSearchBox = document.getElementById('recycleSearchBox');
+        const clearItemSearch = document.getElementById('clearItemSearch');
+        const clearRecycleSearch = document.getElementById('clearRecycleSearch');
+
+        // Toggle clear button visibility
+        function updateClearButtons() {
+            if (itemSearchBox.value) {
+                clearItemSearch.classList.add('visible');
+            } else {
+                clearItemSearch.classList.remove('visible');
+            }
+            
+            if (recycleSearchBox.value) {
+                clearRecycleSearch.classList.add('visible');
+            } else {
+                clearRecycleSearch.classList.remove('visible');
+            }
+        }
+
+        itemSearchBox.addEventListener('input', () => {
+            updateClearButtons();
+            renderTable();
+        });
+
+        recycleSearchBox.addEventListener('input', () => {
+            updateClearButtons();
+            renderTable();
+        });
+
+        clearItemSearch.addEventListener('click', () => {
+            itemSearchBox.value = '';
+            updateClearButtons();
+            renderTable();
+        });
+
+        clearRecycleSearch.addEventListener('click', () => {
+            recycleSearchBox.value = '';
+            updateClearButtons();
+            renderTable();
+        });
 
         // Initialize
         loadData();
