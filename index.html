@@ -30,40 +30,40 @@
 
         header {
             background: linear-gradient(60deg,
-                /* ===== Red band → black (stripe 1 around 25%) ===== */
-                rgb(241, 10, 9) 0%,
-                rgb(241, 10, 9) 21.7%,
-                color-mix(in srgb, rgb(241, 10, 9) 70%, black 30%) 22.2%,
-                color-mix(in srgb, rgb(241, 10, 9) 30%, black 70%) 22.5%,
-                black 22.5%,
-                black 27.5%,
-                color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 27.8%,
-                color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 28.3%,
+/* ===== Red band → black (stripe 1 around 25%) ===== */
+rgb(241, 10, 9) 0%,
+rgb(241, 10, 9) 21.7%,
+color-mix(in srgb, rgb(241, 10, 9) 70%, black 30%) 22.2%,
+color-mix(in srgb, rgb(241, 10, 9) 30%, black 70%) 22.5%,
+black 22.5%,
+black 27.5%,
+color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 27.8%,
+color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 28.3%,
 
-                /* ===== Yellow band ===== */
-                rgb(247, 211, 13) 28.8%,
-                rgb(247, 211, 13) 46.7%,
-                color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 47.2%,
-                color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 47.5%,
-                black 47.5%,
-                black 52.5%,
-                color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 52.8%,
-                color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 53.3%,
+/* ===== Yellow band ===== */
+rgb(247, 211, 13) 28.8%,
+rgb(247, 211, 13) 46.7%,
+color-mix(in srgb, rgb(247, 211, 13) 70%, black 30%) 47.2%,
+color-mix(in srgb, rgb(247, 211, 13) 30%, black 70%) 47.5%,
+black 47.5%,
+black 52.5%,
+color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 52.8%,
+color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 53.3%,
 
-                /* ===== Green band ===== */
-                rgb(46, 238, 126) 53.8%,
-                rgb(46, 238, 126) 71.7%,
-                color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 72.2%,
-                color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 72.5%,
-                black 72.5%,
-                black 77.5%,
-                color-mix(in srgb, rgb(129, 240, 228) 30%, black 70%) 77.8%,
-                color-mix(in srgb, rgb(129, 240, 228) 70%, black 30%) 78.3%,
+/* ===== Green band ===== */
+rgb(46, 238, 126) 53.8%,
+rgb(46, 238, 126) 71.7%,
+color-mix(in srgb, rgb(46, 238, 126) 70%, black 30%) 72.2%,
+color-mix(in srgb, rgb(46, 238, 126) 30%, black 70%) 72.5%,
+black 72.5%,
+black 77.5%,
+color-mix(in srgb, rgb(129, 240, 228) 30%, black 70%) 77.8%,
+color-mix(in srgb, rgb(129, 240, 228) 70%, black 30%) 78.3%,
 
-                /* ===== Cyan band ===== */
-                rgb(129, 240, 228) 78.8%,
-                rgb(129, 240, 228) 100%
-            );
+/* ===== Cyan band ===== */
+rgb(129, 240, 228) 78.8%,
+rgb(129, 240, 228) 100%
+);
             color: white;
             padding: 30px;
             text-align: center;
@@ -106,14 +106,16 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
             margin-bottom: 15px;
+        }
+
+        .settings-content {
             overflow: hidden;
             transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
         }
 
-        .workbench-settings.collapsed {
+        .settings-content.collapsed {
             max-height: 0;
             opacity: 0;
-            margin-bottom: 0;
         }
 
         .section-header {
@@ -147,15 +149,27 @@
             margin-bottom: 20px;
         }
 
+        .subsection-header {
+            color: #495057;
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .subsection-header:first-child {
+            margin-top: 0;
+        }
+
         .expedition-section {
             margin-top: 5px;
-            padding-top: 20px;
-            border-top: 2px solid #dee2e6;
         }
 
         .expedition-content {
-            overflow: hidden;
-            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+            overflow: visible;
         }
 
         .expedition-content.collapsed {
@@ -187,7 +201,7 @@
         }
 
         .reset-button {
-            grid-column: 1 / -1;
+            margin-top: 20px;
             padding: 10px 20px;
             background: #dc3545;
             color: white;
@@ -196,6 +210,7 @@
             cursor: pointer;
             font-weight: 600;
             transition: background 0.3s;
+            width: 100%;
         }
 
         .reset-button:hover {
@@ -404,6 +419,10 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        .footer-separator {
+            margin: 0 8px;
+        }
     </style>
 </head>
 <body>
@@ -421,37 +440,41 @@
                 placeholder="🔍 Search items by name..."
             >
 
-            <div class="workbench-section">
-                <h3 class="section-header" id="workbenchHeader">
-                    <span class="chevron">▼</span>
-                    🔧 Workbench Upgrades
-                </h3>
-                <div class="workbench-settings" id="workbenchSettings">
-                    <!-- Workbench controls will be dynamically added -->
-                </div>
-            </div>
-
-            <div class="expedition-section">
-                <h3 class="section-header" id="expeditionHeader">
-                    <span class="chevron">▼</span>
-                    🚀 Expedition Progress
-                </h3>
-                <div class="expedition-content" id="expeditionContent">
-                    <div class="expedition-phase-selector">
-                        <label for="expeditionPhase">Current Phase Completed:</label>
-                        <select id="expeditionPhase">
-                            <option value="0">Not Started</option>
-                            <option value="1">Phase 1: Foundation</option>
-                            <option value="2">Phase 2: Core Systems</option>
-                            <option value="3">Phase 3: Framework</option>
-                            <option value="4">Phase 4: Outfitting</option>
-                            <option value="5">Phase 5: Load Stage (Complete)</option>
-                        </select>
+            <h3 class="section-header" id="settingsHeader">
+                <span class="chevron">▼</span>
+                ⚙️ Settings
+            </h3>
+            <div class="settings-content" id="settingsContent">
+                <div class="workbench-section">
+                    <h4 class="subsection-header">
+                        🔧 Workbench Upgrades
+                    </h4>
+                    <div class="workbench-settings" id="workbenchSettings">
+                        <!-- Workbench controls will be dynamically added -->
                     </div>
                 </div>
-            </div>
 
-            <button class="reset-button" id="resetButton">Reset All Workbench Levels & Expedition</button>
+                <div class="expedition-section">
+                    <h4 class="subsection-header">
+                        🚀 Expedition Progress
+                    </h4>
+                    <div class="expedition-content" id="expeditionContent">
+                        <div class="expedition-phase-selector">
+                            <label for="expeditionPhase">Current Phase Completed:</label>
+                            <select id="expeditionPhase">
+                                <option value="0">Not Started</option>
+                                <option value="1">Phase 1: Foundation</option>
+                                <option value="2">Phase 2: Core Systems</option>
+                                <option value="3">Phase 3: Framework</option>
+                                <option value="4">Phase 4: Outfitting</option>
+                                <option value="5">Phase 5: Load Stage (Complete)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="reset-button" id="resetButton">Reset All Settings</button>
+            </div>
         </div>
 
         <div class="table-container">
@@ -475,8 +498,18 @@
         </div>
 
         <footer>
-            Data sourced from <a href="https://arcraiders.wiki/wiki/Loot" target="_blank" rel="noopener">Arc Raiders Wiki</a> • 
-            <span id="footerLastUpdated">Updated automatically every 24 hours</span>
+            <div style="margin-bottom: 10px;">
+                Data sourced from <a href="https://arcraiders.wiki/wiki/Loot" target="_blank" rel="noopener">Arc Raiders Wiki</a>
+                <span class="footer-separator">•</span>
+                <span id="footerLastUpdated">Updated automatically every 24 hours</span>
+            </div>
+            <div>
+                <a href="https://arctracker.io/projects" target="_blank" rel="noopener">Expedition Info</a>
+                <span class="footer-separator">•</span>
+                <a href="https://patchcrazy.co.uk/all-arc-raiders-quest-list-rewards-objectives-and-locations/" target="_blank" rel="noopener">Quest Info</a>
+                <span class="footer-separator">•</span>
+                <a href="https://arcraiders.wiki/wiki/Badges" target="_blank" rel="noopener">Badges</a>
+            </div>
         </footer>
     </div>
 
@@ -602,24 +635,22 @@
 
         function loadSectionStates() {
             const raw = localStorage.getItem('sectionStates');
-            if (!raw) return { workbench: false, expedition: false };
+            if (!raw) return { settings: false };
             
             try {
                 const states = JSON.parse(raw);
                 return {
-                    workbench: states.workbench === true,
-                    expedition: states.expedition === true
+                    settings: states.settings === true
                 };
             } catch {
-                return { workbench: false, expedition: false };
+                return { settings: false };
             }
         }
 
-        function saveSectionStates(workbenchCollapsed, expeditionCollapsed) {
+        function saveSectionStates(settingsCollapsed) {
             try {
                 localStorage.setItem('sectionStates', JSON.stringify({
-                    workbench: workbenchCollapsed,
-                    expedition: expeditionCollapsed
+                    settings: settingsCollapsed
                 }));
             } catch {
                 // ignore quota or serialization errors
@@ -755,33 +786,20 @@
             // Load saved states
             const states = loadSectionStates();
             
-            const workbenchHeader = document.getElementById('workbenchHeader');
-            const workbenchSettings = document.getElementById('workbenchSettings');
-            const expeditionHeader = document.getElementById('expeditionHeader');
-            const expeditionContent = document.getElementById('expeditionContent');
+            const settingsHeader = document.getElementById('settingsHeader');
+            const settingsContent = document.getElementById('settingsContent');
             
-            // Apply saved states
-            if (states.workbench) {
-                workbenchSettings.classList.add('collapsed');
-                workbenchHeader.classList.add('collapsed');
-            }
-            if (states.expedition) {
-                expeditionContent.classList.add('collapsed');
-                expeditionHeader.classList.add('collapsed');
+            // Apply saved state
+            if (states.settings) {
+                settingsContent.classList.add('collapsed');
+                settingsHeader.classList.add('collapsed');
             }
             
-            // Workbench section toggle
-            workbenchHeader.addEventListener('click', () => {
-                const isCollapsed = workbenchSettings.classList.toggle('collapsed');
-                workbenchHeader.classList.toggle('collapsed');
-                saveSectionStates(isCollapsed, expeditionContent.classList.contains('collapsed'));
-            });
-
-            // Expedition section toggle
-            expeditionHeader.addEventListener('click', () => {
-                const isCollapsed = expeditionContent.classList.toggle('collapsed');
-                expeditionHeader.classList.toggle('collapsed');
-                saveSectionStates(workbenchSettings.classList.contains('collapsed'), isCollapsed);
+            // Settings section toggle
+            settingsHeader.addEventListener('click', () => {
+                const isCollapsed = settingsContent.classList.toggle('collapsed');
+                settingsHeader.classList.toggle('collapsed');
+                saveSectionStates(isCollapsed);
             });
         }
 

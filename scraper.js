@@ -79,7 +79,7 @@ async function scrapeLootTable() {
         name: nameLink.text().trim() || nameCell.text().trim(),
         link: nameLink.attr('href') || '',
         rarity: $(cells[1]).text().trim(),
-        recyclesToText: $(cells[2]).text().trim(),
+        recyclesToText: $(cells[2]).text().trim().replace(/([a-zA-Z])\s*(\d+x)/g, '$1, $2'),
         recyclesToItems: parseRecycleItems($(cells[2]).text().trim()),
         sellPrice: null,
         recycledSellPrice: 0,
