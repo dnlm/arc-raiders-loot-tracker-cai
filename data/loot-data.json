@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T13:54:47.231Z",
+  "lastUpdated": "2025-11-05T15:53:43.400Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -528,18 +528,6 @@
       "quest": false
     },
     {
-      "name": "Broken Snitch Scanner",
-      "link": "",
-      "rarity": "Common",
-      "recyclesToText": "?",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
-      "category": "Recyclable",
-      "expedition": false,
-      "quest": false
-    },
-    {
       "name": "Broken Taser",
       "link": "/wiki/Broken_Taser",
       "rarity": "Rare",
@@ -1021,6 +1009,18 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 600,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Damaged Snitch Scanner",
+      "link": "/wiki/Damaged_Snitch_Scanner",
+      "rarity": "Common",
+      "recyclesToText": "-",
+      "recyclesToItems": [],
+      "sellPrice": 659,
+      "recycledSellPrice": 0,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
