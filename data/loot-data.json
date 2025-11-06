@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T15:53:43.400Z",
+  "lastUpdated": "2025-11-06T00:19:31.666Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -2262,19 +2262,19 @@
       "name": "Radio",
       "link": "/wiki/Radio",
       "rarity": "Rare",
-      "recyclesToText": "1x Speaker Component, 2x Sensors",
+      "recyclesToText": "1x Speaker Component, 1x Sensors",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "Speaker Component"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Sensors"
         }
       ],
       "sellPrice": 1000,
-      "recycledSellPrice": 1500,
+      "recycledSellPrice": 1000,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
