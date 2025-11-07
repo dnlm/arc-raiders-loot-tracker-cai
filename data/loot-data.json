@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-06T00:19:31.666Z",
+  "lastUpdated": "2025-11-07T00:20:06.977Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -2123,10 +2123,10 @@
       "name": "Power Bank",
       "link": "/wiki/Power_Bank",
       "rarity": "Rare",
-      "recyclesToText": "4x Battery, 2x Wires",
+      "recyclesToText": "2x Battery, 2x Wires",
       "recyclesToItems": [
         {
-          "quantity": 4,
+          "quantity": 2,
           "name": "Battery"
         },
         {
@@ -2135,7 +2135,7 @@
         }
       ],
       "sellPrice": 1000,
-      "recycledSellPrice": 1400,
+      "recycledSellPrice": 900,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
