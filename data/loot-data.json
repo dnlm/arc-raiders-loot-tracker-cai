@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-07T00:20:06.977Z",
+  "lastUpdated": "2025-11-08T00:18:36.082Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -80,7 +80,7 @@
     {
       "name": "Air Freshener",
       "link": "/wiki/Air_Freshener",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 2000,
@@ -615,7 +615,7 @@
     },
     {
       "name": "Burned Tick Pod",
-      "link": "",
+      "link": "/wiki/Burned_Tick_Pod",
       "rarity": "Common",
       "recyclesToText": "?",
       "recyclesToItems": [],
@@ -2461,15 +2461,15 @@
       "name": "Rubber Pad",
       "link": "/wiki/Rubber_Pad",
       "rarity": "Rare",
-      "recyclesToText": "22x Rubber Parts",
+      "recyclesToText": "18x Rubber Parts",
       "recyclesToItems": [
         {
-          "quantity": 22,
+          "quantity": 18,
           "name": "Rubber Parts"
         }
       ],
       "sellPrice": 1000,
-      "recycledSellPrice": 1100,
+      "recycledSellPrice": 900,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
