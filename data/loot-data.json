@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-08T00:18:36.082Z",
+  "lastUpdated": "2025-11-09T00:21:25.772Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -339,7 +339,7 @@
       "sellPrice": 250,
       "recycledSellPrice": 150,
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
