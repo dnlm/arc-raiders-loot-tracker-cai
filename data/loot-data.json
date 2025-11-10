@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-09T00:21:25.772Z",
+  "lastUpdated": "2025-11-10T00:20:58.500Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -615,7 +615,7 @@
     },
     {
       "name": "Burned Tick Pod",
-      "link": "/wiki/Burned_Tick_Pod",
+      "link": "/w/index.php?title=Burned_Tick_Pod&action=edit&redlink=1",
       "rarity": "Common",
       "recyclesToText": "?",
       "recyclesToItems": [],
@@ -1496,7 +1496,7 @@
       "recycledSellPrice": 1680,
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Household Cleaner",
