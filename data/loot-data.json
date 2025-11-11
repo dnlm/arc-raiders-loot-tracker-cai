@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-10T00:20:58.500Z",
+  "lastUpdated": "2025-11-11T00:20:08.936Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -614,18 +614,6 @@
       "quest": false
     },
     {
-      "name": "Burned Tick Pod",
-      "link": "/w/index.php?title=Burned_Tick_Pod&action=edit&redlink=1",
-      "rarity": "Common",
-      "recyclesToText": "?",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
-      "category": "Recyclable",
-      "expedition": false,
-      "quest": false
-    },
-    {
       "name": "Camera Lens",
       "link": "/wiki/Camera_Lens",
       "rarity": "Uncommon",
@@ -927,7 +915,7 @@
     {
       "name": "Damaged ARC Powercell",
       "link": "/wiki/Damaged_ARC_Powercell",
-      "rarity": "Uncommon",
+      "rarity": "Common",
       "recyclesToText": "1x ARC Alloy",
       "recyclesToItems": [
         {
@@ -1021,6 +1009,23 @@
       "recyclesToItems": [],
       "sellPrice": 659,
       "recycledSellPrice": 0,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Damaged Tick Pod",
+      "link": "/wiki/Damaged_Tick_Pod",
+      "rarity": "Common",
+      "recyclesToText": "1x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 200,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -1228,7 +1233,7 @@
       "sellPrice": 2750,
       "recycledSellPrice": 2600,
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1325,7 +1330,7 @@
     {
       "name": "Film Reel",
       "link": "/wiki/Film_Reel",
-      "rarity": "Common",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 2000,
@@ -1337,7 +1342,7 @@
     {
       "name": "Fine Wristwatch",
       "link": "/wiki/Fine_Wristwatch",
-      "rarity": "Common",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 3000,
@@ -1863,15 +1868,15 @@
       "name": "Moss",
       "link": "/wiki/Moss",
       "rarity": "Rare",
-      "recyclesToText": "5x Chemicals",
+      "recyclesToText": "3x Assorted Seeds",
       "recyclesToItems": [
         {
-          "quantity": 5,
-          "name": "Chemicals"
+          "quantity": 3,
+          "name": "Assorted Seeds"
         }
       ],
       "sellPrice": 500,
-      "recycledSellPrice": 250,
+      "recycledSellPrice": 300,
       "category": "Topside Material",
       "expedition": false,
       "quest": false
@@ -2619,7 +2624,7 @@
           "name": "Rubber Parts"
         }
       ],
-      "sellPrice": 2000,
+      "sellPrice": 1000,
       "recycledSellPrice": 900,
       "category": "Recyclable",
       "expedition": false,
@@ -2740,7 +2745,7 @@
       "sellPrice": 500,
       "recycledSellPrice": 550,
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
