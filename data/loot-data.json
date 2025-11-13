@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-12T00:19:52.453Z",
+  "lastUpdated": "2025-11-13T00:19:45.262Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -2683,7 +2683,7 @@
           "name": "Antiseptic"
         }
       ],
-      "sellPrice": 1000,
+      "sellPrice": 2000,
       "recycledSellPrice": 2000,
       "category": "Recyclable",
       "expedition": false,
