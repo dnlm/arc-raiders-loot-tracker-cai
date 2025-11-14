@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-13T00:19:45.262Z",
+  "lastUpdated": "2025-11-14T00:20:19.934Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -1777,6 +1777,27 @@
       "quest": false
     },
     {
+      "name": "Matriarch Reactor",
+      "link": "/wiki/Matriarch_Reactor",
+      "rarity": "Legendary",
+      "recyclesToText": "1x Power Rod, 1x Magnetic Accelerator",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Power Rod"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnetic Accelerator"
+        }
+      ],
+      "sellPrice": 13000,
+      "recycledSellPrice": 11000,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Mechanical Components",
       "link": "/wiki/Mechanical_Components",
       "rarity": "Rare",
@@ -2460,7 +2481,7 @@
       "recycledSellPrice": 0,
       "category": "Trinket",
       "expedition": false,
-      "quest": true
+      "quest": false
     },
     {
       "name": "Rubber Pad",
@@ -2924,7 +2945,7 @@
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 5000,
+      "sellPrice": 2000,
       "recycledSellPrice": 1480,
       "category": "Recyclable",
       "expedition": false,
