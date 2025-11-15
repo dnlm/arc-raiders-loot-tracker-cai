@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-14T00:20:19.934Z",
+  "lastUpdated": "2025-11-15T00:19:15.971Z",
   "items": [
     {
       "name": "Advanced ARC Powercell",
@@ -370,18 +370,6 @@
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 1000,
-      "recycledSellPrice": 0,
-      "category": "Trinket",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Blown Fuses",
-      "link": "/wiki/Blown_Fuses",
-      "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
       "recycledSellPrice": 0,
       "category": "Trinket",
       "expedition": false,
@@ -1325,7 +1313,7 @@
       "recycledSellPrice": 200,
       "category": "Nature",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Film Reel",
@@ -1368,6 +1356,27 @@
       ],
       "sellPrice": 640,
       "recycledSellPrice": 250,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Frequency Modulation Box",
+      "link": "/wiki/Frequency_Modulation_Box",
+      "rarity": "Rare",
+      "recyclesToText": "1x Advanced Electrical Components, 1x Speaker Component",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Speaker Component"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2250,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -1423,6 +1432,27 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Geiger Counter",
+      "link": "/wiki/Geiger_Counter",
+      "rarity": "Epic",
+      "recyclesToText": "3x Battery, 1x Exodus Modules",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Battery"
+        },
+        {
+          "quantity": 1,
+          "name": "Exodus Modules"
+        }
+      ],
+      "sellPrice": 3500,
+      "recycledSellPrice": 3500,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -1634,6 +1664,27 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Ion Sputter",
+      "link": "/wiki/Ion_Sputter",
+      "rarity": "Epic",
+      "recyclesToText": "4x Voltage Converter, 1x Exodus Modules",
+      "recyclesToItems": [
+        {
+          "quantity": 4,
+          "name": "Voltage Converter"
+        },
+        {
+          "quantity": 1,
+          "name": "Exodus Modules"
+        }
+      ],
+      "sellPrice": 6000,
+      "recycledSellPrice": 4750,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -1862,6 +1913,48 @@
       "recycledSellPrice": 0,
       "category": "Basic Material",
       "expedition": true,
+      "quest": false
+    },
+    {
+      "name": "Microscope",
+      "link": "/wiki/Microscope",
+      "rarity": "Rare",
+      "recyclesToText": "1x Advanced Mechanical Components, 3x Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "Magnet"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2650,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Mini Centrifuge",
+      "link": "/wiki/Mini_Centrifuge",
+      "rarity": "Rare",
+      "recyclesToText": "1x Advanced Mechanical Components, 2x Canister",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "Canister"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2350,
+      "category": "Recyclable",
+      "expedition": false,
       "quest": false
     },
     {
@@ -2306,6 +2399,27 @@
       "quest": false
     },
     {
+      "name": "Radio Relay",
+      "link": "/wiki/Radio_Relay",
+      "rarity": "Rare",
+      "recyclesToText": "2x Speaker Component, 2x Sensors",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Speaker Component"
+        },
+        {
+          "quantity": 2,
+          "name": "Sensors"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2000,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Raider Hatch Key",
       "link": "/wiki/Raider_Hatch_Key",
       "rarity": "Rare",
@@ -2363,27 +2477,6 @@
       "quest": false
     },
     {
-      "name": "Rocketeer Driver",
-      "link": "/wiki/Rocketeer_Driver",
-      "rarity": "Epic",
-      "recyclesToText": "2x Advanced Electrical Components, 3x ARC Alloy",
-      "recyclesToItems": [
-        {
-          "quantity": 2,
-          "name": "Advanced Electrical Components"
-        },
-        {
-          "quantity": 3,
-          "name": "ARC Alloy"
-        }
-      ],
-      "sellPrice": 5000,
-      "recycledSellPrice": 4100,
-      "category": "Recyclable",
-      "expedition": false,
-      "quest": false
-    },
-    {
       "name": "Ripped Safety Vest",
       "link": "/wiki/Ripped_Safety_Vest",
       "rarity": "Uncommon",
@@ -2421,6 +2514,27 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1850,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Rocketeer Driver",
+      "link": "/wiki/Rocketeer_Driver",
+      "rarity": "Epic",
+      "recyclesToText": "2x Advanced Electrical Components, 3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 4100,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -2468,6 +2582,27 @@
       "sellPrice": 2000,
       "recycledSellPrice": 0,
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Rotary Encoder",
+      "link": "/wiki/Rotary_Encoder",
+      "rarity": "Rare",
+      "recyclesToText": "2x Electrical Components, 2x Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "Processor"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2280,
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -2749,6 +2884,27 @@
       "quest": false
     },
     {
+      "name": "Sample Cleaner",
+      "link": "/wiki/Sample_Cleaner",
+      "rarity": "Rare",
+      "recyclesToText": "2x Electrical Components, 14x Assorted Seeds",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 14,
+          "name": "Assorted Seeds"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2680,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Sensors",
       "link": "/wiki/Sensors",
       "rarity": "Rare",
@@ -2786,6 +2942,48 @@
       ],
       "sellPrice": 3000,
       "recycledSellPrice": 6400,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Shredder Gyro",
+      "link": "/wiki/Shredder_Gyro",
+      "rarity": "Uncommon",
+      "recyclesToText": "3x Mechanical Components, 3x ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 6600,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Signal Amplifier",
+      "link": "/wiki/Signal_Amplifier",
+      "rarity": "Rare",
+      "recyclesToText": "2x Electrical Components, 2x Voltage Converter",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "Voltage Converter"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2280,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -2862,7 +3060,7 @@
       "recycledSellPrice": 0,
       "category": "Key",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Spaceport Trench Tower Key",
@@ -2874,7 +3072,7 @@
       "recycledSellPrice": 0,
       "category": "Key",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Spaceport Warehouse Key",
@@ -2906,6 +3104,27 @@
       "sellPrice": 500,
       "recycledSellPrice": 220,
       "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Spectrum Analyzer",
+      "link": "/wiki/Spectrum_Analyzer",
+      "rarity": "Epic",
+      "recyclesToText": "1x Sensors, 1x Exodus Modules",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Sensors"
+        },
+        {
+          "quantity": 1,
+          "name": "Exodus Modules"
+        }
+      ],
+      "sellPrice": 3500,
+      "recycledSellPrice": 3250,
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -2978,6 +3197,54 @@
       "recycledSellPrice": 225,
       "category": "Topside Material",
       "expedition": true,
+      "quest": false
+    },
+    {
+      "name": "Stella Montis Archives Key",
+      "link": "/wiki/Stella_Montis_Archives_Key",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Stella Montis Assembly Admin Key",
+      "link": "/wiki/Stella_Montis_Assembly_Admin_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Stella Montis Medical Storage Key",
+      "link": "/wiki/Stella_Montis_Medical_Storage_Key",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Stella Montis Security Checkpoint Key",
+      "link": "/wiki/Stella_Montis_Security_Checkpoint_Key",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "category": "Key",
+      "expedition": false,
       "quest": false
     },
     {
@@ -3073,6 +3340,27 @@
       ],
       "sellPrice": 270,
       "recycledSellPrice": 550,
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Telemetry Transceiver",
+      "link": "/wiki/Telemetry_Transceiver",
+      "rarity": "Rare",
+      "recyclesToText": "1x Advanced Electrical Components, 1x Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2250,
       "category": "Recyclable",
       "expedition": false,
       "quest": false
