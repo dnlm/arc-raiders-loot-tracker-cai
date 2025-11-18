@@ -63,45 +63,89 @@ async function scrapeLootTable() {
   
   console.log('Parsing page content...');
   
-  // Method 1: Try to find the table structure
+   // Method 1: Try to find the table structure
   let foundItems = false;
-  
-  // Look for table rows
-  $('table tr').each((i, row) => {
-    const cells = $(row).find('td');
-    if (cells.length >= 5) {
-      foundItems = true;
-      
-      const nameCell = $(cells[0]);
-      const nameLink = nameCell.find('a');
-      
-      const item = {
-        name: nameLink.text().trim() || nameCell.text().trim(),
-        link: nameLink.attr('href') || '',
-        rarity: $(cells[1]).text().trim(),
-        recyclesToText: $(cells[2]).text().trim().replace(/([a-zA-Z])\s*(\d+x)/g, '$1, $2'),
-        recyclesToItems: parseRecycleItems($(cells[2]).text().trim()),
-        sellPrice: null,
-        recycledSellPrice: 0,
-        category: $(cells[4]).text().trim() || 'Unknown',
-        expedition: $(cells[5]).text().trim().toLowerCase().includes('expedition'),
-        quest: $(cells[5]).text().trim().toLowerCase().includes('quest')
-      };
-      
-      // Parse sell price
-      const priceText = $(cells[3]).text().trim();
-      if (priceText && priceText !== '?') {
-        const cleanPrice = priceText.replace(/,/g, '');
-        const match = cleanPrice.match(/(\d+)/);
-        if (match) {
-          item.sellPrice = parseInt(match[1]);
-        }
-      }
-      
-      if (item.name) {
-        items.push(item);
-      }
+
+  $('table').each((ti, table) => {
+    const $table = $(table);
+
+    // Get header row (th or first tr)
+    const headerCells = $table.find('thead tr').first().find('th,td');
+    const $headerRow = headerCells.length
+      ? $table.find('thead tr').first()
+      : $table.find('tr').first();
+
+    const headers = $headerRow.find('th,td').map((i, cell) =>
+      $(cell).text().trim()
+    ).get();
+
+    if (!headers.length) return;
+
+    // Map header names to indices (case-insensitive)
+    const findIndex = (regex) =>
+      headers.findIndex(h => regex.test(h.toLowerCase()));
+
+    const nameIdx      = findIndex(/^(name|item)$/i);
+    const rarityIdx    = findIndex(/rarity/i);
+    const recyclesIdx  = findIndex(/recycles to/i);
+    const sellIdx      = findIndex(/sell price/i);
+    const categoryIdx  = findIndex(/category/i);
+    const keepIdx      = findIndex(/keep for/i); // "Keep for Quests/Workshop"
+
+    // If this table doesn't look like the loot table, skip it
+    if (nameIdx === -1 || rarityIdx === -1 || recyclesIdx === -1) {
+      return;
     }
+
+    foundItems = true;
+
+    const parsePrice = (text) => {
+      const t = (text || '').trim();
+      if (!t || t === '?' || /cannot be sold/i.test(t)) return null;
+      const clean = t.replace(/,/g, '');
+      const m = clean.match(/(\d+)/);
+      return m ? parseInt(m[1], 10) : null;
+    };
+
+    // Iterate data rows (skip header row)
+    $table.find('tr').slice(1).each((ri, row) => {
+      const cells = $(row).find('td');
+      if (!cells.length) return; // skip separator/empty rows
+
+      const getCellText = (idx) =>
+        idx >= 0 && idx < cells.length
+          ? $(cells[idx]).text().trim()
+          : '';
+
+      const nameCell = $(cells[nameIdx]);
+      const nameLink = nameCell.find('a').first();
+
+      const name = nameLink.text().trim() || nameCell.text().trim();
+      if (!name) return;
+
+      const recyclesTextRaw = getCellText(recyclesIdx);
+      const recyclesTextNormalized = recyclesTextRaw.replace(
+        /([a-zA-Z])\s*(\d+x)/g,
+        '$1, $2'
+      );
+
+      const keepText = getCellText(keepIdx).toLowerCase();
+
+      const item = {
+        name,
+        link: nameLink.attr('href') || '',
+        rarity: getCellText(rarityIdx) || 'Unknown',
+        recyclesToText: recyclesTextNormalized,
+        recyclesToItems: parseRecycleItems(recyclesTextRaw),
+        sellPrice: parsePrice(getCellText(sellIdx)),
+        recycledSellPrice: 0,
+        category: getCellText(categoryIdx) || 'Unknown',
+        expedition: keepIdx !== -1 && keepText.includes('expedition'),
+        quest: keepIdx !== -1 && keepText.includes('quest'),
+      };
+
+      items.push(item);
+    });
   });
   
   // Method 2: If no table found, parse the raw text content
@@ -164,6 +208,11 @@ async function scrapeLootTable() {
     console.log('\nFirst 3000 chars of raw HTML:');
     console.log(html.substring(0, 3000));
     console.log('\n=== END DEBUG ===\n');
+  } else {
+    console.log('\nFirst 3 items parsed:');
+    items.slice(0, 3).forEach((item, i) => {
+      console.log(`${i + 1}. ${item.name} | Rarity: ${item.rarity} | Recycles: ${item.recyclesToText} | Price: ${item.sellPrice} | Category: ${item.category}`);
+    });
   }
   
   // Build a price lookup map
