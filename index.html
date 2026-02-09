@@ -446,10 +446,22 @@
             font-weight: 600;
             color: #667eea;
             text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .item-name:hover {
             text-decoration: underline;
+        }
+
+        .item-image {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            border-radius: 4px;
+            background: #f8f9fa;
+            padding: 2px;
         }
 
         .recycle-info {
@@ -988,10 +1000,13 @@
             filteredData.forEach(item => {
                 const row = tbody.insertRow();
                 
-                // Item name
+                // Item name with image
                 const nameCell = row.insertCell();
                 const itemLink = item.link ? `${item.link}` : '#';
-                nameCell.innerHTML = `<a href="https://arcraiders.wiki${item.link}" target="_blank" class="item-name">${item.name}</a>`;
+                const imageHtml = item.image 
+                    ? `<img src="${item.image}" alt="${item.name}" class="item-image" onerror="this.style.display='none'">` 
+                    : '';
+                nameCell.innerHTML = `<a href="https://arcraiders.wiki${item.link}" target="_blank" class="item-name">${imageHtml}<span>${item.name}</span></a>`;
                 
                 // Rarity
                 const rarityCell = row.insertCell();

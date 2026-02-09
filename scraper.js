@@ -76,12 +76,17 @@ async function scrapeLootTable() {
     // Column indices (0-based):
     // 0: Image, 1: Item, 2: Rarity, 3: Recycles To, 4: Sell Price, 5: Stack Size, 6: Category, 7: Uses
     
+    const imageCell = $(cells[0]); // Image column
+    const imageTag = imageCell.find('img').first();
+    const imageSrc = imageTag.attr('src') || '';
+    
     const nameCell = $(cells[1]); // Item column
     const nameLink = nameCell.find('a').first();
     
     const item = {
       name: nameLink.text().trim() || nameCell.text().trim(),
       link: nameLink.attr('href') || '',
+      image: imageSrc ? (imageSrc.startsWith('http') ? imageSrc : `${BASE_URL}${imageSrc}`) : '',
       rarity: $(cells[2]).text().trim(),
       recyclesToText: $(cells[3]).text().trim().replace(/([a-zA-Z])\s*(\d+×)/g, '$1, $2'),
       recyclesToItems: parseRecycleItems($(cells[3]).text().trim()),
