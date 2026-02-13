@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T00:26:21.134Z",
+  "lastUpdated": "2026-02-13T00:28:59.754Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -750,8 +750,8 @@
       "quest": false
     },
     {
-      "name": "Light Stick",
-      "link": "/wiki/Light_Stick",
+      "name": "Blue Light Stick",
+      "link": "/wiki/Blue_Light_Stick",
       "image": "https://arcraiders.wiki/w/images/thumb/c/cc/Blue_Light_Stick.png/75px-Blue_Light_Stick.png.webp",
       "rarity": "Common",
       "recyclesToText": "1× Chemicals",
@@ -2742,6 +2742,25 @@
       "quest": true
     },
     {
+      "name": "Green Light Stick",
+      "link": "/wiki/Green_Light_Stick",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/27/Green_Light_Stick.png/75px-Green_Light_Stick.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "1× Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 150,
+      "recycledSellPrice": 50,
+      "stackSize": "5",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Headphones",
       "link": "/wiki/Headphones",
       "image": "https://arcraiders.wiki/w/images/thumb/0/0f/Headphones.png/75px-Headphones.png.webp",
@@ -4471,6 +4490,25 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Red Light Stick",
+      "link": "/wiki/Red_Light_Stick",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/93/Red_Light_Stick.png/75px-Red_Light_Stick.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "1× Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 150,
+      "recycledSellPrice": 50,
+      "stackSize": "5",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
@@ -6705,6 +6743,25 @@
       "sellPrice": 5000,
       "recycledSellPrice": 2000,
       "stackSize": "1",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Yellow Light Stick",
+      "link": "/wiki/Yellow_Light_Stick",
+      "image": "https://arcraiders.wiki/w/images/thumb/1/1f/Yellow_Light_Stick.png/75px-Yellow_Light_Stick.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "1× Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 150,
+      "recycledSellPrice": 50,
+      "stackSize": "5",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
