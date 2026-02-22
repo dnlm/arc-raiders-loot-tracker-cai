@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T00:25:39.106Z",
+  "lastUpdated": "2026-02-22T00:26:22.804Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4443,20 +4443,6 @@
       "recycledSellPrice": 1000,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Template:Infobox augment",
-      "link": "/wiki/Template:Infobox_augment",
-      "image": "https://arcraiders.wiki/w/images/thumb/4/4a/Raider_Augment_Level_1.png/75px-Raider_Augment_Level_1.png.webp",
-      "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 5000,
-      "recycledSellPrice": 0,
-      "stackSize": "1",
-      "category": "Augment",
       "expedition": false,
       "quest": false
     },
