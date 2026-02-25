@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T00:25:58.518Z",
+  "lastUpdated": "2026-02-25T00:28:39.512Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -86,7 +86,7 @@
       "recycledSellPrice": 840,
       "stackSize": "5",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -338,7 +338,7 @@
       "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -545,19 +545,19 @@
       "link": "/wiki/Bastion_Cell",
       "image": "https://arcraiders.wiki/w/images/thumb/0/06/Bastion_Cell.png/75px-Bastion_Cell.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "2× Advanced Mechanical Components, 2× ARC Alloy",
+      "recyclesToText": "1× Advanced Mechanical Components, 3× ARC Alloy",
       "recyclesToItems": [
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Advanced Mechanical Components"
         },
         {
-          "quantity": 2,
+          "quantity": 3,
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 5000,
-      "recycledSellPrice": 3900,
+      "sellPrice": 3000,
+      "recycledSellPrice": 2350,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -579,7 +579,7 @@
       "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -1193,6 +1193,29 @@
       "quest": false
     },
     {
+      "name": "Comet Igniter",
+      "link": "/wiki/Comet_Igniter",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c8/Comet_Igniter.png/75px-Comet_Igniter.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "2× ARC Alloy, 2× Crude Explosives",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "name": "Crude Explosives"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 940,
+      "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Compensator I",
       "link": "/wiki/Compensator_I",
       "image": "https://arcraiders.wiki/w/images/thumb/5/5f/Compensator_I.png/75px-Compensator_I.png.webp",
@@ -1319,7 +1342,7 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1342,7 +1365,7 @@
       "recycledSellPrice": 1640,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1695,7 +1718,7 @@
           "name": "Explosive Compound"
         }
       ],
-      "sellPrice": 5000,
+      "sellPrice": 6000,
       "recycledSellPrice": 2000,
       "stackSize": "1",
       "category": "Quick Use",
@@ -1910,7 +1933,7 @@
       "recycledSellPrice": 300,
       "stackSize": "10",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -1933,7 +1956,7 @@
       "recycledSellPrice": 330,
       "stackSize": "10",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1984,7 +2007,7 @@
       "recycledSellPrice": 1600,
       "stackSize": "3",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -2378,7 +2401,7 @@
       "link": "/wiki/Fireball_Burner",
       "image": "https://arcraiders.wiki/w/images/thumb/8/8b/Fireball_Burner.png/75px-Fireball_Burner.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "1× ARC Alloy, 1× Chemicals",
+      "recyclesToText": "1× ARC Alloy, 1× Crude Explosives",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -2386,11 +2409,11 @@
         },
         {
           "quantity": 1,
-          "name": "Chemicals"
+          "name": "Crude Explosives"
         }
       ],
       "sellPrice": 640,
-      "recycledSellPrice": 250,
+      "recycledSellPrice": 470,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -2412,6 +2435,29 @@
       "recycledSellPrice": 180,
       "stackSize": "5",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Firefly Burner",
+      "link": "/wiki/Firefly_Burner",
+      "image": "https://arcraiders.wiki/w/images/thumb/0/04/Firefly_Burner.png/75px-Firefly_Burner.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "2× ARC Alloy, 2× Crude Explosives",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 2,
+          "name": "Crude Explosives"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 940,
+      "stackSize": "3",
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -2547,7 +2593,7 @@
       "recycledSellPrice": 2250,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -2913,19 +2959,19 @@
       "link": "/wiki/Hornet_Driver",
       "image": "https://arcraiders.wiki/w/images/thumb/b/bb/Hornet_Driver.png/75px-Hornet_Driver.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "2× ARC Alloy, 2× Electrical Components",
+      "recyclesToText": "1× ARC Alloy, 1× Electrical Components",
       "recyclesToItems": [
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Electrical Components"
         }
       ],
-      "sellPrice": 2000,
-      "recycledSellPrice": 1680,
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -2970,7 +3016,7 @@
       "recycledSellPrice": 1000,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -3114,7 +3160,7 @@
       "recycledSellPrice": 4750,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -3234,7 +3280,7 @@
       "recycledSellPrice": 4100,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -3388,7 +3434,7 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -3578,7 +3624,7 @@
       "recycledSellPrice": 2750,
       "stackSize": "3",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -3732,7 +3778,7 @@
       "recycledSellPrice": 0,
       "stackSize": "50",
       "category": "Basic Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -4114,7 +4160,7 @@
       "recycledSellPrice": 0,
       "stackSize": "50",
       "category": "Basic Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -4393,7 +4439,7 @@
           "name": "Power Rod"
         }
       ],
-      "sellPrice": 13000,
+      "sellPrice": 11000,
       "recycledSellPrice": 10500,
       "stackSize": "1",
       "category": "Recyclable",
@@ -4760,7 +4806,7 @@
       "recycledSellPrice": 0,
       "stackSize": "50",
       "category": "Basic Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -5141,7 +5187,7 @@
       "recycledSellPrice": 275,
       "stackSize": "5",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -5149,19 +5195,19 @@
       "link": "/wiki/Sentinel_Firing_Core",
       "image": "https://arcraiders.wiki/w/images/thumb/9/91/Sentinel_Firing_Core.png/75px-Sentinel_Firing_Core.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "2× ARC Alloy, 3× Mechanical Components",
+      "recyclesToText": "2× ARC Alloy, 2× Mechanical Components",
       "recyclesToItems": [
         {
           "quantity": 2,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 3,
+          "quantity": 2,
           "name": "Mechanical Components"
         }
       ],
-      "sellPrice": 3000,
-      "recycledSellPrice": 2320,
+      "sellPrice": 2000,
+      "recycledSellPrice": 1680,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -5323,7 +5369,7 @@
           "name": "Battery"
         }
       ],
-      "sellPrice": 2200,
+      "sellPrice": 2100,
       "recycledSellPrice": 1140,
       "stackSize": "5",
       "category": "Quick Use",
@@ -5373,7 +5419,7 @@
       "recycledSellPrice": 2520,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -5751,19 +5797,19 @@
       "link": "/wiki/Spotter_Relay",
       "image": "https://arcraiders.wiki/w/images/thumb/5/58/Spotter_Relay.png/75px-Spotter_Relay.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "1× ARC Alloy, 2× Electrical Components",
+      "recyclesToText": "1× ARC Alloy, 1× Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Electrical Components"
         }
       ],
-      "sellPrice": 2000,
-      "recycledSellPrice": 1480,
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -5887,7 +5933,7 @@
       "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -5993,19 +6039,19 @@
       "link": "/wiki/Surveyor_Vault",
       "image": "https://arcraiders.wiki/w/images/thumb/a/a9/Surveyor_Vault.png/75px-Surveyor_Vault.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "2× ARC Alloy, 2× Mechanical Components",
+      "recyclesToText": "1× ARC Alloy, 1× Mechanical Components",
       "recyclesToItems": [
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Mechanical Components"
         }
       ],
-      "sellPrice": 2000,
-      "recycledSellPrice": 1680,
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -6370,7 +6416,7 @@
           "name": "Crude Explosives"
         }
       ],
-      "sellPrice": 1600,
+      "sellPrice": 2200,
       "recycledSellPrice": 540,
       "stackSize": "3",
       "category": "Quick Use",
@@ -6581,19 +6627,19 @@
       "link": "/wiki/Vita_Spray",
       "image": "https://arcraiders.wiki/w/images/thumb/1/1d/Vita_Spray.png/75px-Vita_Spray.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "1× Antiseptic, 2× Canister",
+      "recyclesToText": "1× Antiseptic, 1× Canister",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "Antiseptic"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Canister"
         }
       ],
-      "sellPrice": 3000,
-      "recycledSellPrice": 1600,
+      "sellPrice": 3400,
+      "recycledSellPrice": 1300,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
@@ -6652,7 +6698,7 @@
           "name": "Electrical Components"
         }
       ],
-      "sellPrice": 1000,
+      "sellPrice": 640,
       "recycledSellPrice": 840,
       "stackSize": "3",
       "category": "Recyclable",
@@ -6721,7 +6767,7 @@
       "recycledSellPrice": 100,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -6740,7 +6786,7 @@
           "name": "Explosive Compound"
         }
       ],
-      "sellPrice": 5000,
+      "sellPrice": 6000,
       "recycledSellPrice": 2000,
       "stackSize": "1",
       "category": "Quick Use",
