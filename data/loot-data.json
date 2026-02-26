@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T00:28:39.512Z",
+  "lastUpdated": "2026-02-26T00:24:21.920Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -773,19 +773,19 @@
       "link": "/wiki/Bombardier_Cell",
       "image": "https://arcraiders.wiki/w/images/thumb/4/46/Bombardier_Cell.png/75px-Bombardier_Cell.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "2× Advanced Mechanical Components, 2× ARC Alloy",
+      "recyclesToText": "1× Advanced Mechanical Components, 3× ARC Alloy",
       "recyclesToItems": [
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Advanced Mechanical Components"
         },
         {
-          "quantity": 2,
+          "quantity": 3,
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 5000,
-      "recycledSellPrice": 3900,
+      "sellPrice": 3000,
+      "recycledSellPrice": 2350,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -3276,7 +3276,7 @@
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 5000,
+      "sellPrice": 3000,
       "recycledSellPrice": 4100,
       "stackSize": "3",
       "category": "Recyclable",
@@ -3666,7 +3666,7 @@
           "name": "Power Rod"
         }
       ],
-      "sellPrice": 13000,
+      "sellPrice": 11000,
       "recycledSellPrice": 10500,
       "stackSize": "1",
       "category": "Recyclable",
@@ -4680,7 +4680,7 @@
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 5000,
+      "sellPrice": 3000,
       "recycledSellPrice": 4100,
       "stackSize": "3",
       "category": "Recyclable",
@@ -5404,19 +5404,19 @@
       "link": "/wiki/Shredder_Gyro",
       "image": "https://arcraiders.wiki/w/images/thumb/9/96/Shredder_Gyro.png/75px-Shredder_Gyro.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "3× ARC Alloy, 3× Mechanical Components",
+      "recyclesToText": "2× ARC Alloy, 2× Mechanical Components",
       "recyclesToItems": [
         {
-          "quantity": 3,
+          "quantity": 2,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 3,
+          "quantity": 2,
           "name": "Mechanical Components"
         }
       ],
-      "sellPrice": 3000,
-      "recycledSellPrice": 2520,
+      "sellPrice": 2000,
+      "recycledSellPrice": 1680,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": true,
@@ -5635,19 +5635,19 @@
       "link": "/wiki/Snitch_Scanner",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e5/Snitch_Scanner.png/75px-Snitch_Scanner.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "1× ARC Alloy, 2× Electrical Components",
+      "recyclesToText": "1× ARC Alloy, 1× Electrical Components",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "ARC Alloy"
         },
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Electrical Components"
         }
       ],
-      "sellPrice": 2000,
-      "recycledSellPrice": 1480,
+      "sellPrice": 1000,
+      "recycledSellPrice": 840,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
