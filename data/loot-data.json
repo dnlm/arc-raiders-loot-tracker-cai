@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-28T00:23:01.542Z",
+  "lastUpdated": "2026-03-01T00:29:20.031Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1434,6 +1434,20 @@
       "link": "/wiki/Dam_Control_Tower_Key",
       "image": "https://arcraiders.wiki/w/images/thumb/4/49/Dam_Battlegrounds_Key.png/75px-Dam_Battlegrounds_Key.png.webp",
       "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Dam Controlled Access Zone Key",
+      "link": "/wiki/Dam_Controlled_Access_Zone_Key",
+      "image": "https://arcraiders.wiki/w/images/thumb/4/49/Dam_Battlegrounds_Key.png/75px-Dam_Battlegrounds_Key.png.webp",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
