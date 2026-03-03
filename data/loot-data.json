@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T00:25:49.176Z",
+  "lastUpdated": "2026-03-03T00:27:10.507Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -788,7 +788,7 @@
       "recycledSellPrice": 2350,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -802,7 +802,7 @@
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Trinket",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -844,7 +844,7 @@
       "recycledSellPrice": 2000,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1083,7 +1083,7 @@
       "recycledSellPrice": 0,
       "stackSize": "50",
       "category": "Basic Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1097,7 +1097,7 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1624,7 +1624,7 @@
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 2000,
+      "sellPrice": 1000,
       "recycledSellPrice": 600,
       "stackSize": "3",
       "category": "Recyclable",
@@ -1643,7 +1643,7 @@
           "name": "ARC Alloy"
         }
       ],
-      "sellPrice": 2000,
+      "sellPrice": 1000,
       "recycledSellPrice": 600,
       "stackSize": "3",
       "category": "Recyclable",
@@ -2472,7 +2472,7 @@
       "recycledSellPrice": 940,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -3114,7 +3114,7 @@
       "recycledSellPrice": 875,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -3279,10 +3279,10 @@
       "link": "/wiki/Leaper_Pulse_Unit",
       "image": "https://arcraiders.wiki/w/images/thumb/a/a0/Leaper_Pulse_Unit.png/75px-Leaper_Pulse_Unit.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "2× Advanced Mechanical Components, 3× ARC Alloy",
+      "recyclesToText": "1× Advanced Mechanical Components, 3× ARC Alloy",
       "recyclesToItems": [
         {
-          "quantity": 2,
+          "quantity": 1,
           "name": "Advanced Mechanical Components"
         },
         {
@@ -3291,7 +3291,7 @@
         }
       ],
       "sellPrice": 3000,
-      "recycledSellPrice": 4100,
+      "recycledSellPrice": 2350,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": true,
