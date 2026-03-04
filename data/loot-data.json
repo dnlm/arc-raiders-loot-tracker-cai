@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T00:27:10.507Z",
+  "lastUpdated": "2026-03-04T00:25:52.951Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -5372,15 +5372,15 @@
       "link": "/wiki/Showstopper",
       "image": "https://arcraiders.wiki/w/images/thumb/1/18/Showstopper.png/75px-Showstopper.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "1× Electrical Components, 2× Battery",
+      "recyclesToText": "1× Electrical Components, 1× Voltage Converter",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "Electrical Components"
         },
         {
-          "quantity": 2,
-          "name": "Battery"
+          "quantity": 1,
+          "name": "Voltage Converter"
         }
       ],
       "sellPrice": 2100,
