@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T00:22:26.675Z",
+  "lastUpdated": "2026-03-13T00:28:10.523Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4258,7 +4258,7 @@
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Poster Of Natural Wonders",
