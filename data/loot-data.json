@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T00:26:48.159Z",
+  "lastUpdated": "2026-03-18T00:28:07.923Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1994,7 +1994,7 @@
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": 1000,
+      "sellPrice": 200,
       "recycledSellPrice": 0,
       "stackSize": "5",
       "category": "Ammunition",
