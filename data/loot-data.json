@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T00:33:52.928Z",
+  "lastUpdated": "2026-04-02T00:28:33.638Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -484,6 +484,29 @@
       "sellPrice": 1000,
       "recycledSellPrice": 800,
       "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Assessor Matrix",
+      "link": "/wiki/Assessor_Matrix",
+      "image": "https://arcraiders.wiki/w/images/thumb/1/18/Assessor_Matrix.png/75px-Assessor_Matrix.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "1× Advanced Mechanical Components, 3× Advanced ARC Powercell",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Mechanical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "Advanced ARC Powercell"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 3670,
+      "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -2569,10 +2592,19 @@
       "link": "/wiki/Free_Loadout_Augment",
       "image": "https://arcraiders.wiki/w/images/thumb/c/cf/Free_Loadout_Augment.png/75px-Free_Loadout_Augment.png.webp",
       "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "6× Plastic Parts, 6× Rubber Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 6,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 6,
+          "name": "Rubber Parts"
+        }
+      ],
       "sellPrice": 100,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 660,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
