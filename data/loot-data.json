@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T00:28:33.638Z",
+  "lastUpdated": "2026-04-03T00:30:10.161Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -584,7 +584,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Battery",
@@ -2445,7 +2445,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Firecracker",
@@ -2487,7 +2487,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Fireworks Box",
@@ -6047,6 +6047,29 @@
       ],
       "sellPrice": 2000,
       "recycledSellPrice": 1050,
+      "stackSize": "3",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Surge Coil",
+      "link": "/wiki/Surge_Coil",
+      "image": "https://arcraiders.wiki/w/images/thumb/5/5b/Surge_Coil.png/75px-Surge_Coil.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "1× Electrical Components, 1× Sensors",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Sensors"
+        }
+      ],
+      "sellPrice": 2100,
+      "recycledSellPrice": 1140,
       "stackSize": "3",
       "category": "Quick Use",
       "expedition": false,
