@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T00:30:10.161Z",
+  "lastUpdated": "2026-04-04T00:28:38.643Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1985,7 +1985,7 @@
       "stackSize": "10",
       "category": "Refined Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Empty Wine Bottle",
