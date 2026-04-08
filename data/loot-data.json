@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T00:31:30.847Z",
+  "lastUpdated": "2026-04-08T00:32:01.237Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -3944,20 +3944,6 @@
       "quest": false
     },
     {
-      "name": "Music Box",
-      "link": "/wiki/Music_Box",
-      "image": "https://arcraiders.wiki/w/images/thumb/7/74/Music_Box.png/75px-Music_Box.png.webp",
-      "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 5000,
-      "recycledSellPrice": 0,
-      "stackSize": "3",
-      "category": "Trinket",
-      "expedition": false,
-      "quest": false
-    },
-    {
       "name": "Music Album",
       "link": "/wiki/Music_Album",
       "image": "https://arcraiders.wiki/w/images/thumb/9/90/Music_Album.png/75px-Music_Album.png.webp",
@@ -3965,6 +3951,20 @@
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Music Box",
+      "link": "/wiki/Music_Box",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/74/Music_Box.png/75px-Music_Box.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
@@ -6486,7 +6486,7 @@
     {
       "name": "Trigger 'Nade",
       "link": "/wiki/Trigger_%27Nade",
-      "image": "https://arcraiders.wiki/w/images/thumb/0/09/Trigger_Nade.png/75px-Trigger_Nade.png.webp",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/cc/Trigger_%27Nade.png/75px-Trigger_%27Nade.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Chemicals, 1× Processor",
       "recyclesToItems": [
