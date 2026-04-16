@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T00:36:40.208Z",
+  "lastUpdated": "2026-04-16T00:37:15.958Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -339,7 +339,7 @@
       "stackSize": "15",
       "category": "Topside Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Circuitry",
