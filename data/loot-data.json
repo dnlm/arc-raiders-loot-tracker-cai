@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T00:40:10.141Z",
+  "lastUpdated": "2026-04-29T00:41:33.237Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1227,7 +1227,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Compensator I",
@@ -1402,6 +1402,29 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Crash Mat",
+      "link": "/wiki/Crash_Mat",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/75/Crash_Mat.png/75px-Crash_Mat.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "3× Plastic Parts, 6× Fabric",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "Plastic Parts"
+        },
+        {
+          "quantity": 6,
+          "name": "Fabric"
+        }
+      ],
+      "sellPrice": 1200,
+      "recycledSellPrice": 480,
+      "stackSize": "5",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
@@ -1848,6 +1871,20 @@
       "recycledSellPrice": 600,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Dockmaster's Detector",
+      "link": "/wiki/Dockmaster%27s_Detector",
+      "image": "https://arcraiders.wiki/w/images/thumb/4/41/Dockmaster%27s_Detector.png/75px-Dockmaster%27s_Detector.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
@@ -2875,7 +2912,7 @@
       "recyclesToItems": [],
       "sellPrice": 12,
       "recycledSellPrice": 0,
-      "stackSize": "40",
+      "stackSize": "60",
       "category": "Ammunition",
       "expedition": false,
       "quest": false
@@ -3336,6 +3373,20 @@
       "recycledSellPrice": 300,
       "stackSize": "10",
       "category": "Nature",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "\"Leviathan's Crown\" Ship Model",
+      "link": "/wiki/%22Leviathan%27s_Crown%22_Ship_Model",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/71/Leviathan%27s_Crown_Ship_Model.png/75px-Leviathan%27s_Crown_Ship_Model.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -4354,6 +4405,20 @@
       "quest": false
     },
     {
+      "name": "Powered Descender",
+      "link": "/wiki/Powered_Descender",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/21/Powered_Descender.png/75px-Powered_Descender.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Power Rod",
       "link": "/wiki/Power_Rod",
       "image": "https://arcraiders.wiki/w/images/thumb/3/31/Power_Rod.png/75px-Power_Rod.png.webp",
@@ -4675,6 +4740,34 @@
       "recycledSellPrice": 940,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Riven Tides Hotel Keycard No. 107",
+      "link": "/wiki/Riven_Tides_Hotel_Keycard_No._107",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c0/Riven_Tides_Hotel_Keycard_No._107.png/75px-Riven_Tides_Hotel_Keycard_No._107.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Riven Tides Hotel Keycard No. 208",
+      "link": "/wiki/Riven_Tides_Hotel_Keycard_No._208",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
       "expedition": false,
       "quest": false
     },
@@ -5581,6 +5674,20 @@
       "recycledSellPrice": 150,
       "stackSize": "10",
       "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "\"Sirena Dorata\" Ship Model",
+      "link": "/wiki/%22Sirena_Dorata%22_Ship_Model",
+      "image": "https://arcraiders.wiki/w/images/thumb/1/1e/Sirena_Dorata_Ship_Model.png/75px-Sirena_Dorata_Ship_Model.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -6521,6 +6628,29 @@
       "quest": false
     },
     {
+      "name": "Turbine Compressor",
+      "link": "/wiki/Turbine_Compressor",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d4/Turbine_Compressor.png/75px-Turbine_Compressor.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "1× ARC Circuitry, 1× ARC Motion Core",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Circuitry"
+        },
+        {
+          "quantity": 1,
+          "name": "ARC Motion Core"
+        }
+      ],
+      "sellPrice": 5000,
+      "recycledSellPrice": 2000,
+      "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Turbo Pump",
       "link": "/wiki/Turbo_Pump",
       "image": "https://arcraiders.wiki/w/images/thumb/f/f1/Turbo_Pump.png/75px-Turbo_Pump.png.webp",
@@ -6540,6 +6670,20 @@
       "recycledSellPrice": 1540,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "\"Twilight Compass\" Ship Model",
+      "link": "/wiki/%22Twilight_Compass%22_Ship_Model",
+      "image": "https://arcraiders.wiki/w/images/thumb/1/18/Twilight_Compass_Ship_Model.png/75px-Twilight_Compass_Ship_Model.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -6584,7 +6728,7 @@
       ],
       "sellPrice": 6000,
       "recycledSellPrice": 3750,
-      "stackSize": "1",
+      "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -6599,6 +6743,20 @@
       "sellPrice": 3000,
       "recycledSellPrice": 0,
       "stackSize": "3",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "\"Velocity\" Ship Model",
+      "link": "/wiki/%22Velocity%22_Ship_Model",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c4/Velocity_Ship_Model.png/75px-Velocity_Ship_Model.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -6831,6 +6989,20 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "\"Wind Sprite\" Ship Model",
+      "link": "/wiki/%22Wind_Sprite%22_Ship_Model",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/95/Wind_Sprite_Ship_Model.png/75px-Wind_Sprite_Ship_Model.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
