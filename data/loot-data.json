@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T00:38:39.870Z",
+  "lastUpdated": "2026-05-06T00:38:02.154Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4759,6 +4759,20 @@
       "link": "/wiki/Riven_Tides_Crane_House_Keycard",
       "image": "",
       "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Riven Tides Secure Storage Keycard",
+      "link": "/wiki/Riven_Tides_Secure_Storage_Keycard",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/6d/Riven_Tides_Secure_Storage_Keycard.png/75px-Riven_Tides_Secure_Storage_Keycard.png.webp",
+      "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
