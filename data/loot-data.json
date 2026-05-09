@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T00:40:49.826Z",
+  "lastUpdated": "2026-05-09T00:41:44.122Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4699,6 +4699,20 @@
       "quest": false
     },
     {
+      "name": "Riven Tides Crane House Keycard",
+      "link": "/wiki/Riven_Tides_Crane_House_Keycard",
+      "image": "https://arcraiders.wiki/w/images/thumb/5/5b/Riven_Tides_Crane_House_Keycard.png/75px-Riven_Tides_Crane_House_Keycard.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Riven Tides Hotel Keycard No. 107",
       "link": "/wiki/Riven_Tides_Hotel_Keycard_No._107",
       "image": "https://arcraiders.wiki/w/images/thumb/a/a9/Riven_Tides_Hotel_Keycard.png/75px-Riven_Tides_Hotel_Keycard.png.webp",
@@ -4743,20 +4757,6 @@
     {
       "name": "Riven Tides Classified Records Keycard",
       "link": "/wiki/Riven_Tides_Classified_Records_Keycard",
-      "image": "",
-      "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 100,
-      "recycledSellPrice": 0,
-      "stackSize": "1",
-      "category": "Key",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Riven Tides Crane House Keycard",
-      "link": "/wiki/Riven_Tides_Crane_House_Keycard",
       "image": "",
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
