@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T00:47:00.843Z",
+  "lastUpdated": "2026-05-20T00:48:50.201Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -2137,9 +2137,51 @@
       "quest": false
     },
     {
-      "name": "Extended Barrel",
-      "link": "/wiki/Extended_Barrel",
-      "image": "https://arcraiders.wiki/w/images/thumb/2/2f/Extended_Barrel.png/75px-Extended_Barrel.png.webp",
+      "name": "Extended Barrel I",
+      "link": "/wiki/Extended_Barrel_I",
+      "image": "https://arcraiders.wiki/w/images/thumb/e/ea/Extended_Barrel_I.png/75px-Extended_Barrel_I.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "5× Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 375,
+      "stackSize": "1",
+      "category": "Mods",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Extended Barrel II",
+      "link": "/wiki/Extended_Barrel_II",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d4/Extended_Barrel_II.png/75px-Extended_Barrel_II.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "1× Mechanical Components, 1× Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 840,
+      "stackSize": "1",
+      "category": "Mods",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Extended Barrel III",
+      "link": "/wiki/Extended_Barrel_III",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c5/Extended_Barrel_III.png/75px-Extended_Barrel_III.png.webp",
       "rarity": "Epic",
       "recyclesToText": "1× Mod Components, 1× Wires",
       "recyclesToItems": [
@@ -2622,7 +2664,7 @@
           "name": "Rubber Parts"
         }
       ],
-      "sellPrice": 100,
+      "sellPrice": 660,
       "recycledSellPrice": 660,
       "stackSize": "1",
       "category": "Augment",
@@ -3535,10 +3577,19 @@
       "link": "/wiki/Looting_Mk._2",
       "image": "https://arcraiders.wiki/w/images/thumb/7/7c/Looting_Mk._2.png/75px-Looting_Mk._2.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Electrical Components, 1× Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        }
+      ],
       "sellPrice": 2000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 940,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
