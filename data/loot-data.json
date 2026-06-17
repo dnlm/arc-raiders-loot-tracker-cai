@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T01:00:37.471Z",
+  "lastUpdated": "2026-06-17T00:55:01.786Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1124,6 +1124,20 @@
       "quest": false
     },
     {
+      "name": "Colorful Shoes (Epic)",
+      "link": "/wiki/Colorful_Shoes_(Epic)",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Combat Mk. 1",
       "link": "/wiki/Combat_Mk._1",
       "image": "https://arcraiders.wiki/w/images/thumb/1/14/Combat_Mk._1.png/75px-Combat_Mk._1.png.webp",
@@ -2007,6 +2021,20 @@
       "quest": true
     },
     {
+      "name": "Elephant Obelisk",
+      "link": "/wiki/Elephant_Obelisk",
+      "image": "https://arcraiders.wiki/w/images/thumb/5/53/Elephant_Obelisk.png/75px-Elephant_Obelisk.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Empty Wine Bottle",
       "link": "/wiki/Empty_Wine_Bottle",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e1/Empty_Wine_Bottle.png/75px-Empty_Wine_Bottle.png.webp",
@@ -2031,6 +2059,20 @@
       "recycledSellPrice": 0,
       "stackSize": "5",
       "category": "Ammunition",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Equatorial Sundial",
+      "link": "/wiki/Equatorial_Sundial",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/8c/Equatorial_Sundial.png/75px-Equatorial_Sundial.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -5462,6 +5504,20 @@
       "quest": false
     },
     {
+      "name": "Sextant",
+      "link": "/wiki/Sextant",
+      "image": "https://arcraiders.wiki/w/images/thumb/b/b0/Sextant.png/75px-Sextant.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Shaker",
       "link": "/wiki/Shaker",
       "image": "https://arcraiders.wiki/w/images/thumb/2/22/Shaker.png/75px-Shaker.png.webp",
@@ -6566,6 +6622,20 @@
       "quest": false
     },
     {
+      "name": "Tellurion",
+      "link": "/wiki/Tellurion",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/21/Tellurion.png/75px-Tellurion.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Thermostat",
       "link": "/wiki/Thermostat",
       "image": "https://arcraiders.wiki/w/images/thumb/9/9a/Thermostat.png/75px-Thermostat.png.webp",
@@ -6683,6 +6753,20 @@
       "recycledSellPrice": 540,
       "stackSize": "3",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Train Model",
+      "link": "/wiki/Train_Model",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -6932,6 +7016,20 @@
       "sellPrice": 2000,
       "recycledSellPrice": 0,
       "stackSize": "3",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Vintage Steering Wheel",
+      "link": "/wiki/Vintage_Steering_Wheel",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/2f/Vintage_Steering_Wheel.png/75px-Vintage_Steering_Wheel.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
       "category": "Trinket",
       "expedition": false,
       "quest": false
