@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T00:59:41.272Z",
+  "lastUpdated": "2026-06-20T00:50:00.577Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -5860,7 +5860,7 @@
       "recyclesToItems": [],
       "sellPrice": 7000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "3",
       "category": "Trinket",
       "expedition": true,
       "quest": false
@@ -6628,7 +6628,7 @@
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": 3000,
+      "sellPrice": 7000,
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Trinket",
@@ -6862,7 +6862,7 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "5",
       "category": "Trinket",
       "expedition": false,
       "quest": false
