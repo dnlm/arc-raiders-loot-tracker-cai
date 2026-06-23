@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T00:54:43.136Z",
+  "lastUpdated": "2026-06-23T00:48:12.575Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1126,7 +1126,7 @@
     {
       "name": "Colorful Shoes (Epic)",
       "link": "/wiki/Colorful_Shoes_(Epic)",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/4/4b/Colorful_Shoes_Epic.png/75px-Colorful_Shoes_Epic.png.webp",
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -6759,7 +6759,7 @@
     {
       "name": "Train Model",
       "link": "/wiki/Train_Model",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/93/Train_Model.png/75px-Train_Model.png.webp",
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
