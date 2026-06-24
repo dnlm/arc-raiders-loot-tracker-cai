@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T00:48:12.575Z",
+  "lastUpdated": "2026-06-24T00:44:09.901Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1523,20 +1523,6 @@
       "link": "/wiki/Dam_Testing_Annex_Key",
       "image": "https://arcraiders.wiki/w/images/thumb/4/49/Dam_Battlegrounds_Key.png/75px-Dam_Battlegrounds_Key.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 100,
-      "recycledSellPrice": 0,
-      "stackSize": "1",
-      "category": "Key",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Dam Utility Key",
-      "link": "/wiki/Dam_Utility_Key",
-      "image": "https://arcraiders.wiki/w/images/thumb/4/49/Dam_Battlegrounds_Key.png/75px-Dam_Battlegrounds_Key.png.webp",
-      "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
