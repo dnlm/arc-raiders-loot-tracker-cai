@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T00:50:32.585Z",
+  "lastUpdated": "2026-06-27T00:47:34.985Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -3605,19 +3605,10 @@
       "link": "/wiki/Looting_Mk._2",
       "image": "https://arcraiders.wiki/w/images/thumb/7/7c/Looting_Mk._2.png/75px-Looting_Mk._2.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "1× Electrical Components, 1× Magnet",
-      "recyclesToItems": [
-        {
-          "quantity": 1,
-          "name": "Electrical Components"
-        },
-        {
-          "quantity": 1,
-          "name": "Magnet"
-        }
-      ],
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
       "sellPrice": 2000,
-      "recycledSellPrice": 940,
+      "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -6922,7 +6913,7 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "3",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -7204,7 +7195,7 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "10",
       "category": "Trinket",
       "expedition": false,
       "quest": false
