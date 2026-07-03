@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T00:47:57.498Z",
+  "lastUpdated": "2026-07-03T02:46:15.513Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -1124,13 +1124,13 @@
       "quest": false
     },
     {
-      "name": "Colorful Shoes (Epic)",
-      "link": "/wiki/Colorful_Shoes_(Epic)",
-      "image": "https://arcraiders.wiki/w/images/thumb/4/4b/Colorful_Shoes_Epic.png/75px-Colorful_Shoes_Epic.png.webp",
+      "name": "Colorful Shoes (Rare)",
+      "link": "/wiki/Colorful_Shoes_(Rare)",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/89/Colorful_Shoes_Rare.png/75px-Colorful_Shoes_Rare.png.webp",
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": 7000,
+      "sellPrice": 3000,
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Trinket",
