@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T02:47:13.223Z",
+  "lastUpdated": "2026-07-10T02:49:55.644Z",
   "items": [
     {
       "name": "Angled Grip II Blueprint",
@@ -312,20 +312,6 @@
     {
       "name": "Extended Barrel II Blueprint",
       "link": "/wiki/Extended_Barrel_II_Blueprint",
-      "image": "",
-      "rarity": "",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 5000,
-      "recycledSellPrice": 0,
-      "stackSize": "1",
-      "category": "Blueprint",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Extended Barrel III Blueprint",
-      "link": "/wiki/Extended_Barrel_III_Blueprint",
       "image": "",
       "rarity": "",
       "recyclesToText": "Cannot be recycled",
