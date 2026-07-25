@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T02:29:18.423Z",
+  "lastUpdated": "2026-07-25T02:27:42.272Z",
   "items": [
     {
       "name": "Angled Grip II Blueprint",
@@ -1257,7 +1257,7 @@
       "recycledSellPrice": 940,
       "stackSize": "5",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1505,7 +1505,7 @@
       "recycledSellPrice": 400,
       "stackSize": "5",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -1731,7 +1731,7 @@
       "recycledSellPrice": 2350,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -3109,7 +3109,7 @@
       "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -4517,7 +4517,7 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -4853,7 +4853,7 @@
       "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -4945,7 +4945,7 @@
       "recycledSellPrice": 325,
       "stackSize": "10",
       "category": "Refined Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -5764,7 +5764,7 @@
       "recycledSellPrice": 1000,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
@@ -6099,7 +6099,7 @@
       "recycledSellPrice": 4100,
       "stackSize": "3",
       "category": "Recyclable",
-      "expedition": false,
+      "expedition": true,
       "quest": true
     },
     {
@@ -8239,7 +8239,7 @@
       "recycledSellPrice": 250,
       "stackSize": "5",
       "category": "Topside Material",
-      "expedition": false,
+      "expedition": true,
       "quest": false
     },
     {
