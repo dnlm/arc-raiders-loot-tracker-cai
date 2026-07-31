@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T02:08:36.084Z",
+  "lastUpdated": "2026-07-31T02:36:13.096Z",
   "items": [
     {
       "name": "Angled Grip II Blueprint",
@@ -2280,7 +2280,7 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "3",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -3205,7 +3205,7 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "3",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -6637,7 +6637,7 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "5",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -7890,7 +7890,7 @@
       "recyclesToItems": [],
       "sellPrice": 1000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "10",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -8154,7 +8154,7 @@
       "recyclesToItems": [],
       "sellPrice": 2000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "5",
       "category": "Trinket",
       "expedition": false,
       "quest": false
