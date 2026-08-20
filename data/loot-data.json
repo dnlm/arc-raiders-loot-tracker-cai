@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T01:05:10.752Z",
+  "lastUpdated": "2026-08-20T01:04:48.366Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4067,6 +4067,85 @@
       "recycledSellPrice": 0,
       "stackSize": "15",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Glitched ARC Circuitry",
+      "link": "/wiki/Glitched_ARC_Circuitry",
+      "image": "https://arcraiders.wiki/w/images/thumb/4/4b/Glitched_ARC_Circuitry.png/75px-Glitched_ARC_Circuitry.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Glitched ARC Light Ring",
+      "link": "/wiki/Glitched_ARC_Light_Ring",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c0/Glitched_ARC_Light_Ring.png/75px-Glitched_ARC_Light_Ring.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Glitched ARC Phased Array",
+      "link": "/wiki/Glitched_ARC_Phased_Array",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/35/Glitched_ARC_Phased_Array.png/75px-Glitched_ARC_Phased_Array.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "2× Sensors, 3× ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Sensors"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1600,
+      "stackSize": "1",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Glitched ARC Power Converter",
+      "link": "/wiki/Glitched_ARC_Power_Converter",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/22/Glitched_ARC_Power_Converter.png/75px-Glitched_ARC_Power_Converter.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Glitched ARC Transmitter",
+      "link": "/wiki/Glitched_ARC_Transmitter",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/da/Glitched_ARC_Transmitter.png/75px-Glitched_ARC_Transmitter.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
