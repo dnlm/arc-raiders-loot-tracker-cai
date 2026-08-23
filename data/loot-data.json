@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T01:04:49.248Z",
+  "lastUpdated": "2026-08-23T01:10:00.025Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -2327,10 +2327,19 @@
       "link": "/wiki/Combat_Mk._2",
       "image": "https://arcraiders.wiki/w/images/thumb/5/54/Combat_Mk._2.png/75px-Combat_Mk._2.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Electrical Components, 1× Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        }
+      ],
       "sellPrice": 2000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 940,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -2341,10 +2350,19 @@
       "link": "/wiki/Combat_Mk._3_(Aggressive)",
       "image": "https://arcraiders.wiki/w/images/thumb/a/a4/Combat_Mk._3_%28Aggressive%29.png/75px-Combat_Mk._3_%28Aggressive%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -2355,10 +2373,19 @@
       "link": "/wiki/Combat_Mk._3_(Flanking)",
       "image": "https://arcraiders.wiki/w/images/thumb/7/73/Combat_Mk._3_%28Flanking%29.png/75px-Combat_Mk._3_%28Flanking%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -4860,10 +4887,19 @@
       "link": "/wiki/Looting_Mk._2",
       "image": "https://arcraiders.wiki/w/images/thumb/7/7c/Looting_Mk._2.png/75px-Looting_Mk._2.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Electrical Components, 1× Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        }
+      ],
       "sellPrice": 2000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 940,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -4874,10 +4910,19 @@
       "link": "/wiki/Looting_Mk._3_(Cautious)",
       "image": "https://arcraiders.wiki/w/images/thumb/6/68/Looting_Mk._3_%28Cautious%29.png/75px-Looting_Mk._3_%28Cautious%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -4888,10 +4933,19 @@
       "link": "/wiki/Looting_Mk._3_(Safekeeper)",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c6/Looting_Mk._3_%28Safekeeper%29.png/75px-Looting_Mk._3_%28Safekeeper%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -4902,10 +4956,19 @@
       "link": "/wiki/Looting_Mk._3_(Survivor)",
       "image": "https://arcraiders.wiki/w/images/thumb/7/74/Looting_Mk._3_%28Survivor%29.png/75px-Looting_Mk._3_%28Survivor%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -7704,10 +7767,19 @@
       "link": "/wiki/Tactical_Mk._2",
       "image": "https://arcraiders.wiki/w/images/thumb/6/6c/Tactical_Mk._2.png/75px-Tactical_Mk._2.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Electrical Components, 1× Magnet",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Magnet"
+        }
+      ],
       "sellPrice": 2000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 940,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -7718,10 +7790,19 @@
       "link": "/wiki/Tactical_Mk._3_(Defensive)",
       "image": "https://arcraiders.wiki/w/images/thumb/a/a9/Tactical_Mk._3_%28Defensive%29.png/75px-Tactical_Mk._3_%28Defensive%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -7732,10 +7813,19 @@
       "link": "/wiki/Tactical_Mk._3_(Healing)",
       "image": "https://arcraiders.wiki/w/images/thumb/1/12/Tactical_Mk._3_%28Healing%29.png/75px-Tactical_Mk._3_%28Healing%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -7746,10 +7836,19 @@
       "link": "/wiki/Tactical_Mk._3_(Revival)",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e0/Tactical_Mk._3_%28Revival%29.png/75px-Tactical_Mk._3_%28Revival%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
@@ -7760,10 +7859,19 @@
       "link": "/wiki/Tactical_Mk._3_(Smoke)",
       "image": "https://arcraiders.wiki/w/images/thumb/d/d6/Tactical_Mk._3_%28Smoke%29.png/75px-Tactical_Mk._3_%28Smoke%29.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 1× Processor",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 1,
+          "name": "Processor"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Augment",
       "expedition": false,
