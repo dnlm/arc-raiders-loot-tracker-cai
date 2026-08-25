@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:07:49.494Z",
+  "lastUpdated": "2026-08-25T01:06:38.953Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4102,10 +4102,19 @@
       "link": "/wiki/Glitched_ARC_Circuitry",
       "image": "https://arcraiders.wiki/w/images/thumb/4/4b/Glitched_ARC_Circuitry.png/75px-Glitched_ARC_Circuitry.png.webp",
       "rarity": "Legendary",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Exodus Modules, 6× ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Exodus Modules"
+        },
+        {
+          "quantity": 6,
+          "name": "ARC Alloy"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3950,
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
@@ -4116,10 +4125,19 @@
       "link": "/wiki/Glitched_ARC_Light_Ring",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c0/Glitched_ARC_Light_Ring.png/75px-Glitched_ARC_Light_Ring.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Advanced Electrical Components, 3× ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Electrical Components"
+        },
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
       "sellPrice": 3000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 2350,
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
@@ -4153,10 +4171,15 @@
       "link": "/wiki/Glitched_ARC_Power_Converter",
       "image": "https://arcraiders.wiki/w/images/thumb/2/22/Glitched_ARC_Power_Converter.png/75px-Glitched_ARC_Power_Converter.png.webp",
       "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "3× ARC Alloy",
+      "recyclesToItems": [
+        {
+          "quantity": 3,
+          "name": "ARC Alloy"
+        }
+      ],
       "sellPrice": 640,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 600,
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
@@ -4167,10 +4190,19 @@
       "link": "/wiki/Glitched_ARC_Transmitter",
       "image": "https://arcraiders.wiki/w/images/thumb/d/da/Glitched_ARC_Transmitter.png/75px-Glitched_ARC_Transmitter.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× ARC Alloy, 1× Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Electrical Components"
+        }
+      ],
       "sellPrice": 1000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 840,
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
