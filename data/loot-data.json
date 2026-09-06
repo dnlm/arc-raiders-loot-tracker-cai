@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T02:56:54.520Z",
+  "lastUpdated": "2026-09-06T02:55:49.013Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -7588,9 +7588,9 @@
       "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": 250,
+      "sellPrice": 100,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "",
       "category": "Key",
       "expedition": false,
       "quest": false
