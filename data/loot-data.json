@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T03:23:48.121Z",
+  "lastUpdated": "2026-09-16T03:19:48.704Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -485,6 +485,20 @@
       "recycledSellPrice": 800,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Arcade Duck",
+      "link": "/wiki/Arcade_Duck",
+      "image": "https://arcraiders.wiki/w/images/thumb/a/a8/Arcade_Duck.png/75px-Arcade_Duck.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "15",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -3949,6 +3963,20 @@
       "quest": false
     },
     {
+      "name": "Frosty Duck",
+      "link": "/wiki/Frosty_Duck",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/91/Frosty_Duck.png/75px-Frosty_Duck.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "15",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Fruit Mix",
       "link": "/wiki/Fruit_Mix",
       "image": "https://arcraiders.wiki/w/images/thumb/5/5a/Fruit_Mix.png/75px-Fruit_Mix.png.webp",
@@ -5343,6 +5371,20 @@
       "recycledSellPrice": 1880,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "MRI Duck",
+      "link": "/wiki/MRI_Duck",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/89/MRI_Duck.png/75px-MRI_Duck.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "stackSize": "15",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
