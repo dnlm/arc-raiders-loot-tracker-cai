@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T04:14:05.435Z",
+  "lastUpdated": "2026-09-30T03:58:44.040Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -2103,6 +2103,20 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Bronze Statuette",
+      "link": "/wiki/Bronze_Statuette",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d2/Bronze_Statuette.png/75px-Bronze_Statuette.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 10000,
+      "recycledSellPrice": 0,
+      "stackSize": "25",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
