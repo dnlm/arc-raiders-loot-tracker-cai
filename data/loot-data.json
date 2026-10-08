@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T04:19:03.936Z",
+  "lastUpdated": "2026-10-08T04:30:26.714Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -63,6 +63,20 @@
       "recycledSellPrice": 540,
       "stackSize": "5",
       "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Advanced Camera",
+      "link": "/wiki/Advanced_Camera",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
@@ -562,12 +576,12 @@
       "name": "Banjo",
       "link": "/wiki/Banjo",
       "image": "https://arcraiders.wiki/w/images/thumb/2/2b/Banjo.png/75px-Banjo.png.webp",
-      "rarity": "",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "stackSize": "",
+      "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
@@ -587,6 +601,20 @@
       "sellPrice": 640,
       "recycledSellPrice": 300,
       "stackSize": "3",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Basic Camera",
+      "link": "/wiki/Basic_Camera",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
@@ -613,6 +641,20 @@
       "category": "Recyclable",
       "expedition": true,
       "quest": true
+    },
+    {
+      "name": "Battered Paperback",
+      "link": "/wiki/Battered_Paperback",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Research Item",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Battery",
@@ -2121,6 +2163,20 @@
       "quest": false
     },
     {
+      "name": "Bully Fragmenter",
+      "link": "/wiki/Bully_Fragmenter",
+      "image": "https://arcraiders.wiki/w/images/f/fe/Bully_Fragmenter.png",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Buried City Hospital Key",
       "link": "/wiki/Buried_City_Hospital_Key",
       "image": "https://arcraiders.wiki/w/images/thumb/1/11/Buried_City_Key.png/75px-Buried_City_Key.png.webp",
@@ -2206,6 +2262,20 @@
       "recycledSellPrice": 0,
       "stackSize": "15",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Calculator",
+      "link": "/wiki/Calculator",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -3069,6 +3139,20 @@
       "quest": false
     },
     {
+      "name": "Differential Microphone",
+      "link": "/wiki/Differential_Microphone",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Diving Goggles",
       "link": "/wiki/Diving_Goggles",
       "image": "https://arcraiders.wiki/w/images/thumb/1/1a/Diving_Goggles.png/75px-Diving_Goggles.png.webp",
@@ -3252,6 +3336,20 @@
       "quest": false
     },
     {
+      "name": "Emperor Beacon",
+      "link": "/wiki/Emperor_Beacon",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Empty Wine Bottle",
       "link": "/wiki/Empty_Wine_Bottle",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e1/Empty_Wine_Bottle.png/75px-Empty_Wine_Bottle.png.webp",
@@ -3276,6 +3374,20 @@
       "recycledSellPrice": 0,
       "stackSize": "5",
       "category": "Ammunition",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Epoxy Bucket",
+      "link": "/wiki/Epoxy_Bucket",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -3314,6 +3426,20 @@
       "stackSize": "3",
       "category": "Topside Material",
       "expedition": true,
+      "quest": false
+    },
+    {
+      "name": "Exodus Technical Handbook",
+      "link": "/wiki/Exodus_Technical_Handbook",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Research Item",
+      "expedition": false,
       "quest": false
     },
     {
@@ -4325,7 +4451,7 @@
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "stackSize": "",
+      "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
@@ -5669,6 +5795,20 @@
       "link": "/wiki/Patrol_Car_Key",
       "image": "https://arcraiders.wiki/w/images/thumb/b/b0/Patrol_Car_Key.png/75px-Patrol_Car_Key.png.webp",
       "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Pendola Pass Observation Key",
+      "link": "/wiki/Pendola_Pass_Observation_Key",
+      "image": "",
+      "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
@@ -7661,6 +7801,20 @@
       "quest": false
     },
     {
+      "name": "Steel Cable",
+      "link": "/wiki/Steel_Cable",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Steel Spring",
       "link": "/wiki/Steel_Spring",
       "image": "https://arcraiders.wiki/w/images/thumb/d/db/Steel_Spring.png/75px-Steel_Spring.png.webp",
@@ -8739,12 +8893,12 @@
       "name": "Yank Grenade",
       "link": "/wiki/Yank_Grenade",
       "image": "https://arcraiders.wiki/w/images/thumb/2/20/Yank_Grenade.png/75px-Yank_Grenade.png.webp",
-      "rarity": "",
+      "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "stackSize": "",
+      "stackSize": "3",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
