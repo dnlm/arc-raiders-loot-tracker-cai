@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T04:30:26.714Z",
+  "lastUpdated": "2026-10-09T04:33:59.791Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -375,6 +375,20 @@
       "quest": false
     },
     {
+      "name": "ARC Conductive Coupler",
+      "link": "/wiki/ARC_Conductive_Coupler",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "ARC Coolant",
       "link": "/wiki/ARC_Coolant",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e9/ARC_Coolant.png/75px-ARC_Coolant.png.webp",
@@ -413,6 +427,20 @@
       "quest": false
     },
     {
+      "name": "ARC Insulated Coupler",
+      "link": "/wiki/ARC_Insulated_Coupler",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "ARC Motion Core",
       "link": "/wiki/ARC_Motion_Core",
       "image": "https://arcraiders.wiki/w/images/thumb/a/ad/ARC_Motion_Core.png/75px-ARC_Motion_Core.png.webp",
@@ -447,6 +475,20 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "ARC Plated Coupler",
+      "link": "/wiki/ARC_Plated_Coupler",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -2171,7 +2213,7 @@
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "stackSize": "5",
+      "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
       "quest": false
@@ -2262,6 +2304,20 @@
       "recycledSellPrice": 0,
       "stackSize": "15",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Cable Stripper",
+      "link": "/wiki/Cable_Stripper",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "15",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -3350,6 +3406,20 @@
       "quest": false
     },
     {
+      "name": "Emperor Gateway Conduit",
+      "link": "/wiki/Emperor_Gateway_Conduit",
+      "image": "",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Empty Wine Bottle",
       "link": "/wiki/Empty_Wine_Bottle",
       "image": "https://arcraiders.wiki/w/images/thumb/e/e1/Empty_Wine_Bottle.png/75px-Empty_Wine_Bottle.png.webp",
@@ -4394,7 +4464,7 @@
       "name": "Grappling Hook",
       "link": "/wiki/Grappling_Hook",
       "image": "https://arcraiders.wiki/w/images/thumb/3/3d/Grappling_Hook.png/75px-Grappling_Hook.png.webp",
-      "rarity": "",
+      "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": null,
@@ -4771,6 +4841,20 @@
       ],
       "sellPrice": 1000,
       "recycledSellPrice": 900,
+      "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Insulation Roll",
+      "link": "/wiki/Insulation_Roll",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -5492,6 +5576,20 @@
       "quest": false
     },
     {
+      "name": "Mini Pump",
+      "link": "/wiki/Mini_Pump",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Mod Components",
       "link": "/wiki/Mod_Components",
       "image": "https://arcraiders.wiki/w/images/thumb/0/0f/Mod_Components.png/75px-Mod_Components.png.webp",
@@ -5838,6 +5936,20 @@
       "recycledSellPrice": 2250,
       "stackSize": "1",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Planks",
+      "link": "/wiki/Planks",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "50",
+      "category": "Basic Material",
       "expedition": false,
       "quest": false
     },
@@ -7102,6 +7214,20 @@
       "quest": false
     },
     {
+      "name": "Sheet Metal",
+      "link": "/wiki/Sheet_Metal",
+      "image": "",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Basic Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Shield Recharger",
       "link": "/wiki/Shield_Recharger",
       "image": "https://arcraiders.wiki/w/images/thumb/4/44/Shield_Recharger.png/75px-Shield_Recharger.png.webp",
@@ -7428,6 +7554,20 @@
       "stackSize": "3",
       "category": "Trinket",
       "expedition": true,
+      "quest": false
+    },
+    {
+      "name": "Skulker Targeter",
+      "link": "/wiki/Skulker_Targeter",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Recyclable",
+      "expedition": false,
       "quest": false
     },
     {
@@ -7890,6 +8030,20 @@
       "quest": false
     },
     {
+      "name": "Stencil Parts",
+      "link": "/wiki/Stencil_Parts",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Sterilized Bandage",
       "link": "/wiki/Sterilized_Bandage",
       "image": "https://arcraiders.wiki/w/images/thumb/9/99/Sterilized_Bandage.png/75px-Sterilized_Bandage.png.webp",
@@ -8256,6 +8410,20 @@
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Tether Launcher",
+      "link": "/wiki/Tether_Launcher",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/31/Tether_Launcher.png/75px-Tether_Launcher.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
