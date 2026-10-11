@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T04:19:48.490Z",
+  "lastUpdated": "2026-10-11T03:59:48.263Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -71,10 +71,15 @@
       "link": "/wiki/Advanced_Camera",
       "image": "",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "1× Calculator",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Calculator"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 640,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
@@ -211,6 +216,76 @@
       "quest": false
     },
     {
+      "name": "Amplification Module Mk. I",
+      "link": "/wiki/Amplification_Module_Mk._I",
+      "image": "",
+      "rarity": "Amplified",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Amplification Module Mk. II",
+      "link": "/wiki/Amplification_Module_Mk._II",
+      "image": "",
+      "rarity": "Amplified",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Amplification Module Mk. III",
+      "link": "/wiki/Amplification_Module_Mk._III",
+      "image": "",
+      "rarity": "Amplified",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Amplification Module Mk. IV",
+      "link": "/wiki/Amplification_Module_Mk._IV",
+      "image": "",
+      "rarity": "Amplified",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Amplification Module Mk. V",
+      "link": "/wiki/Amplification_Module_Mk._V",
+      "image": "",
+      "rarity": "Amplified",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Angled Grip I",
       "link": "/wiki/Angled_Grip_I",
       "image": "https://arcraiders.wiki/w/images/thumb/b/b5/Angled_Grip_I.png/75px-Angled_Grip_I.png.webp",
@@ -299,21 +374,17 @@
       "link": "/wiki/Anvil_Splitter",
       "image": "https://arcraiders.wiki/w/images/thumb/e/ef/Anvil_Splitter.png/75px-Anvil_Splitter.png.webp",
       "rarity": "Legendary",
-      "recyclesToText": "1× Mod Components, 1× Processor",
+      "recyclesToText": "5× Amplified Fragments",
       "recyclesToItems": [
         {
-          "quantity": 1,
-          "name": "Mod Components"
-        },
-        {
-          "quantity": 1,
-          "name": "Processor"
+          "quantity": 5,
+          "name": "Amplified Fragments"
         }
       ],
       "sellPrice": 7000,
-      "recycledSellPrice": 2250,
-      "stackSize": "1",
-      "category": "Mods",
+      "recycledSellPrice": null,
+      "stackSize": "",
+      "category": "Misc",
       "expedition": false,
       "quest": false
     },
@@ -381,7 +452,7 @@
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 100,
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Topside Material",
@@ -404,6 +475,20 @@
       "recycledSellPrice": 800,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "ARC Data Module",
+      "link": "/wiki/ARC_Data_Module",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 2000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Research Item",
       "expedition": false,
       "quest": false
     },
@@ -433,7 +518,7 @@
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 100,
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Topside Material",
@@ -559,6 +644,20 @@
       "quest": false
     },
     {
+      "name": "Archive Desk Lamp",
+      "link": "/wiki/Archive_Desk_Lamp",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Assessor Matrix",
       "link": "/wiki/Assessor_Matrix",
       "image": "https://arcraiders.wiki/w/images/thumb/1/18/Assessor_Matrix.png/75px-Assessor_Matrix.png.webp",
@@ -652,10 +751,15 @@
       "link": "/wiki/Basic_Camera",
       "image": "",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "5× Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 5,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 300,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
@@ -687,11 +791,11 @@
     {
       "name": "Battered Paperback",
       "link": "/wiki/Battered_Paperback",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/f/f7/Battered_Paperback.png/75px-Battered_Paperback.png.webp",
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 270,
       "recycledSellPrice": 0,
       "stackSize": "5",
       "category": "Research Item",
@@ -960,6 +1064,20 @@
       "quest": false
     },
     {
+      "name": "Bantam Blueprint",
+      "link": "/wiki/Bantam_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Barricade Kit Blueprint",
       "link": "/wiki/Barricade_Kit_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
@@ -1172,6 +1290,20 @@
     {
       "name": "Dolabra Blueprint",
       "link": "/wiki/Dolabra_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Emperor Gateway Conduit Blueprint",
+      "link": "/wiki/Emperor_Gateway_Conduit_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
       "rarity": "",
       "recyclesToText": "Cannot be recycled",
@@ -2052,6 +2184,20 @@
       "quest": false
     },
     {
+      "name": "Yank Grenade Blueprint",
+      "link": "/wiki/Yank_Grenade_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Yellow Light Stick Blueprint",
       "link": "/wiki/Yellow_Light_Stick_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
@@ -2211,10 +2357,24 @@
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 5000,
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Bureau Desk Lamp",
+      "link": "/wiki/Bureau_Desk_Lamp",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -2312,10 +2472,15 @@
       "link": "/wiki/Cable_Stripper",
       "image": "",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "2× Metal Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Metal Parts"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 150,
       "stackSize": "15",
       "category": "Topside Material",
       "expedition": false,
@@ -2325,11 +2490,20 @@
       "name": "Calculator",
       "link": "/wiki/Calculator",
       "image": "",
-      "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "rarity": "Rare",
+      "recyclesToText": "1× Wires, 2× Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Wires"
+        },
+        {
+          "quantity": 2,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 320,
       "stackSize": "3",
       "category": "Topside Material",
       "expedition": false,
@@ -3195,14 +3369,37 @@
       "quest": false
     },
     {
-      "name": "Differential Microphone",
-      "link": "/wiki/Differential_Microphone",
+      "name": "Desk Lamp",
+      "link": "/wiki/Desk_Lamp",
       "image": "",
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 2000,
       "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Differential Microphone",
+      "link": "/wiki/Differential_Microphone",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "1× Speaker Component, 2× Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Speaker Component"
+        },
+        {
+          "quantity": 2,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -3394,7 +3591,7 @@
     {
       "name": "Emperor Beacon",
       "link": "/wiki/Emperor_Beacon",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/37/Emperor_Beacon.png/75px-Emperor_Beacon.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -3406,9 +3603,23 @@
       "quest": false
     },
     {
+      "name": "Ruined Emperor Beacon",
+      "link": "/wiki/Ruined_Emperor_Beacon",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/37/Emperor_Beacon.png/75px-Emperor_Beacon.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "8",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Emperor Gateway Conduit",
       "link": "/wiki/Emperor_Gateway_Conduit",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/20/Emperor_Gateway_Conduit.png/75px-Emperor_Gateway_Conduit.png.webp",
       "rarity": "Legendary",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -3416,6 +3627,20 @@
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Emperor Modulator",
+      "link": "/wiki/Emperor_Modulator",
+      "image": "https://arcraiders.wiki/w/images/thumb/4/4c/Emperor_Modulator.png/75px-Emperor_Modulator.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -3452,10 +3677,15 @@
       "link": "/wiki/Epoxy_Bucket",
       "image": "",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "8× Chemicals",
+      "recyclesToItems": [
+        {
+          "quantity": 8,
+          "name": "Chemicals"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 400,
       "stackSize": "5",
       "category": "Recyclable",
       "expedition": false,
@@ -3505,7 +3735,7 @@
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 1000,
       "recycledSellPrice": 0,
       "stackSize": "5",
       "category": "Research Item",
@@ -4187,6 +4417,29 @@
       "quest": false
     },
     {
+      "name": "Frigate Inductor",
+      "link": "/wiki/Frigate_Inductor",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/22/Frigate_Inductor.png/75px-Frigate_Inductor.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "2× Advanced ARC Powercell, 2× ARC Circuitry",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Advanced ARC Powercell"
+        },
+        {
+          "quantity": 2,
+          "name": "ARC Circuitry"
+        }
+      ],
+      "sellPrice": 7000,
+      "recycledSellPrice": 3280,
+      "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Frosty Duck",
       "link": "/wiki/Frosty_Duck",
       "image": "https://arcraiders.wiki/w/images/thumb/9/91/Frosty_Duck.png/75px-Frosty_Duck.png.webp",
@@ -4465,11 +4718,20 @@
       "link": "/wiki/Grappling_Hook",
       "image": "https://arcraiders.wiki/w/images/thumb/3/3d/Grappling_Hook.png/75px-Grappling_Hook.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
-      "stackSize": "",
+      "recyclesToText": "1× Cable Stripper, 1× Rope",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Cable Stripper"
+        },
+        {
+          "quantity": 1,
+          "name": "Rope"
+        }
+      ],
+      "sellPrice": 1200,
+      "recycledSellPrice": 770,
+      "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
@@ -4509,6 +4771,25 @@
       "recycledSellPrice": 50,
       "stackSize": "5",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Hand Drill",
+      "link": "/wiki/Hand_Drill",
+      "image": "",
+      "rarity": "Rare",
+      "recyclesToText": "1× Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Mechanical Components"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 640,
+      "stackSize": "3",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -4978,6 +5259,29 @@
       "stackSize": "3",
       "category": "Trinket",
       "expedition": true,
+      "quest": false
+    },
+    {
+      "name": "Laser Level",
+      "link": "/wiki/Laser_Level",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "2× Mechanical Components, 2× Steel Spring",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Mechanical Components"
+        },
+        {
+          "quantity": 2,
+          "name": "Steel Spring"
+        }
+      ],
+      "sellPrice": 2000,
+      "recycledSellPrice": 1880,
+      "stackSize": "3",
+      "category": "Topside Material",
+      "expedition": false,
       "quest": false
     },
     {
@@ -5580,10 +5884,19 @@
       "link": "/wiki/Mini_Pump",
       "image": "",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "1× Sensors, 2× Plastic Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Sensors"
+        },
+        {
+          "quantity": 2,
+          "name": "Plastic Parts"
+        }
+      ],
+      "sellPrice": 640,
+      "recycledSellPrice": 620,
       "stackSize": "5",
       "category": "Recyclable",
       "expedition": false,
@@ -5651,6 +5964,20 @@
       "recycledSellPrice": 1880,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Mountaineer's Detector",
+      "link": "/wiki/Mountaineer%27s_Detector",
+      "image": "",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": null,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Quick Use",
       "expedition": false,
       "quest": false
     },
@@ -5942,11 +6269,11 @@
     {
       "name": "Planks",
       "link": "/wiki/Planks",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/b/b9/Planks.png/75px-Planks.png.webp",
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 100,
       "recycledSellPrice": 0,
       "stackSize": "50",
       "category": "Basic Material",
@@ -6274,6 +6601,25 @@
       "quest": false
     },
     {
+      "name": "Radial Press",
+      "link": "/wiki/Radial_Press",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "1× Advanced Mechanical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Advanced Mechanical Components"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 1750,
+      "stackSize": "3",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Radio Relay",
       "link": "/wiki/Radio_Relay",
       "image": "https://arcraiders.wiki/w/images/thumb/b/b6/Radio_Relay.png/75px-Radio_Relay.png.webp",
@@ -6330,6 +6676,20 @@
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Raider Logbook",
+      "link": "/wiki/Raider_Logbook",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Research Item",
       "expedition": false,
       "quest": false
     },
@@ -6677,16 +7037,16 @@
       "name": "Rope",
       "link": "/wiki/Rope",
       "image": "https://arcraiders.wiki/w/images/thumb/b/b4/Rope.png/75px-Rope.png.webp",
-      "rarity": "Rare",
-      "recyclesToText": "5× Fabric",
+      "rarity": "Uncommon",
+      "recyclesToText": "3× Fabric",
       "recyclesToItems": [
         {
-          "quantity": 5,
+          "quantity": 3,
           "name": "Fabric"
         }
       ],
       "sellPrice": 500,
-      "recycledSellPrice": 250,
+      "recycledSellPrice": 150,
       "stackSize": "5",
       "category": "Topside Material",
       "expedition": false,
@@ -7216,13 +7576,13 @@
     {
       "name": "Sheet Metal",
       "link": "/wiki/Sheet_Metal",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/85/Sheet_Metal.png/75px-Sheet_Metal.png.webp",
       "rarity": "Common",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 100,
       "recycledSellPrice": 0,
-      "stackSize": "",
+      "stackSize": "50",
       "category": "Basic Material",
       "expedition": false,
       "quest": false
@@ -7561,10 +7921,19 @@
       "link": "/wiki/Skulker_Targeter",
       "image": "",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "1× ARC Alloy, 1× Simple Gun Parts",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Simple Gun Parts"
+        }
+      ],
+      "sellPrice": 1000,
+      "recycledSellPrice": 530,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -7945,10 +8314,15 @@
       "link": "/wiki/Steel_Cable",
       "image": "",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "1× Wires",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Wires"
+        }
+      ],
+      "sellPrice": 270,
+      "recycledSellPrice": 200,
       "stackSize": "5",
       "category": "Recyclable",
       "expedition": false,
@@ -8036,10 +8410,10 @@
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 1,
       "recycledSellPrice": 0,
-      "stackSize": "",
-      "category": "Topside Material",
+      "stackSize": "500",
+      "category": "Basic Material",
       "expedition": false,
       "quest": false
     },
@@ -8424,6 +8798,29 @@
       "recycledSellPrice": 0,
       "stackSize": "1",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Thermal Shaker",
+      "link": "/wiki/Thermal_Shaker",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "2× Calculator, 2× Electrical Components",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Calculator"
+        },
+        {
+          "quantity": 2,
+          "name": "Electrical Components"
+        }
+      ],
+      "sellPrice": 3000,
+      "recycledSellPrice": 2560,
+      "stackSize": "3",
+      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -9062,10 +9459,15 @@
       "link": "/wiki/Yank_Grenade",
       "image": "https://arcraiders.wiki/w/images/thumb/2/20/Yank_Grenade.png/75px-Yank_Grenade.png.webp",
       "rarity": "Uncommon",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recyclesToText": "1× Rope",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Rope"
+        }
+      ],
+      "sellPrice": 550,
+      "recycledSellPrice": 500,
       "stackSize": "3",
       "category": "Quick Use",
       "expedition": false,
@@ -9095,19 +9497,15 @@
       "link": "/wiki/Zipline",
       "image": "https://arcraiders.wiki/w/images/thumb/f/f9/Zipline.png/75px-Zipline.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "1× Metal Parts, 1× Rope",
+      "recyclesToText": "1× Steel Cable",
       "recyclesToItems": [
         {
           "quantity": 1,
-          "name": "Metal Parts"
-        },
-        {
-          "quantity": 1,
-          "name": "Rope"
+          "name": "Steel Cable"
         }
       ],
       "sellPrice": 1000,
-      "recycledSellPrice": 575,
+      "recycledSellPrice": 270,
       "stackSize": "3",
       "category": "Quick Use",
       "expedition": false,
