@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T03:59:48.263Z",
+  "lastUpdated": "2026-10-12T04:19:56.119Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -69,7 +69,7 @@
     {
       "name": "Advanced Camera",
       "link": "/wiki/Advanced_Camera",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/e/ed/Advanced_Camera.png/75px-Advanced_Camera.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Calculator",
       "recyclesToItems": [
@@ -218,7 +218,7 @@
     {
       "name": "Amplification Module Mk. I",
       "link": "/wiki/Amplification_Module_Mk._I",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/33/Amplification_Module_Mk._I.png/75px-Amplification_Module_Mk._I.png.webp",
       "rarity": "Amplified",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -232,7 +232,7 @@
     {
       "name": "Amplification Module Mk. II",
       "link": "/wiki/Amplification_Module_Mk._II",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c7/Amplification_Module_Mk._II.png/75px-Amplification_Module_Mk._II.png.webp",
       "rarity": "Amplified",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -246,7 +246,7 @@
     {
       "name": "Amplification Module Mk. III",
       "link": "/wiki/Amplification_Module_Mk._III",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/37/Amplification_Module_Mk._III.png/75px-Amplification_Module_Mk._III.png.webp",
       "rarity": "Amplified",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -260,7 +260,7 @@
     {
       "name": "Amplification Module Mk. IV",
       "link": "/wiki/Amplification_Module_Mk._IV",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c4/Amplification_Module_Mk._IV.png/75px-Amplification_Module_Mk._IV.png.webp",
       "rarity": "Amplified",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -274,13 +274,27 @@
     {
       "name": "Amplification Module Mk. V",
       "link": "/wiki/Amplification_Module_Mk._V",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/7f/Amplification_Module_Mk._V.png/75px-Amplification_Module_Mk._V.png.webp",
       "rarity": "Amplified",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 7000,
       "recycledSellPrice": 0,
       "stackSize": "1",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Amplified Fragments",
+      "link": "/wiki/Amplified_Fragments",
+      "image": "https://arcraiders.wiki/w/images/thumb/e/ec/Amplified_Fragments.png/75px-Amplified_Fragments.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 500,
+      "recycledSellPrice": 0,
+      "stackSize": "50",
       "category": "Topside Material",
       "expedition": false,
       "quest": false
@@ -382,7 +396,7 @@
         }
       ],
       "sellPrice": 7000,
-      "recycledSellPrice": null,
+      "recycledSellPrice": 2500,
       "stackSize": "",
       "category": "Misc",
       "expedition": false,
@@ -448,7 +462,7 @@
     {
       "name": "ARC Conductive Coupler",
       "link": "/wiki/ARC_Conductive_Coupler",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/83/ARC_Conductive_Coupler.png/75px-ARC_Conductive_Coupler.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -457,7 +471,7 @@
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Coolant",
@@ -481,7 +495,7 @@
     {
       "name": "ARC Data Module",
       "link": "/wiki/ARC_Data_Module",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d0/ARC_Data_Module.png/75px-ARC_Data_Module.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -514,7 +528,7 @@
     {
       "name": "ARC Insulated Coupler",
       "link": "/wiki/ARC_Insulated_Coupler",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/5/52/ARC_Insulated_Coupler.png/75px-ARC_Insulated_Coupler.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -566,7 +580,7 @@
     {
       "name": "ARC Plated Coupler",
       "link": "/wiki/ARC_Plated_Coupler",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/84/ARC_Plated_Coupler.png/75px-ARC_Plated_Coupler.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -646,7 +660,7 @@
     {
       "name": "Archive Desk Lamp",
       "link": "/wiki/Archive_Desk_Lamp",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c6/Archive_Desk_Lamp.png/75px-Archive_Desk_Lamp.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -749,7 +763,7 @@
     {
       "name": "Basic Camera",
       "link": "/wiki/Basic_Camera",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/2d/Basic_Camera.png/75px-Basic_Camera.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "5× Plastic Parts",
       "recyclesToItems": [
@@ -1484,6 +1498,20 @@
       "quest": false
     },
     {
+      "name": "Grappling Hook Blueprint",
+      "link": "/wiki/Grappling_Hook_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Green Light Stick Blueprint",
       "link": "/wiki/Green_Light_Stick_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
@@ -1932,6 +1960,20 @@
       "quest": false
     },
     {
+      "name": "Stiletto Blueprint",
+      "link": "/wiki/Stiletto_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Surge Coil Blueprint",
       "link": "/wiki/Surge_Coil_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
@@ -2018,6 +2060,20 @@
     {
       "name": "Tempest Blueprint",
       "link": "/wiki/Tempest_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Tether Launcher Blueprint",
+      "link": "/wiki/Tether_Launcher_Blueprint",
       "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
       "rarity": "",
       "recyclesToText": "Cannot be recycled",
@@ -2353,7 +2409,7 @@
     {
       "name": "Bully Fragmenter",
       "link": "/wiki/Bully_Fragmenter",
-      "image": "https://arcraiders.wiki/w/images/f/fe/Bully_Fragmenter.png",
+      "image": "https://arcraiders.wiki/w/images/thumb/f/fe/Bully_Fragmenter.png/75px-Bully_Fragmenter.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -2367,7 +2423,7 @@
     {
       "name": "Bureau Desk Lamp",
       "link": "/wiki/Bureau_Desk_Lamp",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/b/bc/Bureau_Desk_Lamp.png/75px-Bureau_Desk_Lamp.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -2470,7 +2526,7 @@
     {
       "name": "Cable Stripper",
       "link": "/wiki/Cable_Stripper",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/86/Cable_Stripper.png/75px-Cable_Stripper.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "2× Metal Parts",
       "recyclesToItems": [
@@ -2489,7 +2545,7 @@
     {
       "name": "Calculator",
       "link": "/wiki/Calculator",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/23/Calculator.png/75px-Calculator.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Wires, 2× Plastic Parts",
       "recyclesToItems": [
@@ -3371,7 +3427,7 @@
     {
       "name": "Desk Lamp",
       "link": "/wiki/Desk_Lamp",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/2/2a/Desk_Lamp.png/75px-Desk_Lamp.png.webp",
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -3385,7 +3441,7 @@
     {
       "name": "Differential Microphone",
       "link": "/wiki/Differential_Microphone",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Differential_Microphone.png/75px-Differential_Microphone.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Speaker Component, 2× Wires",
       "recyclesToItems": [
@@ -3675,7 +3731,7 @@
     {
       "name": "Epoxy Bucket",
       "link": "/wiki/Epoxy_Bucket",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/f/ff/Epoxy_Bucket.png/75px-Epoxy_Bucket.png.webp",
       "rarity": "Rare",
       "recyclesToText": "8× Chemicals",
       "recyclesToItems": [
@@ -3731,7 +3787,7 @@
     {
       "name": "Exodus Technical Handbook",
       "link": "/wiki/Exodus_Technical_Handbook",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/a/a3/Exodus_Technical_Handbook.png/75px-Exodus_Technical_Handbook.png.webp",
       "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -4777,7 +4833,7 @@
     {
       "name": "Hand Drill",
       "link": "/wiki/Hand_Drill",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d4/Hand_Drill.png/75px-Hand_Drill.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Mechanical Components",
       "recyclesToItems": [
@@ -4797,7 +4853,7 @@
       "name": "Harmonica",
       "link": "/wiki/Harmonica",
       "image": "https://arcraiders.wiki/w/images/thumb/b/b8/Harmonica.png/75px-Harmonica.png.webp",
-      "rarity": "",
+      "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": null,
@@ -5130,7 +5186,7 @@
     {
       "name": "Insulation Roll",
       "link": "/wiki/Insulation_Roll",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/de/Insulation_Roll.png/75px-Insulation_Roll.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -5264,7 +5320,7 @@
     {
       "name": "Laser Level",
       "link": "/wiki/Laser_Level",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/31/Laser_Level.png/75px-Laser_Level.png.webp",
       "rarity": "Epic",
       "recyclesToText": "2× Mechanical Components, 2× Steel Spring",
       "recyclesToItems": [
@@ -5882,7 +5938,7 @@
     {
       "name": "Mini Pump",
       "link": "/wiki/Mini_Pump",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/e/e9/Mini_Pump.png/75px-Mini_Pump.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "1× Sensors, 2× Plastic Parts",
       "recyclesToItems": [
@@ -5970,11 +6026,11 @@
     {
       "name": "Mountaineer's Detector",
       "link": "/wiki/Mountaineer%27s_Detector",
-      "image": "",
-      "rarity": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/6e/Mountaineer%27s_Detector.png/75px-Mountaineer%27s_Detector.png.webp",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
-      "sellPrice": null,
+      "sellPrice": 2000,
       "recycledSellPrice": 0,
       "stackSize": "",
       "category": "Quick Use",
@@ -6232,7 +6288,7 @@
     {
       "name": "Pendola Pass Observation Key",
       "link": "/wiki/Pendola_Pass_Observation_Key",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/3c/Pendola_Pass_Observatory_Key.png/75px-Pendola_Pass_Observatory_Key.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -6603,7 +6659,7 @@
     {
       "name": "Radial Press",
       "link": "/wiki/Radial_Press",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/7e/Radial_Press.png/75px-Radial_Press.png.webp",
       "rarity": "Epic",
       "recyclesToText": "1× Advanced Mechanical Components",
       "recyclesToItems": [
@@ -6682,7 +6738,7 @@
     {
       "name": "Raider Logbook",
       "link": "/wiki/Raider_Logbook",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/b/b6/Raider_Logbook.png/75px-Raider_Logbook.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -7919,7 +7975,7 @@
     {
       "name": "Skulker Targeter",
       "link": "/wiki/Skulker_Targeter",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/7f/Skulker_Targeter.png/75px-Skulker_Targeter.png.webp",
       "rarity": "Uncommon",
       "recyclesToText": "1× ARC Alloy, 1× Simple Gun Parts",
       "recyclesToItems": [
@@ -8312,7 +8368,7 @@
     {
       "name": "Steel Cable",
       "link": "/wiki/Steel_Cable",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/0/06/Steel_Cable.png/75px-Steel_Cable.png.webp",
       "rarity": "Rare",
       "recyclesToText": "1× Wires",
       "recyclesToItems": [
@@ -8792,10 +8848,19 @@
       "link": "/wiki/Tether_Launcher",
       "image": "https://arcraiders.wiki/w/images/thumb/3/31/Tether_Launcher.png/75px-Tether_Launcher.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× Cable Stripper, 1× Rope",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "Cable Stripper"
+        },
+        {
+          "quantity": 1,
+          "name": "Rope"
+        }
+      ],
       "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 770,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
@@ -8804,7 +8869,7 @@
     {
       "name": "Thermal Shaker",
       "link": "/wiki/Thermal_Shaker",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/80/Thermal_Shaker.png/75px-Thermal_Shaker.png.webp",
       "rarity": "Epic",
       "recyclesToText": "2× Calculator, 2× Electrical Components",
       "recyclesToItems": [
