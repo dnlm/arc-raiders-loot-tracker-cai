@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T04:19:56.119Z",
+  "lastUpdated": "2026-10-13T05:28:33.180Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -575,7 +575,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Plated Coupler",
@@ -622,7 +622,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Thermo Lining",
@@ -641,7 +641,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Arcade Duck",
@@ -1018,6 +1018,20 @@
       "recycledSellPrice": 50,
       "stackSize": "5",
       "category": "Quick Use",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Advanced Camera Blueprint",
+      "link": "/wiki/Advanced_Camera_Blueprint",
+      "image": "https://arcraiders.wiki/w/images/thumb/9/98/Blueprint.png/75px-Blueprint.png.webp",
+      "rarity": "",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Blueprint",
       "expedition": false,
       "quest": false
     },
@@ -2418,7 +2432,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Bureau Desk Lamp",
@@ -3655,20 +3669,6 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Quick Use",
-      "expedition": false,
-      "quest": false
-    },
-    {
-      "name": "Ruined Emperor Beacon",
-      "link": "/wiki/Ruined_Emperor_Beacon",
-      "image": "https://arcraiders.wiki/w/images/thumb/3/37/Emperor_Beacon.png/75px-Emperor_Beacon.png.webp",
-      "rarity": "Common",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
-      "sellPrice": 1000,
-      "recycledSellPrice": 0,
-      "stackSize": "8",
-      "category": "Recyclable",
       "expedition": false,
       "quest": false
     },
@@ -5135,7 +5135,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Industrial Charger",
@@ -6408,7 +6408,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Portable TV",
@@ -7262,6 +7262,20 @@
       "quest": false
     },
     {
+      "name": "Ruined Emperor Beacon",
+      "link": "/wiki/Ruined_Emperor_Beacon",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/6c/Ruined_Emperor_Beacon.png/75px-Ruined_Emperor_Beacon.png.webp",
+      "rarity": "Common",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "8",
+      "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Ruined Handcuffs",
       "link": "/wiki/Ruined_Handcuffs",
       "image": "https://arcraiders.wiki/w/images/thumb/7/7c/Ruined_Handcuffs.png/75px-Ruined_Handcuffs.png.webp",
@@ -7594,7 +7608,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Sextant",
@@ -8261,7 +8275,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Spring Cushion",
@@ -8462,7 +8476,7 @@
     {
       "name": "Stencil Parts",
       "link": "/wiki/Stencil_Parts",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/67/Stencil_Parts.png/75px-Stencil_Parts.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
