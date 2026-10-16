@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T03:11:40.170Z",
+  "lastUpdated": "2026-10-16T03:07:22.300Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4385,6 +4385,20 @@
       "quest": true
     },
     {
+      "name": "Fluted Rotor Core",
+      "link": "/wiki/Fluted_Rotor_Core",
+      "image": "",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Fossilized Lightning",
       "link": "/wiki/Fossilized_Lightning",
       "image": "https://arcraiders.wiki/w/images/thumb/8/81/Fossilized_Lightning.png/75px-Fossilized_Lightning.png.webp",
@@ -4469,6 +4483,20 @@
       "recycledSellPrice": 1580,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Frigate Diagnostic Node",
+      "link": "/wiki/Frigate_Diagnostic_Node",
+      "image": "https://arcraiders.wiki/w/images/thumb/3/3d/Frigate_Diagnostic_Node.png/75px-Frigate_Diagnostic_Node.png.webp",
+      "rarity": "Legendary",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "1",
+      "category": "Research Item",
       "expedition": false,
       "quest": false
     },
@@ -5188,10 +5216,15 @@
       "link": "/wiki/Insulation_Roll",
       "image": "https://arcraiders.wiki/w/images/thumb/d/de/Insulation_Roll.png/75px-Insulation_Roll.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "2× Durable Cloth",
+      "recyclesToItems": [
+        {
+          "quantity": 2,
+          "name": "Durable Cloth"
+        }
+      ],
       "sellPrice": null,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 1280,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
@@ -6286,8 +6319,8 @@
       "quest": false
     },
     {
-      "name": "Pendola Pass Observation Key",
-      "link": "/wiki/Pendola_Pass_Observation_Key",
+      "name": "Pendola Pass Observatory Key",
+      "link": "/wiki/Pendola_Pass_Observatory_Key",
       "image": "https://arcraiders.wiki/w/images/thumb/3/3c/Pendola_Pass_Observatory_Key.png/75px-Pendola_Pass_Observatory_Key.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
