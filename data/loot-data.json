@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T03:00:55.431Z",
+  "lastUpdated": "2026-10-19T03:15:12.950Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -4387,7 +4387,7 @@
     {
       "name": "Fluted Rotor Core",
       "link": "/wiki/Fluted_Rotor_Core",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/c/c6/Fluted_Rotor_Core.png/75px-Fluted_Rotor_Core.png.webp",
       "rarity": "Epic",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
@@ -6333,6 +6333,20 @@
       "quest": false
     },
     {
+      "name": "Pendola Pass Old Town Key",
+      "link": "/wiki/Pendola_Pass_Old_Town_Key",
+      "image": "",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Photoelectric Cloak",
       "link": "/wiki/Photoelectric_Cloak",
       "image": "https://arcraiders.wiki/w/images/thumb/0/06/Photoelectric_Cloak.png/75px-Photoelectric_Cloak.png.webp",
@@ -6394,6 +6408,20 @@
       "recycledSellPrice": 0,
       "stackSize": "3",
       "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Pneumatic Actuator",
+      "link": "/wiki/Pneumatic_Actuator",
+      "image": "https://arcraiders.wiki/w/images/thumb/a/a8/Pneumatic_Actuator.png/75px-Pneumatic_Actuator.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
@@ -6581,6 +6609,20 @@
       "category": "Refined Material",
       "expedition": false,
       "quest": true
+    },
+    {
+      "name": "Pressure Regulator",
+      "link": "/wiki/Pressure_Regulator",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d2/Pressure_Regulator.png/75px-Pressure_Regulator.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Topside Material",
+      "expedition": false,
+      "quest": false
     },
     {
       "name": "Prickly Pear",
