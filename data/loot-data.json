@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T03:18:49.068Z",
+  "lastUpdated": "2026-10-22T03:22:17.192Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -457,7 +457,7 @@
       "stackSize": "5",
       "category": "Topside Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Conductive Coupler",
@@ -556,7 +556,7 @@
       "stackSize": "5",
       "category": "Topside Material",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "ARC Performance Steel",
@@ -5812,7 +5812,7 @@
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Mechanical Components",
@@ -6729,7 +6729,7 @@
       "stackSize": "1",
       "category": "Recyclable",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Radial Press",
@@ -8149,19 +8149,19 @@
       "link": "/wiki/Snap_Hook",
       "image": "https://arcraiders.wiki/w/images/thumb/5/56/Snap_Hook.png/75px-Snap_Hook.png.webp",
       "rarity": "Legendary",
-      "recyclesToText": "1× Power Rod, 3× Rope",
+      "recyclesToText": "1× Power Rod, 2× Steel Cable",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "Power Rod"
         },
         {
-          "quantity": 3,
-          "name": "Rope"
+          "quantity": 2,
+          "name": "Steel Cable"
         }
       ],
       "sellPrice": 14000,
-      "recycledSellPrice": 6500,
+      "recycledSellPrice": 5540,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
