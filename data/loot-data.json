@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T03:22:50.524Z",
+  "lastUpdated": "2026-10-24T03:16:37.685Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -6335,8 +6335,36 @@
     {
       "name": "Pendola Pass Old Town Key",
       "link": "/wiki/Pendola_Pass_Old_Town_Key",
-      "image": "",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/65/Pendola_Pass_Old_Town_Key.png/75px-Pendola_Pass_Old_Town_Key.png.webp",
       "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Pendola Pass Railyard Key",
+      "link": "/wiki/Pendola_Pass_Railyard_Key",
+      "image": "https://arcraiders.wiki/w/images/thumb/d/d6/Pendola_Pass_Railyard_Key.png/75px-Pendola_Pass_Railyard_Key.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 100,
+      "recycledSellPrice": 0,
+      "stackSize": "",
+      "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Pendola Pass Train Station Key",
+      "link": "/wiki/Pendola_Pass_Train_Station_Key",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/63/Pendola_Pass_Train_Station_Key.png/75px-Pendola_Pass_Train_Station_Key.png.webp",
+      "rarity": "Rare",
       "recyclesToText": "Cannot be recycled",
       "recyclesToItems": [],
       "sellPrice": 100,
