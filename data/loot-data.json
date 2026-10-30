@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T04:22:25.016Z",
+  "lastUpdated": "2026-10-30T04:22:15.172Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -3337,6 +3337,20 @@
       "quest": false
     },
     {
+      "name": "Dead Flowers",
+      "link": "/wiki/Dead_Flowers",
+      "image": "https://arcraiders.wiki/w/images/thumb/5/57/Dead_Flowers.png/75px-Dead_Flowers.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Deadline",
       "link": "/wiki/Deadline",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c7/Deadline.png/75px-Deadline.png.webp",
@@ -4189,6 +4203,20 @@
       "sellPrice": 7000,
       "recycledSellPrice": 0,
       "stackSize": "15",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Fancy Plate",
+      "link": "/wiki/Fancy_Plate",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/67/Fancy_Plate.png/75px-Fancy_Plate.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
       "category": "Trinket",
       "expedition": false,
       "quest": false
@@ -5792,6 +5820,20 @@
       "quest": true
     },
     {
+      "name": "Mask Fragment",
+      "link": "/wiki/Mask_Fragment",
+      "image": "https://arcraiders.wiki/w/images/thumb/7/77/Mask_Fragment.png/75px-Mask_Fragment.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 7000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Matriarch Reactor",
       "link": "/wiki/Matriarch_Reactor",
       "image": "https://arcraiders.wiki/w/images/thumb/2/24/Matriarch_Reactor.png/75px-Matriarch_Reactor.png.webp",
@@ -6853,6 +6895,20 @@
       "quest": false
     },
     {
+      "name": "Railway Lantern",
+      "link": "/wiki/Railway_Lantern",
+      "image": "https://arcraiders.wiki/w/images/thumb/8/85/Railway_Lantern.png/75px-Railway_Lantern.png.webp",
+      "rarity": "Rare",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 3000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Recorder",
       "link": "/wiki/Recorder",
       "image": "https://arcraiders.wiki/w/images/thumb/6/6d/Recorder.png/75px-Recorder.png.webp",
@@ -7124,6 +7180,20 @@
       "recycledSellPrice": 0,
       "stackSize": "",
       "category": "Key",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Rock Salt",
+      "link": "/wiki/Rock_Salt",
+      "image": "https://arcraiders.wiki/w/images/thumb/b/b1/Rock_Salt.png/75px-Rock_Salt.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 640,
+      "recycledSellPrice": 0,
+      "stackSize": "5",
+      "category": "Trinket",
       "expedition": false,
       "quest": false
     },
@@ -8177,19 +8247,19 @@
       "link": "/wiki/Snap_Hook",
       "image": "https://arcraiders.wiki/w/images/thumb/5/56/Snap_Hook.png/75px-Snap_Hook.png.webp",
       "rarity": "Legendary",
-      "recyclesToText": "1× Power Rod, 2× Steel Cable",
+      "recyclesToText": "1× Power Rod, 3× Rope",
       "recyclesToItems": [
         {
           "quantity": 1,
           "name": "Power Rod"
         },
         {
-          "quantity": 2,
-          "name": "Steel Cable"
+          "quantity": 3,
+          "name": "Rope"
         }
       ],
       "sellPrice": 14000,
-      "recycledSellPrice": 5540,
+      "recycledSellPrice": 6500,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
