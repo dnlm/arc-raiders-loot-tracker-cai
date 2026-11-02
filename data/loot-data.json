@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T04:24:10.220Z",
+  "lastUpdated": "2026-11-02T04:25:45.519Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -220,10 +220,15 @@
       "link": "/wiki/Amplification_Module_Mk._I",
       "image": "https://arcraiders.wiki/w/images/thumb/3/33/Amplification_Module_Mk._I.png/75px-Amplification_Module_Mk._I.png.webp",
       "rarity": "Amplified",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "7× Amplified Fragments",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Amplified Fragments"
+        }
+      ],
       "sellPrice": 7000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3500,
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
@@ -234,10 +239,15 @@
       "link": "/wiki/Amplification_Module_Mk._II",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c7/Amplification_Module_Mk._II.png/75px-Amplification_Module_Mk._II.png.webp",
       "rarity": "Amplified",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "7× Amplified Fragments",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Amplified Fragments"
+        }
+      ],
       "sellPrice": 7000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3500,
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
@@ -248,10 +258,15 @@
       "link": "/wiki/Amplification_Module_Mk._III",
       "image": "https://arcraiders.wiki/w/images/thumb/3/37/Amplification_Module_Mk._III.png/75px-Amplification_Module_Mk._III.png.webp",
       "rarity": "Amplified",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "7× Amplified Fragments",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Amplified Fragments"
+        }
+      ],
       "sellPrice": 7000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3500,
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
@@ -262,10 +277,15 @@
       "link": "/wiki/Amplification_Module_Mk._IV",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c4/Amplification_Module_Mk._IV.png/75px-Amplification_Module_Mk._IV.png.webp",
       "rarity": "Amplified",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "7× Amplified Fragments",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Amplified Fragments"
+        }
+      ],
       "sellPrice": 7000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3500,
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
@@ -276,10 +296,15 @@
       "link": "/wiki/Amplification_Module_Mk._V",
       "image": "https://arcraiders.wiki/w/images/thumb/7/7f/Amplification_Module_Mk._V.png/75px-Amplification_Module_Mk._V.png.webp",
       "rarity": "Amplified",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "7× Amplified Fragments",
+      "recyclesToItems": [
+        {
+          "quantity": 7,
+          "name": "Amplified Fragments"
+        }
+      ],
       "sellPrice": 7000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 3500,
       "stackSize": "1",
       "category": "Topside Material",
       "expedition": false,
@@ -2302,7 +2327,7 @@
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": true,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Breathtaking Snow Globe",
@@ -3773,7 +3798,7 @@
       "stackSize": "3",
       "category": "Trinket",
       "expedition": false,
-      "quest": false
+      "quest": true
     },
     {
       "name": "Exodus Modules",
@@ -4523,7 +4548,7 @@
       "recyclesToItems": [],
       "sellPrice": 3000,
       "recycledSellPrice": 0,
-      "stackSize": "1",
+      "stackSize": "",
       "category": "Research Item",
       "expedition": false,
       "quest": false
@@ -6579,6 +6604,20 @@
       "quest": false
     },
     {
+      "name": "Potted Plant",
+      "link": "/wiki/Potted_Plant",
+      "image": "https://arcraiders.wiki/w/images/thumb/a/a1/Potted_Plant.png/75px-Potted_Plant.png.webp",
+      "rarity": "Uncommon",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 1000,
+      "recycledSellPrice": 0,
+      "stackSize": "2",
+      "category": "Trinket",
+      "expedition": false,
+      "quest": false
+    },
+    {
       "name": "Pottery",
       "link": "/wiki/Pottery",
       "image": "https://arcraiders.wiki/w/images/thumb/c/c0/Pottery.png/75px-Pottery.png.webp",
@@ -6756,6 +6795,20 @@
       "recycledSellPrice": 900,
       "stackSize": "3",
       "category": "Recyclable",
+      "expedition": false,
+      "quest": false
+    },
+    {
+      "name": "Propellant Valve Assembly",
+      "link": "/wiki/Propellant_Valve_Assembly",
+      "image": "https://arcraiders.wiki/w/images/thumb/6/62/Propellant_Valve_Assembly.png/75px-Propellant_Valve_Assembly.png.webp",
+      "rarity": "Epic",
+      "recyclesToText": "Cannot be recycled",
+      "recyclesToItems": [],
+      "sellPrice": 5000,
+      "recycledSellPrice": 0,
+      "stackSize": "3",
+      "category": "Topside Material",
       "expedition": false,
       "quest": false
     },
