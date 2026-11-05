@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T04:50:16.247Z",
+  "lastUpdated": "2026-11-05T05:05:48.859Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -5276,7 +5276,7 @@
           "name": "Durable Cloth"
         }
       ],
-      "sellPrice": null,
+      "sellPrice": 3000,
       "recycledSellPrice": 1280,
       "stackSize": "3",
       "category": "Recyclable",
@@ -8300,7 +8300,7 @@
       "link": "/wiki/Snap_Hook",
       "image": "https://arcraiders.wiki/w/images/thumb/5/56/Snap_Hook.png/75px-Snap_Hook.png.webp",
       "rarity": "Legendary",
-      "recyclesToText": "1× Power Rod, 3× Rope",
+      "recyclesToText": "1× Power Rod, 3× Steel Cable",
       "recyclesToItems": [
         {
           "quantity": 1,
@@ -8308,11 +8308,11 @@
         },
         {
           "quantity": 3,
-          "name": "Rope"
+          "name": "Steel Cable"
         }
       ],
       "sellPrice": 14000,
-      "recycledSellPrice": 6500,
+      "recycledSellPrice": 5810,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
