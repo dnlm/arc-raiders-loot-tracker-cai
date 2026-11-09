@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T04:39:14.931Z",
+  "lastUpdated": "2026-11-09T04:39:57.577Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -2450,10 +2450,19 @@
       "link": "/wiki/Bully_Fragmenter",
       "image": "https://arcraiders.wiki/w/images/thumb/f/fe/Bully_Fragmenter.png/75px-Bully_Fragmenter.png.webp",
       "rarity": "Epic",
-      "recyclesToText": "Cannot be recycled",
-      "recyclesToItems": [],
+      "recyclesToText": "1× ARC Alloy, 1× Explosive Compound",
+      "recyclesToItems": [
+        {
+          "quantity": 1,
+          "name": "ARC Alloy"
+        },
+        {
+          "quantity": 1,
+          "name": "Explosive Compound"
+        }
+      ],
       "sellPrice": 5000,
-      "recycledSellPrice": 0,
+      "recycledSellPrice": 1200,
       "stackSize": "3",
       "category": "Recyclable",
       "expedition": false,
