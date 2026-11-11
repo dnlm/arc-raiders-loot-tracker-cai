@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T05:56:13.102Z",
+  "lastUpdated": "2026-11-11T04:42:29.440Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -9097,11 +9097,11 @@
       "link": "/wiki/Tether_Launcher",
       "image": "https://arcraiders.wiki/w/images/thumb/3/31/Tether_Launcher.png/75px-Tether_Launcher.png.webp",
       "rarity": "Rare",
-      "recyclesToText": "1× Cable Stripper, 1× Rope",
+      "recyclesToText": "1× Mechanical Components, 1× Rope",
       "recyclesToItems": [
         {
           "quantity": 1,
-          "name": "Cable Stripper"
+          "name": "Mechanical Components"
         },
         {
           "quantity": 1,
@@ -9109,7 +9109,7 @@
         }
       ],
       "sellPrice": null,
-      "recycledSellPrice": 770,
+      "recycledSellPrice": 1140,
       "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
