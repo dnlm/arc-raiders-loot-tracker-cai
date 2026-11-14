@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T05:02:58.929Z",
+  "lastUpdated": "2026-11-14T04:55:27.617Z",
   "items": [
     {
       "name": "Acoustic Guitar",
@@ -3715,7 +3715,7 @@
       "recyclesToItems": [],
       "sellPrice": null,
       "recycledSellPrice": 0,
-      "stackSize": "3",
+      "stackSize": "1",
       "category": "Quick Use",
       "expedition": false,
       "quest": false
